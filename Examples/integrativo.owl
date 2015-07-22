@@ -1,0 +1,1669 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY obo2 "http://purl.obolibrary.org/obo#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY integrativo "http://www.cin.ufpe.br/~integrativo/#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.cin.ufpe.br/~integrativo/"
+     xml:base="http://www.cin.ufpe.br/~integrativo/"
+     xmlns:integrativo="http://www.cin.ufpe.br/~integrativo/#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:obo2="http://purl.obolibrary.org/obo#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://www.cin.ufpe.br/~integrativo/">
+        <owl:imports rdf:resource="http://purl.org/biotop/btl2.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#Definition -->
+
+    <owl:AnnotationProperty rdf:about="&obo2;Definition"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#InChI -->
+
+    <owl:AnnotationProperty rdf:about="&obo2;InChI"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#InChIKey -->
+
+    <owl:AnnotationProperty rdf:about="&obo2;InChIKey"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#SMILES -->
+
+    <owl:AnnotationProperty rdf:about="&obo2;SMILES"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#Synonym -->
+
+    <owl:AnnotationProperty rdf:about="&obo2;Synonym"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#altId -->
+
+    <owl:AnnotationProperty rdf:about="&obo2;altId"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#xref -->
+
+    <owl:AnnotationProperty rdf:about="&obo2;xref"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasAlternativeId"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasNarrowSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;inSubset"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BiologicalProcessInVivo -->
+
+    <owl:Class rdf:about="&obo;BiologicalProcessInVivo">
+        <rdfs:label>biological process in vivo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17230 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_17230">
+        <rdfs:label rdf:datatype="&xsd;string">homocysteine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#MonoMolecularEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isGranularPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/AmountOfHomocysteine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo2:Synonym rdf:datatype="&xsd;string">2-Amino-4-mercaptobutyric acid</obo2:Synonym>
+        <obo2:Synonym rdf:datatype="&xsd;string">2-amino-4-sulfanylbutanoic acid</obo2:Synonym>
+        <obo2:Definition rdf:datatype="&xsd;string">A sulfur-containing amino acid consisting of a glycine core with a 2-mercaptoethyl side-chain.</obo2:Definition>
+        <obo2:Synonym rdf:datatype="&xsd;string">C4H9NO2S</obo2:Synonym>
+        <obo2:altId rdf:datatype="&xsd;string">CHEBI:14408</obo2:altId>
+        <obo2:altId rdf:datatype="&xsd;string">CHEBI:5751</obo2:altId>
+        <obo2:xref rdf:datatype="&xsd;string">CiteXplore:11133260</obo2:xref>
+        <obo2:xref rdf:datatype="&xsd;string">CiteXplore:16596805</obo2:xref>
+        <obo2:xref rdf:datatype="&xsd;string">CiteXplore:18370634</obo2:xref>
+        <obo2:xref rdf:datatype="&xsd;string">HMDB:HMDB00742</obo2:xref>
+        <obo2:Synonym rdf:datatype="&xsd;string">Hcy</obo2:Synonym>
+        <obo2:Synonym rdf:datatype="&xsd;string">Homocysteine</obo2:Synonym>
+        <obo2:InChI rdf:datatype="&xsd;string">InChI=1S/C4H9NO2S/c5-3(1-2-8)4(6)7/h3,8H,1-2,5H2,(H,6,7)</obo2:InChI>
+        <obo2:InChIKey rdf:datatype="&xsd;string">InChIKey=FFFHZYDWPBMWHY-UHFFFAOYSA-N</obo2:InChIKey>
+        <obo2:xref rdf:datatype="&xsd;string">KEGG COMPOUND:C05330</obo2:xref>
+        <obo2:SMILES rdf:datatype="&xsd;string">NC(CCS)C(O)=O</obo2:SMILES>
+        <obo2:xref rdf:datatype="&xsd;string">Wikipedia:Homocysteine</obo2:xref>
+        <obo2:Synonym rdf:datatype="&xsd;string">homocysteine</obo2:Synonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000096 -->
+
+    <owl:Class rdf:about="&obo;GO_0000096">
+        <rdfs:label rdf:datatype="&xsd;string">sulfur amino acid metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BiologicalProcessInVivo"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/Human"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005829"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0000096</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_115639</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_118084</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_118094</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_118099</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_118166</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_118184</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_118203</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_118227</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_118256</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_118291</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_118309</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_118314</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_118323</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_118328</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_118349</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_118370</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_118388</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_118463</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_118518</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_118541</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_27187</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving amino acids containing sulfur, comprising cysteine, homocysteine, methionine and selenocysteine.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">sulfur amino acid metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">sulphur amino acid metabolic process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">sulphur amino acid metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0003674 -->
+
+    <owl:Class rdf:about="&obo;GO_0003674">
+        <rdfs:label rdf:datatype="&xsd;string">molecular_function</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Process"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Elemental activities, such as catalysis or binding, describing the actions of a gene product at the molecular level. A given gene product may exhibit one or more molecular functions.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0003674</oboInOwl:id>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">GO:0005554</oboInOwl:hasAlternativeId>
+        <rdfs:comment rdf:datatype="&xsd;string">Note that, in addition to forming the root of the molecular function ontology, this term is recommended for use for the annotation of gene products whose molecular function is unknown. Note that when this term is used for annotation, it indicates that no information was available about the molecular function of the gene product annotated as of the date the annotation was made; the evidence code ND, no data, is used to indicate this.</rdfs:comment>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">molecular function</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_aspergillus"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_yeast"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005737 -->
+
+    <owl:Class rdf:about="&obo;GO_0005737">
+        <rdfs:label rdf:datatype="&xsd;string">cytoplasm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#CellularComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isParticipantIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0032259"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#includes"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasComponentPart"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005829"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="&obo;GO_0005829"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">All of the contents of a cell excluding the plasma membrane and nucleus, but including other subcellular structures.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0005737</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Cytoplasm</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_yeast"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005829 -->
+
+    <owl:Class rdf:about="&obo;GO_0005829">
+        <rdfs:label rdf:datatype="&xsd;string">cytosol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#CellularComponent"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#includes"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0005829</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NIF_Subcellular:sao101633890</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The part of the cytoplasm that does not contain organelles but which does contain other particulate matter, such as protein complexes.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Cytosol</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_aspergillus"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006766 -->
+
+    <owl:Class rdf:about="&obo;GO_0006766">
+        <rdfs:label rdf:datatype="&xsd;string">vitamin metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BiologicalProcessInVivo"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/Human"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005829"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0006766</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_101808</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_101968</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_102472</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_103646</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_104403</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_105907</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_106152</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_108558</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_110948</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_11193</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_13450</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_30091</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_31562</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_33241</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_33738</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_34161</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_34372</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_36524</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_78899</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_79004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_80415</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_81509</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_82129</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_82903</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_83508</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_84128</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_87513</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_88847</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_88850</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_90099</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_96278</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_96904</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_97734</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_97893</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving vitamins. Vitamin is a general term for a number of unrelated organic substances that occur in many foods in small amounts and that are necessary in trace amounts for the normal metabolic functioning of the body. Vitamins may be water-soluble or fat-soluble and usually serve as components of coenzyme systems.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">vitamin metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_aspergillus"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_pombe"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_yeast"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006767 -->
+
+    <owl:Class rdf:about="&obo;GO_0006767">
+        <rdfs:label rdf:datatype="&xsd;string">water-soluble vitamin metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BiologicalProcessInVivo"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/Human"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005829"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0006767</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_102551</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_104143</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_105277</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_106003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_107096</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_107256</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_109668</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_11238</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_28813</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_30368</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_79418</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_79988</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_82631</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_85326</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_86005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_90308</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_90860</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_91435</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_92473</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_98755</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_99870</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving any of a diverse group of vitamins that are soluble in water.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">water-soluble vitamin metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0006805 -->
+
+    <owl:Class rdf:about="&obo;GO_0006805">
+        <rdfs:label rdf:datatype="&xsd;string">xenobiotic metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BiologicalProcessInVivo"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/Human"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005829"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0006805</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_100124</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_100325</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_100603</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_101131</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_101207</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_101609</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_102115</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_102424</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_102433</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_102710</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_102875</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_103896</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_104199</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_104666</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_104877</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_105707</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_106111</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_106484</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_106812</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_108383</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_110034</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_110188</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_110735</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_110771</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_110976</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_112180</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_112300</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_112424</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_114132</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_115263</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_115368</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_13433</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_13705</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_30367</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_30613</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_31665</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_32556</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_32957</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_33042</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_33621</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_33687</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_34424</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_43989</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_6800</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_6812</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_6889</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_6933</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_6959</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_6971</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_76924</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_76938</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_77460</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_77547</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_77582</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_77645</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_78106</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_78563</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_78673</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_78750</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_79195</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_80247</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_80647</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_81143</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_81813</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_82058</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_82657</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_82846</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_83594</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_83912</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_83999</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_84336</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_84559</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_84880</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_86049</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_87255</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_87382</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_87394</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_87515</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_87608</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_88305</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_88538</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_89162</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_89167</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_89372</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_89381</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_89411</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_89902</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_89981</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_90526</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_90693</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_93150</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_93320</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_93377</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_94407</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_94419</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_95660</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_96794</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_96971</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_97920</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_98166</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_98222</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_98651</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_99593</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_99671</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_99818</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving a xenobiotic compound, a compound foreign to living organisms. Used of chemical compounds, e.g. a xenobiotic chemical, such as a pesticide.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Xenobiotic_metabolism</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">xenobiotic metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0007399 -->
+
+    <owl:Class rdf:about="&obo;GO_0007399">
+        <rdfs:label rdf:datatype="&xsd;string">nervous system development</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BiologicalProcessInVivo"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005829"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/Human"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0007399</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The process whose specific outcome is the progression of nervous tissue over time, from its formation to its mature state.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">pan-neural process</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008270 -->
+
+    <owl:Class rdf:about="&obo;GO_0008270">
+        <rdfs:label rdf:datatype="&xsd;string">zinc ion binding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0003674"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005829"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/Human"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0008270</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Interacting selectively and non-covalently with zinc (Zn) ions.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">zinc binding</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008705 -->
+
+    <owl:Class rdf:about="&obo;GO_0008705">
+        <rdfs:label rdf:datatype="&xsd;string">methionine synthase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0003674"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005829"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/Human"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">5-methyltetrahydrofolate--homocysteine S-methyltransferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">5-methyltetrahydrofolate--homocysteine transmethylase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">5-methyltetrahydrofolate-homocysteine S-methyltransferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">5-methyltetrahydrofolate:L-homocysteine S-methyltransferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">B12 N(5)-methyltetrahydrofolate homocysteine methyltransferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">B12 N5-methyltetrahydrofolate homocysteine methyltransferase activity</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Catalysis of the reaction: (6S)-5-methyl-5,6,7,8-tetrahydrofolate + L-homocysteine = (6S)-5,6,7,8-tetrahydrofolate + L-methionine.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">EC:2.1.1.13</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0008705</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG:R00946</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">MetH</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MetaCyc:HOMOCYSMETB12-RXN</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">N(5)-methyltetrahydrofolate methyltransferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">N(5)-methyltetrahydrofolate--homocysteine cobalamin methyltransferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">N(5)-methyltetrahydrofolic--homocysteine vitamin B12 transmethylase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">N-methyltetrahydrofolate:L-homocysteine methyltransferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">N5-methyltetrahydrofolate methyltransferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">N5-methyltetrahydrofolate-homocysteine cobalamin methyltransferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">N5-methyltetrahydrofolic-homocysteine vitamin B12 transmethylase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">RHEA:11175</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_108964</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_109401</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_32037</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_33315</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_6739</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_79867</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_82450</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_87311</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_88342</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_89478</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_91637</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_92492</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_93034</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_97474</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_98785</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cobalamin-dependent methionine synthase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">methionine synthase (cobalamin-dependent) activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">methyltetrahydrofolate--homocysteine vitamin B12 methyltransferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">tetrahydrofolate methyltransferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">tetrahydropteroylglutamate methyltransferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">tetrahydropteroylglutamic methyltransferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">vitamin B12 methyltransferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008898 -->
+
+    <owl:Class rdf:about="&obo;GO_0008898">
+        <rdfs:label rdf:datatype="&xsd;string">S-adenosylmethionine-homocysteine S-methyltransferase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0003674"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005829"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/Human"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Catalysis of the reaction: S-adenosyl-L-methionine + L-homocysteine = S-adenosyl-L-homocysteine + L-methionine.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0008898</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">L-homocysteine S-methyltransferase activity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MetaCyc:HOMOCYSTEINE-S-METHYLTRANSFERASE-RXN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">RHEA:21823</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">S-adenosyl-L-methionine:L-homocysteine S-methyltransferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">S-adenosyl-L-methionine:L-homocysteine methyltransferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">S-adenosylmethionine homocysteine transmethylase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">S-adenosylmethionine-homocysteine transmethylase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">S-adenosylmethionine:homocysteine methyltransferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">adenosylmethionine transmethylase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">adenosylmethionine:homocysteine methyltransferase activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">homocysteine methyltransferase activity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">homocysteine transmethylase activity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009086 -->
+
+    <owl:Class rdf:about="&obo;GO_0009086">
+        <rdfs:label rdf:datatype="&xsd;string">methionine biosynthetic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BiologicalProcessInVivo"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/Human"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005829"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0009086</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways resulting in the formation of methionine (2-amino-4-(methylthio)butanoic acid), a sulfur-containing, essential amino acid found in peptide linkage in proteins.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">methionine anabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">methionine biosynthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">methionine formation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">methionine synthesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0009235 -->
+
+    <owl:Class rdf:about="&obo;GO_0009235">
+        <rdfs:label rdf:datatype="&xsd;string">cobalamin metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BiologicalProcessInVivo"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/Human"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005829"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0009235</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving cobalamin (vitamin B12), a water-soluble vitamin characterized by possession of a corrin nucleus containing a cobalt atom.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cobalamin metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">vitamin B12 metabolic process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">vitamin B12 metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">vitamin B12 reduction</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0031419 -->
+
+    <owl:Class rdf:about="&obo;GO_0031419">
+        <rdfs:label rdf:datatype="&xsd;string">cobalamin binding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0003674"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005829"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/Human"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0031419</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Interacting selectively and non-covalently with cobalamin (vitamin B12), a water-soluble vitamin characterized by possession of a corrin nucleus containing a cobalt atom.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">vitamin B12 binding</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0032259 -->
+
+    <owl:Class rdf:about="&obo;GO_0032259">
+        <rdfs:label rdf:datatype="&xsd;string">methylation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BiologicalProcessInVivo"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005829"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/Human"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0032259</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_100463</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_104378</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_106986</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_107353</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_107808</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_110691</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_34638</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_6946</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_77304</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_78116</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_87183</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_88148</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_90436</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_92149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_92596</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_93357</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_95391</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_98332</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_99471</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_99529</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The process in which a methyl group is covalently attached to a molecule.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Methylation</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0034641 -->
+
+    <owl:Class rdf:about="&obo;GO_0034641">
+        <rdfs:label rdf:datatype="&xsd;string">cellular nitrogen compound metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BiologicalProcessInVivo"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/Human"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005829"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0034641</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_102000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_103710</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_107293</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_108179</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_109042</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_13</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_28699</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_29108</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_32429</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_33347</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_34326</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_55564</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_77741</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_82379</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_86268</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_90299</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_91959</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_93580</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_95666</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_98086</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_99241</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving various organic and inorganic nitrogenous compounds, as carried out by individual cells.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cellular nitrogen compound metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042558 -->
+
+    <owl:Class rdf:about="&obo;GO_0042558">
+        <rdfs:label rdf:datatype="&xsd;string">pteridine-containing compound metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BiologicalProcessInVivo"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/Human"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005829"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">GO:0019721</oboInOwl:hasAlternativeId>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0042558</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving any compound containing pteridine (pyrazino(2,3-dipyrimidine)), e.g. pteroic acid, xanthopterin and folic acid.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">pteridine and derivative metabolic process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">pteridine and derivative metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">pteridine-containing compound metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">pterin metabolic process</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">pterin metabolism</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0044281 -->
+
+    <owl:Class rdf:about="&obo;GO_0044281">
+        <rdfs:label rdf:datatype="&xsd;string">small molecule metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BiologicalProcessInVivo"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005829"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/Human"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2010-01-26T12:05:20Z</oboInOwl:creation_date>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0044281</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_111217</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_112077</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_112140</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_112621</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_112912</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_113131</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_113305</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_113457</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_113568</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_113610</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_113934</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_114081</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_114137</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_114421</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_114473</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_114495</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_114668</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_114983</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_115063</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_115388</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_115420</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reactome:REACT_115655</oboInOwl:hasDbXref>
+        <rdfs:comment rdf:datatype="&xsd;string">Small molecules in GO include monosaccharides but exclude disaccharides and polysaccharides.</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways involving small molecules, any low molecular weight, monomeric, non-encoded molecule.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">jane</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">small molecule metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_metagenomics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo/AmountOfHomocysteine -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo/AmountOfHomocysteine">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#AmountOfPureSubstance"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasGranularPart"/>
+                <owl:allValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasGranularPart"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo/DeficiencyQuality -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo/DeficiencyQuality">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#ObjectQuality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo/Homocysteinemia -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo/Homocysteinemia">
+        <rdfs:label>Homocysteinemia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/Human"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo/Homocystinuria -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo/Homocystinuria">
+        <rdfs:label>Homocystinuria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo/Human"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#includes"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo/AmountOfHomocysteine"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                                                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/DeficiencyQuality"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo/Human -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo/Human">
+        <rdfs:label>Homo sapiens</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Organism"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005737"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#includes"/>
+                <owl:someValuesFrom rdf:resource="&obo;CHEBI_17230"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0005829"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo/MegaloblasticAnemia -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo/MegaloblasticAnemia">
+        <rdfs:label>Megaloblastic anemia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/Human"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo/MethionineSynthase -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo/MethionineSynthase">
+        <rdfs:label>Methionine synthase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#MonoMolecularEntity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo/MethylcobalaminDeficiency -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo/MethylcobalaminDeficiency">
+        <rdfs:label>Methylcobalamin deficiency</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo/Human"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#includes"/>
+                                <owl:someValuesFrom>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo/AmountOfHomocysteine"/>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isBearerOf"/>
+                                                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/DeficiencyQuality"/>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo/NeuralTubeDefects -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo/NeuralTubeDefects">
+        <rdfs:label>Neural tube defects</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/MethionineSynthase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo/Human"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isRealizationOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#Disposition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo/Homocysteinemia"/>
+            <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo/Homocystinuria"/>
+            <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo/MegaloblasticAnemia"/>
+            <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo/MethylcobalaminDeficiency"/>
+            <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo/NeuralTubeDefects"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;GO_0000096"/>
+            <rdf:Description rdf:about="&obo;GO_0006766"/>
+            <rdf:Description rdf:about="&obo;GO_0006767"/>
+            <rdf:Description rdf:about="&obo;GO_0006805"/>
+            <rdf:Description rdf:about="&obo;GO_0007399"/>
+            <rdf:Description rdf:about="&obo;GO_0009086"/>
+            <rdf:Description rdf:about="&obo;GO_0009235"/>
+            <rdf:Description rdf:about="&obo;GO_0032259"/>
+            <rdf:Description rdf:about="&obo;GO_0034641"/>
+            <rdf:Description rdf:about="&obo;GO_0042558"/>
+            <rdf:Description rdf:about="&obo;GO_0044281"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

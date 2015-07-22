@@ -1,0 +1,122 @@
+Abdominal Aortic Aneurysm
+Albuminuria
+Amino Acid Metabolism errors
+Angle-Closure Glaucoma
+Anterior Wall Myocardial Infarction
+Aortic Coarctation
+Asthma
+Atherosclerosis
+Cardiovascular Diseases
+Carotid Stenosis
+Cataract
+Central Retinal Vein Occlusion
+Central nervous system tumour
+Cerebral Infarction
+Cervical spina bifida aperta
+Cervical spina bifida cystica
+Cervicothoracic spina bifida aperta
+Cervicothoracic spina bifida cystica
+Cholangiocarcinoma
+Chronic Kidney Failure
+Chronic Mesangial Proliferative Glomerulonephritis
+Chronic Renal Insufficiency
+Clear-cell metastatic renal cell carcinoma
+Colorectal Neoplasms
+Congenital Adrenal Insufficiency
+Congenital Cataracts
+Coronary Artery Disease
+Cystathininuria
+Cystathionine beta-synthase deficiency
+Diabetic Nephropathies
+Diabetic Retinopathy
+Endometrium tumour
+Eye Disease
+Fatty Liver
+Gamma-cystathionase deficiency
+Gastrointestinal Stromal Tumors
+Graft vs Host Disease
+Graves Disease
+Haematopoietic and lymphoid tissue tumour
+Hearing Loss
+Heat Stroke
+Hereditary Nonpolyposis
+Homocysteinemia
+Homocystinuria
+Hyperhomocysteinemia
+Hyperthyroidism
+Intestinal Ischemia
+Ischemic stroke
+Isolated anencephaly/exencephaly
+Kidney tumour
+Large B-Cell Diffuse Lymphoma
+Large intestine tumour
+Liver Neoplasms
+Liver tumour
+Lumbosacral spina bifida aperta
+Lumbosacral spina bifida cystica
+Lung tumour
+Megaloblastic anemia
+Meniere Disease
+Methotrexate poisoning
+Methylenetetrahydrofolate reductase deficiency
+Methylenetetrahydrofolate reductase deficiency (MTHFRD)
+Microvascular Angina
+Migraine Disorders
+Migraine with Aura
+NONARTERITIC ANTERIOR ISCHEMIC OPTIC NEUROPATHY
+Neonatal Diabetes Mellitus
+Nephrosclerosis
+Neural Tube Defects
+Neural tube defect
+Neural tube defects
+Neurodegeneration
+Open-Angle Glaucoma
+Osteosarcoma
+Ovary tumour
+Pancreas tumour
+Pancreatic Neoplasms
+Peripheral Arterial Disease
+Prostate tumour
+Renal Cell Carcinoma
+Retinal Diseases
+Rheumatoid Arthritis
+Schizophrenia
+Skin tumour
+Small Cell Lung Carcinoma
+Squamous Cell Carcinoma
+Sudden Hearing Loss
+Thermolabile Type Mthfr Deficiency
+Thoracolumbosacral spina bifida aperta
+Thoracolumbosacral spina bifida cystica
+Thrombophilia
+Thrombotic Microangiopathies
+Total spina bifida aperta
+Total spina bifida cystica
+Transitional Cell Carcinoma
+Type 1 Diabetes Mellitus
+Type 2 Diabetes Mellitus
+Upper thoracic spina bifida apert
+Upper thoracic spina bifida cystica
+Urinary Bladder Neoplasms
+Vascular Calcification
+Venous Thrombosis
+Wet Macular Degeneration
+Wilms Tumor
+breast tumour
+endocrine pancreas increased size
+exocrine pancreas decreased size
+eye decreased size
+head decreased size
+intestine decreased size
+liver decreased size
+methylcobalamin deficiency
+notochord increased size
+pancreatic B cell present in greater numbers
+stomach tumour
+trunk decreased thickness
+
+
+
+
+
+

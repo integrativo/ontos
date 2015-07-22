@@ -1,0 +1,6 @@
+'Betaine--homocysteine S-methyltransferase 1'
+'Cystathionine gamma-lyase'
+'Cystathionine beta-synthase'
+'Methionine synthase'
+'Methionine synthase'
+'Methylenetetrahydrofolate reductase'

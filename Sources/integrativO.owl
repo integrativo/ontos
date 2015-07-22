@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY btl2 "http://purl.org/biotop/btl2.owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY pr "http://purl.obolibrary.org/obo/PR#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY ncbitaxon "http://purl.bioontology.org/ontology/NCBITAXON#" >
+    <!ENTITY integrativo "http://www.cin.ufpe.br/~integrativo/integrativo.owl#" >
+    <!ENTITY chebi "ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#" >
+    <!ENTITY go "http://purl.obolibrary.org/obo/go/releases/2015-05-01/go.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.cin.ufpe.br/~integrativo/integrativo.owl#"
+     xml:base="http://www.cin.ufpe.br/~integrativo/integrativo.owl"
+     xmlns:integrativo="http://www.cin.ufpe.br/~integrativo/integrativo.owl#"
+     xmlns:ncbitaxon="http://purl.bioontology.org/ontology/NCBITAXON#"
+     xmlns:pr="http://purl.obolibrary.org/obo/PR#"
+     xmlns:chebi="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:btl2="http://purl.org/biotop/btl2.owl#"
+     xmlns:go="http://purl.obolibrary.org/obo/go/releases/2015-05-01/go.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cin.ufpe.br/~integrativo/integrativo.owl">
+        <rdfs:comment>integrativO importing file
+
+Gene Ontology (GO) and Chemical Entities of Biological Interest (ChEBI)
+alignment below the BioTopLite2 (BTL2) file</rdfs:comment>
+        <owl:imports rdf:resource="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl"/>
+        <owl:imports rdf:resource="http://purl.bioontology.org/ontology/NCBITAXON"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/PR"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/go/releases/2015-05-01/go.owl"/>
+        <owl:imports rdf:resource="http://purl.org/biotop/btl2.owl"/>
+        <owl:imports rdf:resource="http://www.w3.org/2002/07/owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#has_part -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo#has_part">
+        <rdfs:subPropertyOf rdf:resource="&btl2;hasPart"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+        <owl:equivalentProperty rdf:resource="&btl2;isPartOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
+        <owl:equivalentProperty rdf:resource="&btl2;hasPart"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002211 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002211"/>
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#hasPart -->
+
+    <rdf:Description rdf:about="&btl2;hasPart"/>
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#isPartOf -->
+
+    <rdf:Description rdf:about="&btl2;isPartOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002211"/>
+                <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
+        <rdfs:subClassOf rdf:resource="&btl2;Compound"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36342 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_36342">
+        <rdfs:subClassOf rdf:resource="&btl2;MaterialObject"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50906 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50906">
+        <rdfs:subClassOf rdf:resource="&btl2;Disposition"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0003674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003674">
+        <rdfs:subClassOf rdf:resource="&btl2;Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005575">
+        <rdfs:subClassOf rdf:resource="&btl2;StructuredBiologicalEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
+        <rdfs:subClassOf rdf:resource="&btl2;Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008152">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&btl2;hasParticipant"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

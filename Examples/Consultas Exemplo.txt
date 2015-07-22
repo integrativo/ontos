@@ -1,0 +1,142 @@
+Consultas:
+
+>>> CQ1: Which are the processes a protein X promotes, i.e. the enzime of the process?
+		DL Query: biological_process and (hasAgent some Methionine_synthase)
+		
+
+		Resultados:
+		'cellular nitrogen compound metabolic process'
+		'cobalamin metabolic process'
+		'methionine biosynthetic process'
+		'nervous system development'
+		'pteridine-containing compound metabolic process'
+		'small molecule metabolic process'
+		'sulfur amino acid metabolic process'
+		'vitamin metabolic process'
+		'water-soluble vitamin metabolic process'
+		'xenobiotic metabolic process'
+		methylation
+		
+		(CONSULTA FUNCIONAL COM TODOS OS DADOS)
+
+
+>>> CQ2: In what molecular functions a given protein X is transformed?
+		molecular_function and ('has patient' some Methionine_synthase)
+
+		'cobalamin binding'
+		'methionine synthase activity'
+		'S-adenosylmethionine-homocysteine S-methyltransferase activity'
+		'zinc ion binding'
+
+		(CONSULTA FUNCIONAL COM TODOS OS DADOS)
+
+
+
+>>>CQ3: What biological processes have, at the same time, a specific molecular entity X as enzime, and a molecule Y under modification?
+
+Quais processos biológicos apresentam, ao mesmo tempo, uma entitade molecular A como enzima e uma molécuma B sofrendo modificação?
+		Query: (('biological process' and 'has agent' some 'Methionine synthase') and ('biological process' and 'has patient' some homocysteine))
+		Result: 'cellular nitrogen compound metabolic process'
+			'cobalamin metabolic process'
+			'methionine biosynthetic process'
+			'nervous system development'
+			'pteridine-containing compound metabolic process'
+			'small molecule metabolic process'
+			'sulfur amino acid metabolic process'
+			'vitamin metabolic process'
+			'water-soluble vitamin metabolic process'
+			'xenobiotic metabolic process'
+			methylation
+		
+		(CONSULTA FUNCIONAL COM TODOS OS DADOS)
+
+>>CQ4: What biological processes takes place in an specific cellular compatment? OK
+
+		Query: 'biological process' and ('is included in' some cytosol)
+					
+		Result: 
+		'cellular nitrogen compound metabolic process'
+		'cobalamin metabolic process'
+		'methionine biosynthetic process'
+		'nervous system development'
+		'pteridine-containing compound metabolic process'
+		'small molecule metabolic process'
+		'sulfur amino acid metabolic process'
+		'vitamin metabolic process'
+		'water-soluble vitamin metabolic process'
+		'xenobiotic metabolic process'
+		methylation
+		
+		(CONSULTA FUNCIONAL COM TODOS OS DADOS)
+
+		
+>>> CQ5: Does every protein X bears the capability Y of realizing a process Z?
+
+		Query: 'Methionine synthase' 
+			and ('is bearer of' only (disposition 
+				and ('has realization' some methylation)))
+
+		Tipo de consulta: verificação de satisfiabilidade
+
+		Resultado: Nothing... De acordo com a descrição de disposições de moléculas biológicas, nem todas as moléculas de um tipo
+		realizam um determinado processo.
+
+		(CONSULTA FUNCIONAL COM TODOS OS DADOS)
+
+
+NOVAS CONSULTAS:
+
+>> CQ6: What situations happens in an organism X that has as agent, at least, two types of protein (Y and Z) exclusively?
+		Query: situation and ('has patient' some Homo_sapiens__Human_) 
+		                 and ('has agent' some Methylenetetrahydrofolate_reductase__EC_1_5_1_20_) 
+		                 and ('has agent' some Methionine_synthase)
+		                 
+		Result: Homocysteinemia, Homocystinuria, Neural_tube_defect
+		
+>> CQ7: What biological processes are performed by two different species (X and Y)?
+		Query: biological_process and ('is included in' some Bos_taurus__Bovine_) and ('is included in' some Mus_musculus__Mouse_)
+		
+		
+		Result: amino_acid_betaine_catabolic_process__GO_0006579_, blood_vessel_remodeling__GO_0001974_, 		
+			cartilage_development_involved_in_endochondral_bone_morphogenesis__GO_0060351_, cerebellum_morphogenesis__GO_0021587_, 
+			cysteine_biosynthetic_process_from_serine__GO_0006535_,cysteine_biosynthetic_process_via_cystathionine__GO_0019343_, 
+			endochondral_ossification__GO_0001958_, homocysteine_metabolic_process__GO_0050667_, hydrogen_sulfide_biosynthetic_process__GO_0070814_,
+			maternal_process_involved_in_female_pregnancy__GO_0060135_, methionine_biosynthetic_process__GO_0009086_, 
+			negative_regulation_of_apoptotic_signaling_pathway__GO_2001234_, one_carbon_metabolic_process__GO_0006730_, 
+			protein_pyridoxal_5_phosphate_linkage_via_peptidyl_N6_pyridoxal_phosphate_L_lysine__GO_0018272_, protein_sulfhydration__GO_0044524_, 
+			pteridine_containing_compound_metabolic_process__GO_0042558_, regulation_of_blood_vessel_size__GO_0050880_, 
+			regulation_of_cGMP_metabolic_process__GO_0030823_, response_to_folic_acid__GO_0051593_, superoxide_metabolic_process__GO_0006801_, 
+			tetrahydrofolate_interconversion__GO_0035999_
+			
+>> CQ8: What biological processes are takes place in a specific cellular compartiment X, and in a given organism Y?
+		Query: biological_process and ('is included in' some Mus_musculus__Mouse_) 
+					  and ('is included in' some cytoplasm__GO_0005737_)
+					  
+		Result: amino_acid_betaine_catabolic_process__GO_0006579_, blood_vessel_remodeling__GO_0001974_, cartilage_development_involved_in_endochondral_bone_morphogenesis__GO_0060351_, cerebellum_morphogenesis__GO_0021587_,
+		cysteine_biosynthetic_process_from_serine__GO_0006535_, cysteine_biosynthetic_process_via_cystathionine__GO_0019343_, 
+		endochondral_ossification__GO_0001958_, homocysteine_metabolic_process__GO_0050667_, hydrogen_sulfide_biosynthetic_process__GO_0070814_, 
+		maternal_process_involved_in_female_pregnancy__GO_0060135_, methionine_biosynthetic_process__GO_0009086_, 
+		regulation_of_blood_vessel_size__GO_0050880_, regulation_of_cGMP_metabolic_process__GO_0030823_, response_to_folic_acid__GO_0051593_, 
+		superoxide_metabolic_process__GO_0006801_
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Consultas deixadas de lado temporariamente:
+
+>>>CQ4: What situations are realized by a given organism X due to a homocysteine deficiency on homocysteine levels? (OK)
+
+Quais situações são realizadas por um dado organismo (A) que apresenta deficiência nos níveis de homocisteína?
+
+		Query: situation 
+			and ('has patient' some 
+				('Homo sapiens' 
+					and (includes some 
+						(AmountOfHomocysteine
+							and ('is bearer of' some DeficiencyQuality)))))
+		Result:
+		'Methylcobalamin deficiency' <<< Esse resultado é restrito ao meu exemplo.
+		Homocystinuria
+		
+		(CONSULTA <<NÃO>> FUNCIONAL COM TODOS OS DADOS - FALTA ESTA INFORMAÇÃO NO BANCO)
+		Irei avaliar no futuro como isso poderá ser construído a partir dos dados (se há algum outro campo que descreva isso)
