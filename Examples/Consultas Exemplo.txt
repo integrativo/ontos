@@ -1,6 +1,7 @@
 Consultas:
 
->>> CQ1: Which are the processes a protein X promotes, i.e. the enzime of the process?
+>>> CQ1: Which kinds of processes are promoted by proteins of the type A promotes, acting as  enzymes?
+
 		DL Query: biological_process and (hasAgent some Methionine_synthase)
 		
 
@@ -20,7 +21,8 @@ Consultas:
 		(CONSULTA FUNCIONAL COM TODOS OS DADOS)
 
 
->>> CQ2: In what molecular functions a given protein X is transformed?
+>>> CQ2: Which kinds of molecular functions (in the } sense of GO) do proteins of type A exhibit?
+
 		molecular_function and ('has patient' some Methionine_synthase)
 
 		'cobalamin binding'
@@ -32,7 +34,7 @@ Consultas:
 
 
 
->>>CQ3: What biological processes have, at the same time, a specific molecular entity X as enzime, and a molecule Y under modification?
+>>>CQ3: In which kinds of biological processes molecular entities of type A enzymatically modify  homocysteine?
 
 Quais processos biológicos apresentam, ao mesmo tempo, uma entitade molecular A como enzima e uma molécuma B sofrendo modificação?
 		Query: (('biological process' and 'has agent' some 'Methionine synthase') and ('biological process' and 'has patient' some homocysteine))
@@ -50,7 +52,8 @@ Quais processos biológicos apresentam, ao mesmo tempo, uma entitade molecular A 
 		
 		(CONSULTA FUNCIONAL COM TODOS OS DADOS)
 
->>CQ4: What biological processes takes place in an specific cellular compatment? OK
+>>CQ4: Which kinds of biological processes take place in cellular compartments of type B?
+
 
 		Query: 'biological process' and ('is included in' some cytosol)
 					
@@ -70,7 +73,7 @@ Quais processos biológicos apresentam, ao mesmo tempo, uma entitade molecular A 
 		(CONSULTA FUNCIONAL COM TODOS OS DADOS)
 
 		
->>> CQ5: Does every protein X bears the capability Y of realizing a process Z?
+>>> CQ5: Is every protein of the type A able to participate in a biological process of type C?	
 
 		Query: 'Methionine synthase' 
 			and ('is bearer of' only (disposition 
@@ -86,14 +89,15 @@ Quais processos biológicos apresentam, ao mesmo tempo, uma entitade molecular A 
 
 NOVAS CONSULTAS:
 
->> CQ6: What situations happens in an organism X that has as agent, at least, two types of protein (Y and Z) exclusively?
+>> CQ6: Which kinds of phenotypes exist in an organism of type D, in which, at least, two types of proteins (A1 and A2) are involved?
 		Query: situation and ('has patient' some Homo_sapiens__Human_) 
 		                 and ('has agent' some Methylenetetrahydrofolate_reductase__EC_1_5_1_20_) 
 		                 and ('has agent' some Methionine_synthase)
 		                 
 		Result: Homocysteinemia, Homocystinuria, Neural_tube_defect
 		
->> CQ7: What biological processes are performed by two different species (X and Y)?
+>> CQ7: Which kinds of biological processes occur in organisms of both species D1 and D2?	
+
 		Query: biological_process and ('is included in' some Bos_taurus__Bovine_) and ('is included in' some Mus_musculus__Mouse_)
 		
 		
@@ -108,7 +112,7 @@ NOVAS CONSULTAS:
 			regulation_of_cGMP_metabolic_process__GO_0030823_, response_to_folic_acid__GO_0051593_, superoxide_metabolic_process__GO_0006801_, 
 			tetrahydrofolate_interconversion__GO_0035999_
 			
->> CQ8: What biological processes are takes place in a specific cellular compartiment X, and in a given organism Y?
+>> CQ8: Which kinds of biological processes take place in a some cellular compartment B, within an organism of type D?
 		Query: biological_process and ('is included in' some Mus_musculus__Mouse_) 
 					  and ('is included in' some cytoplasm__GO_0005737_)
 					  
