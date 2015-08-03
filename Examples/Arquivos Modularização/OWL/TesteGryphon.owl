@@ -126,13 +126,13 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Process"/>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
+                <onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
                 <someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#MonoMolecularEntity"/>
             </Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <Restriction>
-                <onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasAgent"/>
+                <onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPatient"/>
                 <someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#MonoMolecularEntity"/>
             </Restriction>
         </rdfs:subClassOf>
@@ -207,6 +207,12 @@
             <Restriction>
                 <onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://purl.org/biotop/btl2.owl#includes"/>
+                <someValuesFrom rdf:resource="http://purl.org/biotop/btl2.owl#MonoMolecularEntity"/>
             </Restriction>
         </rdfs:subClassOf>
     </rdf:Description>
