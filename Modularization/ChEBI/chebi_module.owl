@@ -101,14 +101,6 @@ Query: homocysteine</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo#has_part -->
-
-    <owl:ObjectProperty rdf:about="&obo;has_part">
-        <rdfs:label rdf:datatype="&xsd;string">has part</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo#is_conjugate_acid_of -->
 
     <owl:ObjectProperty rdf:about="&obo;is_conjugate_acid_of">
@@ -145,6 +137,14 @@ Query: homocysteine</rdfs:comment>
         <rdfs:label rdf:datatype="&xsd;string">is tautomer of</rdfs:label>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/biotop/btl2.owl#hasPart">
+        <rdfs:label rdf:datatype="&xsd;string">has part</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -188,14 +188,14 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33704"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;is_tautomer_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59869"/>
+                <owl:onProperty rdf:resource="&obo;is_conjugate_acid_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59814"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;is_conjugate_acid_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59814"/>
+                <owl:onProperty rdf:resource="&obo;is_tautomer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59869"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:Definition rdf:datatype="&xsd;string">Any alpha-amino acid having L-configuration at the alpha-carbon.</obo:Definition>
@@ -223,14 +223,14 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37176"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;is_conjugate_base_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28938"/>
+                <owl:onProperty rdf:resource="&obo;is_conjugate_acid_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29337"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;is_conjugate_acid_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29337"/>
+                <owl:onProperty rdf:resource="&obo;is_conjugate_base_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28938"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:Synonym rdf:datatype="&xsd;string">AMINO SUBSTITUTION GROUP</obo:Synonym>
@@ -322,14 +322,14 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_83925"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;is_conjugate_acid_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_66952"/>
+                <owl:onProperty rdf:resource="&obo;is_tautomer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_58065"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;is_tautomer_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_58065"/>
+                <owl:onProperty rdf:resource="&obo;is_conjugate_acid_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_66952"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:Synonym rdf:datatype="&xsd;string">2-Amino-4-mercaptobutyric acid</obo:Synonym>
@@ -362,14 +362,14 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26650"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;is_conjugate_acid_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63072"/>
+                <owl:onProperty rdf:resource="&obo;is_tautomer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_58199"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;is_tautomer_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_58199"/>
+                <owl:onProperty rdf:resource="&obo;is_conjugate_acid_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63072"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:Synonym rdf:datatype="&xsd;string">(2S)-2-amino-4-sulfanylbutanoic acid</obo:Synonym>
@@ -466,7 +466,7 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -504,7 +504,7 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37577"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_43176"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -696,7 +696,7 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25805"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -777,7 +777,7 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26833"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -928,14 +928,14 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_79389"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;is_conjugate_acid_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29340"/>
+                <owl:onProperty rdf:resource="&obo;is_conjugate_base_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16134"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;is_conjugate_base_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16134"/>
+                <owl:onProperty rdf:resource="&obo;is_conjugate_acid_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29340"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:Definition rdf:datatype="&xsd;string">A nitrogen hydride that has formula H2N.</obo:Definition>
@@ -1041,13 +1041,13 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33252"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10545"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1072,7 +1072,7 @@ Query: homocysteine</rdfs:comment>
         <rdfs:label rdf:datatype="&xsd;string">atomic nucleus</rdfs:label>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33253"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1173,7 +1173,7 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33300"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1216,7 +1216,7 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33303"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1315,14 +1315,14 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;is_conjugate_acid_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29067"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46883"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46883"/>
+                <owl:onProperty rdf:resource="&obo;is_conjugate_acid_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29067"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:Definition rdf:datatype="&xsd;string">A carbon oxoacid acid carrying at least one -C(=O)OH group and having the structure RC(=O)OH, where R is any any monovalent functional group. Carboxylic acids are the most common type of organic acid.</obo:Definition>
@@ -1369,7 +1369,7 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33318"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1388,7 +1388,7 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33306"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1406,7 +1406,7 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_49637"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1424,7 +1424,7 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33559"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1444,7 +1444,7 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33560"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1489,14 +1489,14 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;is_conjugate_acid_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33558"/>
+                <owl:onProperty rdf:resource="&obo;is_tautomer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78608"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;is_tautomer_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_78608"/>
+                <owl:onProperty rdf:resource="&obo;is_conjugate_acid_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33558"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:Synonym rdf:datatype="&xsd;string">Amino acid</obo:Synonym>
@@ -1658,7 +1658,7 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24433"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1690,7 +1690,7 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1708,7 +1708,7 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72695"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46629"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1971,7 +1971,7 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33582"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27594"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1994,7 +1994,7 @@ Query: homocysteine</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33302"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;has_part"/>
+                <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25555"/>
             </owl:Restriction>
         </rdfs:subClassOf>

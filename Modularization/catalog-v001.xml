@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl" uri="ChEBI/chebi_module.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/go/releases/2015-05-01/go.owl" uri="Gene%20Ontology/go_module.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.org/biotop/btl2.owl" uri="https://raw.githubusercontent.com/BioTopOntology/biotop/master/btl2.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1446600127888" name="file:///C:/ontology/STAR_2015_10_3_1446596599306_module.owl" uri="ChEBI/chebi_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1446600127888" name="file:///C:/ontology/STAR_2015_9_19_1445283932980_module.owl" uri="Protein%20Ontology/pr_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1446600127888" name="http://purl.bioontology.org/ontology/NCBITAXON" uri="NCBI/ncbitaxon.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1446600127888" name="http://purl.obolibrary.org/obo/go.owl" uri="Gene%20Ontology/go_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1446600127888" name="http://www.semanticweb.org/root/ontologies/2015/10/untitled-ontology-5" uri="integrativo.owl"/>
+    </group>
+</catalog>
