@@ -2140,12 +2140,6 @@
         <Class abbreviatedIRI="obo:GO_2001252"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty abbreviatedIRI="obo:BFO_0000066"/>
     </Declaration>
     <Declaration>
@@ -2156,6 +2150,12 @@
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="obo:RO_0002213"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#hasPart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -2447,7 +2447,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0012501"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0048468"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -2547,7 +2547,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0022607"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0009653"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -2577,7 +2577,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0031988"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0005737"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -2617,7 +2617,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0044763"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0032504"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -2637,7 +2637,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0007165"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0010468"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -2997,7 +2997,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0031982"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0005737"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -3317,7 +3317,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0006325"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0006355"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -3457,7 +3457,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0043226"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0005576"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -3607,7 +3607,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0005575"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0005576"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -3617,7 +3617,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0005575"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0043226"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -3627,7 +3627,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0005575"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0005622"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -3637,7 +3637,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0005575"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0005634"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -3647,7 +3647,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0005575"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0031410"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -3657,7 +3657,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0005575"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0005737"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -3667,7 +3667,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0005575"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0005829"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -3677,7 +3677,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0005575"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0005654"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -3687,7 +3687,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0005575"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0005730"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -3697,7 +3697,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0005575"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0042995"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -3707,7 +3707,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0005575"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0005623"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -4517,7 +4517,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0051216"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0060350"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -4537,7 +4537,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0006915"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0009653"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -4677,7 +4677,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0006325"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0045892"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -5017,7 +5017,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0006915"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0048856"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -5147,7 +5147,7 @@
         <ObjectIntersectionOf>
             <Class abbreviatedIRI="obo:GO_0031982"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+                <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
                 <Class abbreviatedIRI="obo:GO_0005576"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -5553,15 +5553,15 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0001071"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
-            <Class abbreviatedIRI="obo:GO_2001141"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#hasPart"/>
+            <Class abbreviatedIRI="obo:GO_0003676"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0001071"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
-            <Class abbreviatedIRI="obo:GO_0003676"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
+            <Class abbreviatedIRI="obo:GO_2001141"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -5591,7 +5591,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0001958"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0060350"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -5630,15 +5630,15 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0003700"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
-            <Class abbreviatedIRI="obo:GO_0006355"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#hasPart"/>
+            <Class abbreviatedIRI="obo:GO_0000976"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0003700"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
-            <Class abbreviatedIRI="obo:GO_0000976"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
+            <Class abbreviatedIRI="obo:GO_0006355"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -5648,7 +5648,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0003824"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0008152"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -5695,7 +5695,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0005654"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0031981"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -5710,7 +5710,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0005730"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0031981"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -5792,7 +5792,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0006325"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0051276"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -5807,7 +5807,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0006351"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0010467"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -5841,7 +5841,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0006461"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0070271"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -6043,7 +6043,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0006805"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0071466"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -6082,21 +6082,21 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0007165"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0007154"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0007165"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0044700"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0007165"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0051716"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -6107,7 +6107,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0007249"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#hasPart"/>
             <Class abbreviatedIRI="obo:GO_0051092"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -6130,7 +6130,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0007417"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0007399"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -6145,14 +6145,14 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0007420"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0007417"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0007420"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0060322"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -6187,7 +6187,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0008168"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0032259"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -6234,7 +6234,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0008705"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0009086"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -6428,7 +6428,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0009653"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0048856"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -6447,7 +6447,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0009887"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0048513"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -6806,7 +6806,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0010623"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0048468"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -6968,14 +6968,14 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0010927"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0009653"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0010927"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0032989"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -7028,7 +7028,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0016023"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0005737"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -7091,7 +7091,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0016491"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0055114"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -7331,7 +7331,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0021549"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0022037"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -7346,7 +7346,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0021575"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0030902"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -7361,14 +7361,14 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0021587"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0021549"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0021587"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0021575"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -7383,7 +7383,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0022037"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0030902"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -7394,7 +7394,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0022412"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0032504"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -7420,7 +7420,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0022607"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0044085"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -7431,7 +7431,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0023019"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0010468"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -7656,7 +7656,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0030902"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0007420"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -7671,7 +7671,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0030968"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0034620"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -8079,7 +8079,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0031410"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0005737"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -8707,7 +8707,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0034401"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0006355"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -9165,7 +9165,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0043230"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0005576"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -9566,7 +9566,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0044421"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0005576"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -9577,7 +9577,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0044422"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0043226"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -9588,7 +9588,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0044424"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0005622"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -9599,7 +9599,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0044428"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0005634"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -9614,7 +9614,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0044433"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0031410"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -9625,7 +9625,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0044444"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0005737"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -9636,7 +9636,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0044445"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0005829"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -9651,7 +9651,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0044446"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0043229"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -9662,7 +9662,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0044451"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0005654"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -9673,7 +9673,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0044452"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0005730"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -9684,7 +9684,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0044463"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0042995"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -9695,7 +9695,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0044464"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0005623"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -10216,7 +10216,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0048468"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0030154"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -10227,7 +10227,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0048513"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0048731"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -10331,7 +10331,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0048609"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0032504"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -10342,7 +10342,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0048646"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0009653"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -10353,7 +10353,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0048705"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0001501"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -10364,7 +10364,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0048731"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0007275"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -10520,7 +10520,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0050880"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0008015"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -10876,14 +10876,14 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0051216"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0001501"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0051216"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0061448"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -11287,7 +11287,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0060135"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0007565"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -11370,7 +11370,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0060348"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0001501"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -11389,14 +11389,14 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0060349"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0048705"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0060349"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0060348"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -11415,7 +11415,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0060351"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0060350"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -11445,7 +11445,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0060561"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0009653"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -11847,7 +11847,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0097190"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0006915"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -11866,7 +11866,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0097549"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0045892"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -12524,7 +12524,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_1902742"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0048856"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -12719,7 +12719,7 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:GO_1903561"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
             <Class abbreviatedIRI="obo:GO_0005576"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -13231,100 +13231,50 @@
         <ObjectProperty abbreviatedIRI="obo:RO_0002211"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
-        <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
+        <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
+        <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#hasPart"/>
     </InverseObjectProperties>
     <TransitiveObjectProperty>
-        <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+        <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#hasPart"/>
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
-        <ObjectProperty abbreviatedIRI="obo:BFO_0000051"/>
+        <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
     </TransitiveObjectProperty>
     <SubObjectPropertyOf>
         <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
             <ObjectProperty abbreviatedIRI="obo:BFO_0000066"/>
-        </ObjectPropertyChain>
-        <ObjectProperty abbreviatedIRI="obo:BFO_0000066"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectPropertyChain>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000066"/>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
         </ObjectPropertyChain>
         <ObjectProperty abbreviatedIRI="obo:BFO_0000066"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectPropertyChain>
             <ObjectProperty abbreviatedIRI="obo:RO_0002211"/>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
         </ObjectPropertyChain>
         <ObjectProperty abbreviatedIRI="obo:RO_0002211"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectPropertyChain>
             <ObjectProperty abbreviatedIRI="obo:RO_0002212"/>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
         </ObjectPropertyChain>
         <ObjectProperty abbreviatedIRI="obo:RO_0002212"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectPropertyChain>
             <ObjectProperty abbreviatedIRI="obo:RO_0002213"/>
-            <ObjectProperty abbreviatedIRI="obo:BFO_0000050"/>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
         </ObjectPropertyChain>
         <ObjectProperty abbreviatedIRI="obo:RO_0002213"/>
     </SubObjectPropertyOf>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
-        <AbbreviatedIRI>obo:BFO_0000050</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">BFO:0000050</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
-        <AbbreviatedIRI>obo:BFO_0000050</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">external</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
-        <AbbreviatedIRI>obo:BFO_0000050</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">part_of</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:shorthand"/>
-        <AbbreviatedIRI>obo:BFO_0000050</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">part_of</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:BFO_0000050</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">part of</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
-        <AbbreviatedIRI>obo:BFO_0000051</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">BFO:0000051</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
-        <AbbreviatedIRI>obo:BFO_0000051</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">external</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
-        <AbbreviatedIRI>obo:BFO_0000051</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">has_part</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="oboInOwl:shorthand"/>
-        <AbbreviatedIRI>obo:BFO_0000051</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">has_part</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>obo:BFO_0000051</AbbreviatedIRI>
-        <Literal datatypeIRI="&xsd;string">has_part</Literal>
-    </AnnotationAssertion>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isPartOf"/>
+            <ObjectProperty abbreviatedIRI="obo:BFO_0000066"/>
+        </ObjectPropertyChain>
+        <ObjectProperty abbreviatedIRI="obo:BFO_0000066"/>
+    </SubObjectPropertyOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
         <AbbreviatedIRI>obo:BFO_0000066</AbbreviatedIRI>
@@ -62576,6 +62526,56 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:RO_0002213</AbbreviatedIRI>
         <Literal datatypeIRI="&xsd;string">positively regulates</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <IRI>http://purl.org/biotop/btl2.owl#hasPart</IRI>
+        <Literal datatypeIRI="&xsd;string">BFO:0000051</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <IRI>http://purl.org/biotop/btl2.owl#hasPart</IRI>
+        <Literal datatypeIRI="&xsd;string">external</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>http://purl.org/biotop/btl2.owl#hasPart</IRI>
+        <Literal datatypeIRI="&xsd;string">has_part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:shorthand"/>
+        <IRI>http://purl.org/biotop/btl2.owl#hasPart</IRI>
+        <Literal datatypeIRI="&xsd;string">has_part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/biotop/btl2.owl#hasPart</IRI>
+        <Literal datatypeIRI="&xsd;string">has_part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+        <IRI>http://purl.org/biotop/btl2.owl#isPartOf</IRI>
+        <Literal datatypeIRI="&xsd;string">BFO:0000050</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <IRI>http://purl.org/biotop/btl2.owl#isPartOf</IRI>
+        <Literal datatypeIRI="&xsd;string">external</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <IRI>http://purl.org/biotop/btl2.owl#isPartOf</IRI>
+        <Literal datatypeIRI="&xsd;string">part_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:shorthand"/>
+        <IRI>http://purl.org/biotop/btl2.owl#isPartOf</IRI>
+        <Literal datatypeIRI="&xsd;string">part_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/biotop/btl2.owl#isPartOf</IRI>
+        <Literal datatypeIRI="&xsd;string">part of</Literal>
     </AnnotationAssertion>
 </Ontology>
 
