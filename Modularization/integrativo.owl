@@ -16,12 +16,15 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.cin.ufpe.br/~integrativo/integrativo.owl">
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl</Import>
     <Import>http://purl.org/biotop/btl2.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/PR</Import>
+    <Import>http://purl.bioontology.org/ontology/NCBITAXON</Import>
     <Import>http://purl.obolibrary.org/obo/go/releases/2015-05-01/go.owl</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
