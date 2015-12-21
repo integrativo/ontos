@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1450699798065" name="file:///C:/ontology/STAR_2015_5_20_1434792419876_module.owl" uri="Ontology%20Files/chebi_homocysteine.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1450699798065" name="file:///C:/ontology/STAR_2015_8_14_1442246956574_module.owl" uri="Ontology%20Files/PR_protein.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1450699798065" name="file:///C:/ontology/STAR_2015_8_15_1442273725470_module.owl" uri="Ontology%20Files/go_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1450699798065" name="http://purl.bioontology.org/ontology/NCBITAXON" uri="Ontology%20Files/ncbitaxon.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1450699798065" name="http://purl.org/biotop/btl2.owl" uri="Ontology%20Files/btl2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1450699798065" name="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14" uri="integrativo_new.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1450699798065" name="http://www.w3.org/2002/07/owl" uri="Ontology%20Files/DiseaseList.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1450699798065" name="shadowed:http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14" uri="Ontology%20Files/integrativo.owl"/>
+    </group>
+</catalog>

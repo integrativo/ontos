@@ -1,0 +1,1092 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/biotop/btl2.owl#Situation -->
+
+    <Class rdf:about="http://purl.org/biotop/btl2.owl#Situation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Abdominal_Aortic_Aneurysm -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Abdominal_Aortic_Aneurysm">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Albuminuria -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Albuminuria">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Amino_Acid_Metabolism_errors -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Amino_Acid_Metabolism_errors">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Angle-Closure_Glaucoma -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Angle-Closure_Glaucoma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Anterior_Wall_Myocardial_Infarction -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Anterior_Wall_Myocardial_Infarction">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Aortic_Coarctation -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Aortic_Coarctation">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Asthma -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Asthma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Atherosclerosis -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Atherosclerosis">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cardiovascular_Diseases -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cardiovascular_Diseases">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Carotid_Stenosis -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Carotid_Stenosis">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cataract -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cataract">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Central_Retinal_Vein_Occlusion -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Central_Retinal_Vein_Occlusion">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Central_nervous_system_tumour -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Central_nervous_system_tumour">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cerebral_Infarction -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cerebral_Infarction">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cervical_spina_bifida_aperta -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cervical_spina_bifida_aperta">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cervical_spina_bifida_cystica -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cervical_spina_bifida_cystica">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cervicothoracic_spina_bifida_aperta -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cervicothoracic_spina_bifida_aperta">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cervicothoracic_spina_bifida_cystica -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cervicothoracic_spina_bifida_cystica">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cholangiocarcinoma -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cholangiocarcinoma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Chronic_Kidney_Failure -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Chronic_Kidney_Failure">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Chronic_Mesangial_Proliferative_Glomerulonephritis -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Chronic_Mesangial_Proliferative_Glomerulonephritis">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Chronic_Renal_Insufficiency -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Chronic_Renal_Insufficiency">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Clear-cell_metastatic_renal_cell_carcinoma -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Clear-cell_metastatic_renal_cell_carcinoma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Colorectal_Neoplasms -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Colorectal_Neoplasms">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Congenital_Adrenal_Insufficiency -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Congenital_Adrenal_Insufficiency">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Congenital_Cataracts -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Congenital_Cataracts">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Coronary_Artery_Disease -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Coronary_Artery_Disease">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cystathininuria -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cystathininuria">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cystathionine_beta-synthase_deficiency -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cystathionine_beta-synthase_deficiency">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cystathioninuria -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cystathioninuria">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Diabetic_Nephropathies -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Diabetic_Nephropathies">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Diabetic_Retinopathy -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Diabetic_Retinopathy">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Endometrium_tumour -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Endometrium_tumour">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Eye_Disease -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Eye_Disease">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Fatty_Liver -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Fatty_Liver">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Gamma-cystathionase_deficiency -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Gamma-cystathionase_deficiency">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Gastrointestinal_Stromal_Tumors -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Gastrointestinal_Stromal_Tumors">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Graft_vs_Host_Disease -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Graft_vs_Host_Disease">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Graves_Disease -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Graves_Disease">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Haematopoietic_and_lymphoid_tissue_tumour -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Haematopoietic_and_lymphoid_tissue_tumour">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Hearing_Loss -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Hearing_Loss">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Heat_Stroke -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Heat_Stroke">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Hereditary_Nonpolyposis -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Hereditary_Nonpolyposis">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Homocysteinemia -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Homocysteinemia">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Homocystinuria -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Homocystinuria">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Hyperhomocysteinemia -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Hyperhomocysteinemia">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Hyperthyroidism -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Hyperthyroidism">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Intestinal_Ischemia -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Intestinal_Ischemia">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Ischemic_stroke -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Ischemic_stroke">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Kidney_tumour -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Kidney_tumour">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Large_B-Cell_Diffuse_Lymphoma -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Large_B-Cell_Diffuse_Lymphoma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Large_intestine_tumour -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Large_intestine_tumour">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Liver_Neoplasms -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Liver_Neoplasms">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Liver_tumour -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Liver_tumour">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Lumbosacral_spina_bifida_aperta -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Lumbosacral_spina_bifida_aperta">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Lumbosacral_spina_bifida_cystica -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Lumbosacral_spina_bifida_cystica">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Lung_tumour -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Lung_tumour">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Megaloblastic_anemia -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Megaloblastic_anemia">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Meniere_Disease -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Meniere_Disease">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Methotrexate_poisoning -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Methotrexate_poisoning">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Methylenetetrahydrofolate_reductase_deficiency -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Methylenetetrahydrofolate_reductase_deficiency">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Microvascular_Angina -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Microvascular_Angina">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Migraine_Disorders -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Migraine_Disorders">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Migraine_with_Aura -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Migraine_with_Aura">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#NONARTERITIC_ANTERIOR_ISCHEMIC_OPTIC_NEUROPATHY -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#NONARTERITIC_ANTERIOR_ISCHEMIC_OPTIC_NEUROPATHY">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Neonatal_Diabetes_Mellitus -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Neonatal_Diabetes_Mellitus">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Nephrosclerosis -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Nephrosclerosis">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Neural_tube_defect -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Neural_tube_defect">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Neurodegeneration -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Neurodegeneration">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Open-Angle_Glaucoma -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Open-Angle_Glaucoma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Osteosarcoma -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Osteosarcoma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Ovary_tumour -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Ovary_tumour">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Pancreas_tumour -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Pancreas_tumour">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Pancreatic_Neoplasms -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Pancreatic_Neoplasms">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Peripheral_Arterial_Disease -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Peripheral_Arterial_Disease">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Prostate_tumour -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Prostate_tumour">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Renal_Cell_Carcinoma -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Renal_Cell_Carcinoma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Retinal_Diseases -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Retinal_Diseases">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Rheumatoid_Arthritis -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Rheumatoid_Arthritis">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Schizophrenia -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Schizophrenia">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Skin_tumour -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Skin_tumour">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Small_Cell_Lung_Carcinoma -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Small_Cell_Lung_Carcinoma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Squamous_Cell_Carcinoma -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Squamous_Cell_Carcinoma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Sudden_Hearing_Loss -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Sudden_Hearing_Loss">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Thermolabile_Type_Mthfr_Deficiency -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Thermolabile_Type_Mthfr_Deficiency">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Thoracolumbosacral_spina_bifida_aperta -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Thoracolumbosacral_spina_bifida_aperta">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Thoracolumbosacral_spina_bifida_cystica -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Thoracolumbosacral_spina_bifida_cystica">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Thrombophilia -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Thrombophilia">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Thrombotic_Microangiopathies -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Thrombotic_Microangiopathies">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Total_spina_bifida_aperta -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Total_spina_bifida_aperta">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Total_spina_bifida_cystica -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Total_spina_bifida_cystica">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Transitional_Cell_Carcinoma -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Transitional_Cell_Carcinoma">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Trunk_decreased_thickness -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Trunk_decreased_thickness">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Type_1_Diabetes_Mellitus -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Type_1_Diabetes_Mellitus">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Type_2_Diabetes_Mellitus -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Type_2_Diabetes_Mellitus">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Upper_thoracic_spina_bifida_aperta -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Upper_thoracic_spina_bifida_aperta">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Upper_thoracic_spina_bifida_cystica -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Upper_thoracic_spina_bifida_cystica">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Urinary_Bladder_Neoplasms -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Urinary_Bladder_Neoplasms">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Vascular_Calcification -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Vascular_Calcification">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Venous_Thrombosis -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Venous_Thrombosis">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Wet_Macular_Degeneration -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Wet_Macular_Degeneration">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Wilms_Tumor -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Wilms_Tumor">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#breast_tumour -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#breast_tumour">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#endocrine_pancreas_increased_size -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#endocrine_pancreas_increased_size">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#exocrine_pancreas_decreased_size -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#exocrine_pancreas_decreased_size">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#eye_decreased_size -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#eye_decreased_size">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#head_decreased_size -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#head_decreased_size">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#intestine_decreased_size -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#intestine_decreased_size">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#liver_decreased_size -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#liver_decreased_size">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#methylcobalamin_deficiency -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#methylcobalamin_deficiency">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#notochord_increased_size -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#notochord_increased_size">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#pancreatic_B_cell_present_in_greater_numbers -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#pancreatic_B_cell_present_in_greater_numbers">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#stomach_tumour -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#stomach_tumour">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Homocystinuria-megaloblastic_anemia,_cblG_complementation_type_Homocystinuria-megaloblastic_anemia_cblG_complementation_type_(HMAG)Homocystinuria-megaloblastic_anemia_cblG_complementation_type_(HMAG)Homocystinuria_megaloblastic_anemia_cblG_complementation_type -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Homocystinuria-megaloblastic_anemia,_cblG_complementation_type_Homocystinuria-megaloblastic_anemia_cblG_complementation_type_(HMAG)Homocystinuria-megaloblastic_anemia_cblG_complementation_type_(HMAG)Homocystinuria_megaloblastic_anemia_cblG_complementation_type">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Isolated_anencephaly/exencephaly -->
+
+    <Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Isolated_anencephaly/exencephaly">
+        <rdfs:subClassOf rdf:resource="http://purl.org/biotop/btl2.owl#Situation"/>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Abdominal_Aortic_Aneurysm"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Albuminuria"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Amino_Acid_Metabolism_errors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Angle-Closure_Glaucoma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Anterior_Wall_Myocardial_Infarction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Aortic_Coarctation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Asthma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Atherosclerosis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cardiovascular_Diseases"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Carotid_Stenosis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cataract"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Central_Retinal_Vein_Occlusion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Central_nervous_system_tumour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cerebral_Infarction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cervical_spina_bifida_aperta"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cervical_spina_bifida_cystica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cervicothoracic_spina_bifida_aperta"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cervicothoracic_spina_bifida_cystica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cholangiocarcinoma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Chronic_Kidney_Failure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Chronic_Mesangial_Proliferative_Glomerulonephritis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Chronic_Renal_Insufficiency"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Clear-cell_metastatic_renal_cell_carcinoma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Colorectal_Neoplasms"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Congenital_Adrenal_Insufficiency"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Congenital_Cataracts"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Coronary_Artery_Disease"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cystathininuria"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cystathionine_beta-synthase_deficiency"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Cystathioninuria"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Diabetic_Nephropathies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Diabetic_Retinopathy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Endometrium_tumour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Eye_Disease"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Fatty_Liver"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Gamma-cystathionase_deficiency"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Gastrointestinal_Stromal_Tumors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Graft_vs_Host_Disease"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Graves_Disease"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Haematopoietic_and_lymphoid_tissue_tumour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Hearing_Loss"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Heat_Stroke"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Hereditary_Nonpolyposis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Homocysteinemia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Homocystinuria"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Hyperhomocysteinemia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Hyperthyroidism"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Intestinal_Ischemia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Ischemic_stroke"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Kidney_tumour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Large_B-Cell_Diffuse_Lymphoma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Large_intestine_tumour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Liver_Neoplasms"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Liver_tumour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Lumbosacral_spina_bifida_aperta"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Lumbosacral_spina_bifida_cystica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Lung_tumour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Megaloblastic_anemia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Meniere_Disease"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Methotrexate_poisoning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Methylenetetrahydrofolate_reductase_deficiency"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Microvascular_Angina"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Migraine_Disorders"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Migraine_with_Aura"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#NONARTERITIC_ANTERIOR_ISCHEMIC_OPTIC_NEUROPATHY"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Neonatal_Diabetes_Mellitus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Nephrosclerosis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Neural_tube_defect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Neurodegeneration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Open-Angle_Glaucoma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Osteosarcoma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Ovary_tumour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Pancreas_tumour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Pancreatic_Neoplasms"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Peripheral_Arterial_Disease"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Prostate_tumour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Renal_Cell_Carcinoma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Retinal_Diseases"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Rheumatoid_Arthritis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Schizophrenia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Skin_tumour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Small_Cell_Lung_Carcinoma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Squamous_Cell_Carcinoma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Sudden_Hearing_Loss"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Thermolabile_Type_Mthfr_Deficiency"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Thoracolumbosacral_spina_bifida_aperta"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Thoracolumbosacral_spina_bifida_cystica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Thrombophilia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Thrombotic_Microangiopathies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Total_spina_bifida_aperta"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Total_spina_bifida_cystica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Transitional_Cell_Carcinoma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Trunk_decreased_thickness"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Type_1_Diabetes_Mellitus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Type_2_Diabetes_Mellitus"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Upper_thoracic_spina_bifida_aperta"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Upper_thoracic_spina_bifida_cystica"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Urinary_Bladder_Neoplasms"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Vascular_Calcification"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Venous_Thrombosis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Wet_Macular_Degeneration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Wilms_Tumor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#breast_tumour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#endocrine_pancreas_increased_size"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#exocrine_pancreas_decreased_size"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#eye_decreased_size"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#head_decreased_size"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#intestine_decreased_size"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#liver_decreased_size"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#methylcobalamin_deficiency"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#notochord_increased_size"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#pancreatic_B_cell_present_in_greater_numbers"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#stomach_tumour"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Homocystinuria-megaloblastic_anemia,_cblG_complementation_type_Homocystinuria-megaloblastic_anemia_cblG_complementation_type_(HMAG)Homocystinuria-megaloblastic_anemia_cblG_complementation_type_(HMAG)Homocystinuria_megaloblastic_anemia_cblG_complementation_type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14#Isolated_anencephaly/exencephaly"/>
+        </members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

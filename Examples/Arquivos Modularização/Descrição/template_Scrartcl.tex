@@ -1,0 +1,362 @@
+\documentclass[]{scrartcl}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{todonotes}
+\usepackage{amsmath}
+\usepackage{threeparttable}
+\usepackage{bibentry}
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%opening
+\title{Exemplo para utilizar com funções}
+\author{Filipe Santana}
+
+\begin{document}
+
+\maketitle
+
+\section{Exemplificação}
+
+O exemplo que podemos criar para a conversão de consultas pode ser retirado da planilha (final-data), no caminho (.../GitHub/ontos/Examples/Example - Axioma Função).
+
+Na planilha owl\_elements há uma estrutura de substituição em que variáveis nomeadas e escritas entre símbolos \$ \ldots \$ são substituídas pelo conteúdo das linhas da tabela final\_data.
+Se você tiver conhecimento sobre VBA macro, pode recuperar a ideia do macro e distribuir na ferramenta. A tarefa realizada pelo macro é a de substituir.
+
+O conteúdo da tabela é convertido e é gerado um arquivo chamado integrativo\_new.owl.
+
+A tabela é construída no formato da tabela sobre o Uniprot (tabela \ref{table:uniprot}) e Ensembl (tabela \ref{table:ensembl}) estão somados, e resumido em uma estrutura genérica na tabela \ref{table:template}.
+
+\begin{table}[h!]
+	\begin{threeparttable}
+		\caption{Uniprot Table example.}
+		\label{table:uniprot}
+		\centering
+		\begin{tabular}{p{0.5in}p{0.4in}p{0.5in}p{0.7in}p{0.8in}p{0.7in}p{1.2in}} 
+			\hline 
+			Entry & Protein & Organism & GO (bp) & GO (mf) & GO (cc) & Ensembl ID \\ \hline 
+			F1MEW4 & CBS & \textit{Bos taurus} & blood vessel remodeling; \ldots & cystathionine $\beta$-synthase activity \ldots & cytoplasm \ldots & ENSBTAT00000000184 \ldots \\ 
+			A6H5Y3 & MS & \textit{Mus musculus} & methionine biosynthetic process; \ldots & cobalamin binding; \ldots & cytoplasm \ldots & ENSMUST00000099856 \\ \hline 
+		\end{tabular}
+		\begin{tablenotes}
+			\item GO (bp) , GO (mf) and GO (cc) represents rows from UniProt that include annotations for GO classes
+			'\textit{Biological process}', '\textit{Molecular function}' and '\textit{Cellular component}' respectively.
+		\end{tablenotes}
+	\end{threeparttable}
+\end{table}
+
+\begin{table}[h!]
+	\caption{Ensembl Table example.}
+	\label{table:ensembl}
+	\centering
+	\begin{tabular}{p{1.1in}p{1.0in}p{0.5in}p{0.5in}p{1.2in}} \hline 
+		Entry & Description & Gene & Organism & Phenotype \\ \hline 
+		ENST00000376583 & methylene t. reductase & MTHFR & \textit{Homo sapiens} & Methotrexate poisoning; Homocysteinemia; \ldots \\
+		ENSBTAT00000000184 & cystathionine $\beta$-synthase (CBS) & CBS & \textit{Bos taurus} & No phenotype associated \\
+		\hline 
+	\end{tabular}
+\end{table}
+
+\begin{table}[h!]
+	\centering
+	\caption{Template table.}
+	\label{table:template}
+	\begin{tabular}{p{0.4in}p{0.3in}p{0.3in}p{0.6in}p{0.6in}p{0.6in}p{0.6in}p{0.6in}} \hline 
+		\# & \textit{P} &\textit{O} & \textit{Bp} & \textit{Mf} & \textit{C} & \textit{Ph} & \textit{M} \\ \hline 
+		$k$ & $P_k$ & $O_k$ & $Bp_1\ldots n$ & $Mf_1\ldots n$ & $C_1\ldots n$ & $Ph1\ldots n$ & $M_1\ldots n$ \\
+		\ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots \\
+		$l$ & $P_l$ & $O_l$ & $Bp_1\ldots n$ & $Mf_1\ldots n$ & $C_1\ldots n$ & $Ph1\ldots n$ & $M_1\ldots n$ \\
+		\ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots \\
+		$m$ & $P_m$ & $O_m$ & $Bp_1\ldots n$ & $Mf_1\ldots n$ & $C_1\ldots n$ & $Ph1\ldots n$ & $M_1\ldots n$ \\ \hline 
+	\end{tabular}
+	\begin{tablenotes}
+		\item The symbol \# represents record IDs; \textit{P} proteins; \textit{G} genes; \textit{O} organisms; \textit{Bp} biological processes;
+		\textit{Mf} molecular function; \textit{C} cellular component; \textit{Ph} phenotype; and, \textit{M} the associate molecules.
+	\end{tablenotes}
+\end{table}
+
+Os axiomas que geram a conversão são escritos no formato das letras das tabelas e estão escritos nas tabelas \ref{table:ProteinP},\ref{table:Bp}, \ref{table:CellCompC}, \ref{table:BpComposite}, \ref{table:DysfunctionalBpComposite}, \ref{table:PComposite}, \ref{table:Organism}.
+
+\begin{table}[H]
+	\caption{Defined Subclasses of proteins \textit{P}.}
+	\label{table:ProteinP}
+	\centering
+	\begin{tabular}{l}
+		\hline
+		\vtop {\hbox{\strut \textit{P} subclassOf pr:\textit{Protein}}
+			\hbox{\strut \textit{P\_sensu\_O} subclassOf \textit{P} }} \\
+		\hline
+	\end{tabular}
+\end{table}%
+
+\begin{table}[H]
+	\caption{Defined Subclasses of biological process \textit{Bp}.}
+	\label{table:Bp}
+	\centering
+	\begin{tabular}{l}
+		\hline
+		\vtop {\hbox{\strut \textit{\textit{Bp}} subclassOf go:'\textit{biological\_process}'}
+			\hbox{\strut \textit{\textit{Bp}\_in\_O\_with\_P\_and\_M} subclassOf \textit{\textit{Bp}}}
+			\hbox{\strut \textit{Dysfunctional\_Bp\_in\_O\_with\_P\_and\_M} subclassOf }
+			\hbox{\strut \hspace{1cm} \textit{Bp\_in\_O\_with\_P\_and\_M}}} \\
+		\hline
+	\end{tabular}
+\end{table}%
+
+\begin{table}[H]
+	\caption{Cellular component \textit{C} union classes.}
+	\label{table:CellCompC}
+	\centering
+	\begin{tabular}{l}
+		\hline
+		\vtop {\hbox{\strut \textit{C} subclassOf go:'\textit{cell\_component}'}
+			\hbox{\strut \textit{$C_1\_or\_C_n$} subclassOf}
+			\hbox{\strut \hspace{1cm} go:'\textit{cell\_component}'}
+			\hbox{\strut {$C_1\_or\_C_n$} equivalentTo}
+			\hbox{\strut \hspace{1cm} ($C_1$ or $C_2$ or $C_n$) }} \\
+		\hline
+	\end{tabular}
+\end{table}%
+
+\begin{table}[H]
+	\caption{Definitions for biological process subclasses definds for specific proteins, organisms and molecules (\textit{Bp\_in\_O\_with\_P\_and\_M} together with their \textit{Dysfunctional\_Bp\_in\_O\_with\_P\_and\_M}.}
+	\label{table:BpComposite}
+	\centering
+	\begin{tabular}{l}
+		\hline
+		\vtop {\hbox{\strut \textit{Bp\_in\_O\_with\_P\_and\_M} equivalentTo \textit{Bp}}
+			\hbox{\strut \hspace{1cm} and ('\textbf{has participant}'  some \textit{M}) }
+			\hbox{\strut \hspace{1cm} and ('\textbf{has participant}'  some (\textit{P} and}
+			\hbox{\strut \hspace{2cm} ('\textbf{is bearer of}'  some (btl2:\textit{Function} and}
+			\hbox{\strut \hspace{3cm} ('\textbf{is realization of}' only \textit{Mf}) ) ) }
+			\hbox{\strut \hspace{1cm} and ('\textbf{is included in}'  some $C_1\_or\_C_n$) }
+			\hbox{\strut \hspace{1cm} and ('\textbf{is included in}'  some \textit{O}) }}\\
+		\hline
+	\end{tabular}
+\end{table}%
+
+\begin{table}[H]
+	\caption{Dysfunctional phenotypes of \textit{Bp\_in\_O\_with\_P\_and\_M}.}
+	\label{table:DysfunctionalBpComposite}
+	\centering
+	\begin{tabular}{l}
+		\hline
+		\vtop {\hbox{\strut \textit{Dysfunctional\_Bp\_in\_O\_with\_P\_and\_M} equivalentTo} \hbox{\strut \hspace{0,5cm}\textit{Bp\_in\_O\_with\_P\_and\_M}}
+			\hbox{\strut \hspace{1cm} and ('\textbf{is bearer of}'  some '\textit{Dysfunctional Quality}') }
+			\hbox{\strut \textit{Dysfunctional\_Bp\_in\_O\_with\_P\_and\_M} subClassOf} 
+			\hbox{\strut \hspace{0,5cm} \textit{Bp\_in\_O\_with\_P\_and\_M}}
+			\hbox{\strut \hspace{1cm} and ('\textbf{is realization of}' only (\textit{Risk} and}
+			\hbox{\strut \hspace{2cm} (\textbf{causes}  some \textit{Ph})))}} \\
+		\hline
+	\end{tabular}
+\end{table}%
+
+\begin{table}[H]
+	\caption{Subclasses created for the organism specific protein (\textit{P\_sensu\_O}) classes in database records}
+	\label{table:PComposite}
+	\centering
+	\begin{tabular}{l}
+		\hline
+		\vtop {\hbox{\strut \textit{P\_sensu\_O} equivalentTo \textit{P}}
+			\hbox{\strut \hspace{1cm} and ('\textbf{is included in}'  some \textit{O}) }
+			\hbox{\strut \textit{P\_sensu\_O} subClassOf \textit{P}}
+			\hbox{\strut \hspace{1cm} and ('\textbf{is bearer of}'  some (\textit{Function} and}
+			\hbox{\strut \hspace{2cm} ('\textbf{has realization}' only \textit{Mf}))) }} \\
+		\hline
+	\end{tabular}
+\end{table}%
+
+\begin{table}[H]
+	\caption{Axioms generated for organisms \textit{O} in database records}
+	\label{table:Organism}
+	\centering
+	\begin{tabular}{l}
+		\hline
+		\vtop {\hbox{\strut \textit{O} subClassOf btl2:\textit{Organism}}
+			\hbox{\strut \hspace{1cm} and ('\textbf{is bearer of}'  some (\textit{Disposition} and}
+			\hbox{\strut \hspace{2cm} ('\textbf{has realization}' only \textit{Bp}))) }} \\
+		\hline
+	\end{tabular}
+\end{table}%
+
+Esses axiomas foram gerados a partir da interpretação das tabelas do UniProt/Ensembl. Nesse meio, foram definidas as seguintes consultas que recuperam os respectivos resultados.
+
+\paragraph{CQ1: Which kinds of biological process are included in organisms of a specific type A}
+
+This query is intended to retrieve all biological process classes that takes place in organisms. To perform this query, we used an enzyme as example and substitute the placeholder \textit{A} by mouse (\textit{Mus musculus}). 
+%The relevance of this query regards the retrieval of the biological processes available in data for the specific organism mentioned.
+
+\begin{table}[H]
+	\caption{Competency Question \#1}
+	\label{table:CQ1}
+	\begin{tabular}{ll}
+		\hline
+		CQ$\sharp$ & DL Query \\ 
+		$1$ & \vtop{\hbox{\strut '\textit{biological\_process}' and ('\textbf{is included in}'  some \textit{A}) }}\\
+		\hline
+	\end{tabular} 
+\end{table}
+The following classes are retrieved from the ontology (Table \ref{table:ResultCQ1}).
+
+\begin{table}[H]
+	\caption{Result of Competency Question \#1}
+	\label{table:ResultCQ1}
+	\begin{tabular}[h!]{l}
+		\hline
+		\vtop{\hbox{\strut '\textit{amino acid betaine catabolic process in \underline{Mus musculus} with Betaine homocysteine S methyltransferase 1 and Homocysteine}';}
+			\hbox{\strut '\textit{blood vessel remodeling in \underline{Mus musculus} with Cystathionine beta-synthase and Homocysteine}';}
+			\hbox{\strut '\textit{cartilage development involved in endochondral bone morphogenesis in \underline{Mus musculus}}}
+			\hbox{\strut with Cystathionine beta-synthase and Homocysteine'; and $36$ more classes.}}\\ 
+		\hline
+	\end{tabular} 
+\end{table}
+ 
+These results are expected as they match the content represented in data, without changing any domain or upper domain ontology. Here we see how a query on potentialities can be expressed as a simple DL query. However, the correct interpretation hinges on the assumption that none of these specific subclasses is empty.  
+
+\paragraph{CQ2: Which are the kinds of protein that, while in organisms, are capable of participating in a certain process of type B? }
+This query is meant to retrieve kinds of proteins capable of performing a specific biological process. 
+%The retrieval of classes that way enables the identification of proteins from the processes they bear and are performed naturally.
+%
+%  I DON'T UNDERSTAND THIS
+%
+
+To illustrate, we subtitute B by '\textit{Methylation}'.  
+
+\begin{table}[H]
+	\caption{Competency Question \#2}
+	\label{table:CQ2}
+	\begin{tabular}{ll}
+		\hline
+		CQ$\sharp$ &DL Query \\ 
+		$2$ & 
+		\vtop{\hbox{\strut \textit{Protein} and} 
+			\hbox{\strut \hspace{1cm}('\textbf{is bearer of}'  some (\textit{Function} and} 	
+			\hbox{\strut \hspace{2cm} ('\textbf{is realized by}' only \textit{B}) ) ) }}\\ 
+		\hline
+	\end{tabular} 
+\end{table}
+
+Using DL query and reasoning, we obtain the following results (Table \ref{table:ResultCQ2}):
+
+\begin{table}[H]
+	\caption{Result of Competency Question \#2}
+	\label{table:ResultCQ2}
+	\begin{tabular}[htpb]{l}
+		\hline
+		\vtop{\hbox{\strut '\textit{Betaine homocysteine S-methyltransferase 1 sensu \underline{Homo sapiens}}';}
+			\hbox{\strut '\textit{Cystathionine beta-synthase sensu \underline{Homo sapiens}}';}
+			\hbox{\strut '\textit{Cystathionine gamma lyase sensu \underline{Homo sapiens}}';}
+			\hbox{\strut '\textit{Methionine synthase sensu \underline{Homo sapiens}}';} 
+			\hbox{\strut '\textit{Methylenetetrahydrofolate reductase sensu \underline{Homo sapiens}}'.}} \\ 
+		\hline
+	\end{tabular} 
+\end{table}
+
+These are the proteins described for the \textit{Methylation} process in specific organisms.
+
+\paragraph{CQ3: Which are the kinds of biological processes in which a specific protein of type A participates that has the function of performing molecular activities of type B? }
+
+\begin{table}[H]
+	\caption{Competency Question \#3}
+	\label{table:CQ3}
+	\begin{tabular}{ll}
+		\hline
+		CQ$\sharp$ &DL Query \\ 
+		$3$ & 
+		\vtop{\hbox{\strut '\textit{biological\_process}' and} 
+			\hbox{\strut \hspace{1cm}('\textbf{has participant}'  some (\textit{A} and} 	
+			\hbox{\strut \hspace{2cm} ('\textbf{is bearer of}'  some (\textit{Function} and}
+			\hbox{\strut \hspace{3cm} ('\textbf{is realization of}'  some \textit{B}) ) ) ) ) }}\\ 
+		\hline
+	\end{tabular} 
+\end{table}
+
+This query is related to the identification of biological processes (e.g. reactions) that involve a specific protein, a protein that should be able to performing this reaction. The relevance of this query is related to the capability of retrieving specific biological processes by means of proteins from specific reactions. 
+We substitute A by \textit{Cystationine\_gama\_lyase} and B by  'carbon-sulfur lyase activity'. The result is in Table \ref{table:ResultCQ3}.
+
+\begin{table}[H]
+	\caption{Result of Competency Question \#3}
+	\label{table:ResultCQ3}
+	
+	\begin{tabular}[h]{l}
+		\hline
+		\vtop{\hbox{\strut'\textit{cellular nitrogen compound metabolic process in \underline{Homo sapiens} with}} \hbox{\strut \hspace{1cm} \textit{Cystathionine gamma lyase and Homocysteine}';}
+			\hbox{\strut '\textit{cysteine biosynthetic process in \underline{Homo sapiens} with Cystathionine gamma lyase and Homocysteine}';}
+			\hbox{\strut '\textit{cysteine metabolic process in \underline{Homo sapiens} with Cystathionine gamma lyase and Homocysteine}';}
+			\hbox{\strut and $14$ more classes.}} \\ 
+		\hline
+	\end{tabular} 
+\end{table}
+
+\paragraph{CQ4: Which are the kinds of biological processes that entail some risk of causing a specific dysfunctional state C (phenotype)?}
+
+\begin{table}[H]
+	\caption{Competency Question \#4}
+	\label{table:CQ4}
+	\begin{tabular}{ll}
+		\hline
+		CQ$\sharp$ &DL Query \\ 
+		$4$ &
+		\vtop{\hbox{\strut '\textit{biological\_process}' and} 
+			\hbox{\strut \hspace{1cm}('\textbf{realization of}' only (\textit{Risk} and} 	
+			\hbox{\strut \hspace{2cm} (\textbf{causes}  some \textit{C}) ) ) }}\\ 
+		\hline
+	\end{tabular} 
+\end{table}
+
+This query retrieves biological processes that entail the risk of developing a dysfunctional phenotype. This query is relevant in the sense whether it enables the identification of any abnormal situations regarding an specific process from an organism. 
+We replace C by 'Atherosclerosis' and obtain the results in Table \ref{table:ResultCQ4}.
+
+\begin{table}[H]
+	\caption{Result of Competency Question \#4}
+	\label{table:ResultCQ4}
+	\begin{tabular}[h]{l}
+		\hline
+		\vtop{\hbox{\strut '\textit{Dysfunctional homocysteine metabolic process in \underline{Rattus norvegicus} with}} \hbox{\strut \hspace{1cm} \textit{Methylenetetrahydrofolate reductase and Homocysteine}';}
+			\hbox{\strut '\textit{Dysfunctional methionine biosynthetic process in \underline{Rattus norvegicus} with}} \hbox{\strut \hspace{1cm} \textit{Methylenetetrahydrofolate reductase and Homocysteine}'; }
+			\hbox{\strut '\textit{Dysfunctional one carbon metabolic process in \underline{Rattus norvegicus} with}} \hbox{\strut \hspace{1cm} \textit{Methylenetetrahydrofolate reductase and Homocysteine}';}
+			\hbox{\strut and $12$ more classes.}} \\ 
+		\hline
+	\end{tabular} 
+\end{table}
+
+\paragraph{CQ5: Which kinds of organisms are capable of performing a specific biological process of type A? }
+
+\begin{table}[H]
+	\caption{Competency Question \#5}
+	\label{table:CQ5}
+	\begin{tabular}{ll}
+		\hline
+		CQ$\sharp$ &DL Query \\ 
+		$5$ & 
+		\vtop{\hbox{\strut \textit{Organism} and} 
+			\hbox{\strut \hspace{1cm}('\textbf{is bearer of}'  some (\textit{Disposition} and} 	
+			\hbox{\strut \hspace{2cm} ('\textbf{is realized by}' only \textit{A}) ) ) }}\\ 
+		\hline
+	\end{tabular} 
+\end{table}
+
+This query retrieves organisms that are capable of performing specific biological processes. 
+This query is relevant because not all biological processes for organisms are fully described. Even two different organisms that include same proteins under same conditions may not include similar processes.
+
+We used as example 'Cysteine biosynthetic process' to substitute the placeholder A. The results are given in Table \ref{table:ResultCQ5}.
+
+\begin{table}[H]
+	\caption{Result of Competency Question \#5}
+	\label{table:ResultCQ5}
+	
+	\begin{tabular}[h]{l}
+		\hline
+		'\textit{Homo sapiens}' and '\textit{Mus musculus}'\\ 
+		\hline
+	\end{tabular} 
+\end{table}
+
+These are the organisms that are able to perform 'Cysteine biosynthetic process'.
+
+\end{document}

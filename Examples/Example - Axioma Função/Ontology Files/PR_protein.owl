@@ -1,0 +1,523 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="file:///C:/ontology/STAR_2015_8_14_1442246956574_module.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="file:///C:/ontology/STAR_2015_8_14_1442246956574_module.owl">
+    <Prefix name="" IRI="file:///C:/ontology/STAR_2015_8_14_1442246956574_module.owl#"/>
+    <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Prefix name="metadata" IRI="http://data.bioontology.org/metadata/"/>
+    <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
+    <Declaration>
+        <Class abbreviatedIRI="obo:CHEBI_23367"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PR_000000001"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PR_000004742"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PR_000005081"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PR_000006004"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PR_000010747"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PR_000018263"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:PR_000023212"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="metadata:treeView"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasNarrowSynonym"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasSynonymType"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:notation"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PR_000000001"/>
+        <Class abbreviatedIRI="obo:PR_000018263"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PR_000004742"/>
+        <Class abbreviatedIRI="obo:PR_000000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PR_000005081"/>
+        <Class abbreviatedIRI="obo:PR_000000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PR_000006004"/>
+        <Class abbreviatedIRI="obo:PR_000000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PR_000010747"/>
+        <Class abbreviatedIRI="obo:PR_000000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PR_000018263"/>
+        <Class abbreviatedIRI="obo:CHEBI_23367"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:PR_000023212"/>
+        <Class abbreviatedIRI="obo:PR_000000001"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="metadata:treeView"/>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:BFO_0000030</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal datatypeIRI="&xsd;string">fake:2</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">CHEBI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">CHEBI:23367</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">molecular entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:notation"/>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">CHEBI:23367</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="metadata:treeView"/>
+        <AbbreviatedIRI>obo:PR_000000001</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:PR_000018263</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal datatypeIRI="&xsd;string">PRO:DAN</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal datatypeIRI="&xsd;string">PRO:WCB</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PR_000000001</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:PR_000000001</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:PR_000000001</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">PR:000000001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:PR_000000001</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">Proteins descended from a common ancestor can be classified into families and superfamilies composed of products of evolutionarily-related genes. The domain architecture of a protein is described by the order of its constituent domains. Proteins with the same domains in the same order are defined as homeomorphic [PRO:WCB].</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PR_000000001</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:notation"/>
+        <AbbreviatedIRI>obo:PR_000000001</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">PR:000000001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="metadata:treeView"/>
+        <AbbreviatedIRI>obo:PR_000004742</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:PR_000000001</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal datatypeIRI="&xsd;string">PRO:DNx</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PR_000004742</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">A protein that is a translation product of the human BHMT gene or a 1:1 ortholog thereof.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal datatypeIRI="&xsd;string">PRO:DNx</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasSynonymType"/>
+            <IRI>http://purl.obolibrary.org/obo/pr#PRO-short-label</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:PR_000004742</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">BHMT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:PR_000004742</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:PR_000004742</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">PR:000004742</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:PR_000004742</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">Category=gene.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PR_000004742</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">betaine--homocysteine S-methyltransferase 1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:notation"/>
+        <AbbreviatedIRI>obo:PR_000004742</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">PR:000004742</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="metadata:treeView"/>
+        <AbbreviatedIRI>obo:PR_000005081</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:PR_000000001</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal datatypeIRI="&xsd;string">PRO:DNx</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PR_000005081</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">A protein that is a translation product of the human CBS gene or a 1:1 ortholog thereof.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal datatypeIRI="&xsd;string">PRO:DNx</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasSynonymType"/>
+            <IRI>http://purl.obolibrary.org/obo/pr#PRO-short-label</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:PR_000005081</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">CBS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:PR_000005081</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">beta-thionase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:PR_000005081</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">serine sulfhydrase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:PR_000005081</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:PR_000005081</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">PR:000005081</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:PR_000005081</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">Category=gene.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PR_000005081</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">cystathionine beta-synthase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:notation"/>
+        <AbbreviatedIRI>obo:PR_000005081</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">PR:000005081</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="metadata:treeView"/>
+        <AbbreviatedIRI>obo:PR_000006004</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:PR_000000001</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal datatypeIRI="&xsd;string">PRO:DNx</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PR_000006004</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">A protein that is a translation product of the human CTH gene or a 1:1 ortholog thereof.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal datatypeIRI="&xsd;string">PRO:DNx</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasSynonymType"/>
+            <IRI>http://purl.obolibrary.org/obo/pr#PRO-short-label</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:PR_000006004</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">CTH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:PR_000006004</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">gamma-cystathionase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:PR_000006004</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:PR_000006004</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">PR:000006004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:PR_000006004</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">Category=gene.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PR_000006004</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">cystathionine gamma-lyase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:notation"/>
+        <AbbreviatedIRI>obo:PR_000006004</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">PR:000006004</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="metadata:treeView"/>
+        <AbbreviatedIRI>obo:PR_000010747</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:PR_000000001</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal datatypeIRI="&xsd;string">PRO:DNx</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PR_000010747</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">A protein that is a translation product of the human MTR gene or a 1:1 ortholog thereof.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:PR_000010747</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">5-methyltetrahydrofolate--homocysteine methyltransferase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:PR_000010747</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">MS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal datatypeIRI="&xsd;string">PRO:DNx</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasSynonymType"/>
+            <IRI>http://purl.obolibrary.org/obo/pr#PRO-short-label</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:PR_000010747</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">MTR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:PR_000010747</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">vitamin-B12 dependent methionine synthase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:PR_000010747</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:PR_000010747</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">PR:000010747</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:PR_000010747</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">Category=gene.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PR_000010747</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">methionine synthase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:notation"/>
+        <AbbreviatedIRI>obo:PR_000010747</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">PR:000010747</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="metadata:treeView"/>
+        <AbbreviatedIRI>obo:PR_000018263</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:CHEBI_23367</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal datatypeIRI="&xsd;string">PRO:DAN</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PR_000018263</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">A molecular entity that is a polymer of amino acids linked by peptide bonds.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasNarrowSynonym"/>
+        <AbbreviatedIRI>obo:PR_000018263</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">peptide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasNarrowSynonym"/>
+        <AbbreviatedIRI>obo:PR_000018263</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">polypeptide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:PR_000018263</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:PR_000018263</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">PR:000018263</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PR_000018263</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">amino acid chain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:notation"/>
+        <AbbreviatedIRI>obo:PR_000018263</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">PR:000018263</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="metadata:treeView"/>
+        <AbbreviatedIRI>obo:PR_000023212</AbbreviatedIRI>
+        <AbbreviatedIRI>obo:PR_000000001</AbbreviatedIRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal datatypeIRI="&xsd;string">PRO:DNx</Literal>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:PR_000023212</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">A protein that is a translation product of the Escherichia coli K-12 metF gene or a 1:1 ortholog thereof.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasDbXref"/>
+            <Literal datatypeIRI="&xsd;string">PRO:DNx</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="oboInOwl:hasSynonymType"/>
+            <IRI>http://purl.obolibrary.org/obo/pr#PRO-short-label</IRI>
+        </Annotation>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:PR_000023212</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">metF</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasOBONamespace"/>
+        <AbbreviatedIRI>obo:PR_000023212</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:id"/>
+        <AbbreviatedIRI>obo:PR_000023212</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">PR:000023212</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:PR_000023212</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">Category=gene.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:PR_000023212</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">5,10-methylenetetrahydrofolate reductase</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:notation"/>
+        <AbbreviatedIRI>obo:PR_000023212</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string">PR:000023212</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
