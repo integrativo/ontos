@@ -2,6 +2,7 @@
 This repository contains ontologies and data used for describing theoretical aspects of integrativO Project.
 
 ISMB 2016 supplimentary data can be found in ISMB2016 folder.
+FOIS´16 supplimentary data can be found in FOIS'16 folder.
 
 
 ## License
