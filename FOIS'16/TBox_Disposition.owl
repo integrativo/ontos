@@ -1,4 +1,14 @@
 <?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-51"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -13,109 +23,109 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#Dysfunctional"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Process"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Quality"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#CComp2"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isIncludedIn"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Mol3"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#isOutcomeOf"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Mol1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Phenotype"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#CellularComponent"/>
+        <Class IRI="#BProc"/>
     </Declaration>
     <Declaration>
         <Class IRI="#BProc1"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Disposition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Gene"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#BProc"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#MaterialObject"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Gen1"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#includes"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Org1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Phen2"/>
+        <Class IRI="#BProc2"/>
     </Declaration>
     <Declaration>
         <Class IRI="#BProc3"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SmallMolecule"/>
+        <Class IRI="#CComp1"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Phen3"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasParticipant"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Organism"/>
+        <Class IRI="#CComp2"/>
     </Declaration>
     <Declaration>
         <Class IRI="#CComp3"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CComp1"/>
+        <Class IRI="#CellularComponent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Risk"/>
+        <Class IRI="#Disposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dysfunctional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gen1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gene"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mol1"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Mol2"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Prot1"/>
+        <Class IRI="#Mol3"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isBearerOf"/>
+        <Class IRI="#Org1"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TranslationProcess"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasRealization"/>
+        <Class IRI="#Organism"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Phen1"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#BProc2"/>
+        <Class IRI="#Phen2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phen3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prot1"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Protein"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Risk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmallMolecule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TranslationProcess"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParticipant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRealization"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBearerOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIncludedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isParticipantIn"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#BProc"/>
@@ -286,7 +296,7 @@
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#isOutcomeOf"/>
+            <ObjectProperty IRI="#isParticipantIn"/>
             <ObjectIntersectionOf>
                 <Class IRI="#TranslationProcess"/>
                 <ObjectSomeValuesFrom>
@@ -399,9 +409,17 @@
         <Class IRI="#Process"/>
         <Class IRI="#Quality"/>
     </DisjointClasses>
-    <InverseObjectProperties>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isBearerOf"/>
         <ObjectProperty IRI="#includes"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasParticipant"/>
+        <ObjectProperty IRI="#isParticipantIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#isIncludedIn"/>
+        <ObjectProperty IRI="#includes"/>
     </InverseObjectProperties>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#includes"/>
@@ -413,5 +431,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
 
