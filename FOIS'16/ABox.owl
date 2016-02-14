@@ -1,0 +1,787 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#"
+     xml:base="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#hasOutcome -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#hasOutcome">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#hasParticipant"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#isOutcomeOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#hasPart">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#includes"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#isPartOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#hasParticipant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#hasParticipant">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#isParticipantIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#includes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#includes">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#isIncludedIn"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#isBearerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#isBearerOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#isIncludedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#isIncludedIn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#isOutcomeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#isOutcomeOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#isParticipantIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#isPartOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#isIncludedIn"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#isParticipantIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#isParticipantIn"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#BProc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#BProc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#BProc1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#BProc1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#BProc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#BProc2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#BProc2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#BProc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#BProc3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#BProc3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#BProc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#CComp1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#CComp1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#CellularComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#CComp2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#CComp2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#CellularComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#CComp3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#CComp3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#CellularComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#CellularComponent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#CellularComponent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#MaterialObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Dysfunctional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Dysfunctional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#MaterialObject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#MaterialObject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Mol1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Mol1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#SmallMolecule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Mol2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Mol2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#SmallMolecule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Mol3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Mol3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#SmallMolecule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Org1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Org1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Organism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Organism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Organism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#MaterialObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Phen1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Phen1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Phenotype"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Phen2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Phen2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Phenotype"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Phen3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Phen3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Phenotype"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Phenotype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Phenotype">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Prot1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Prot1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Protein"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Protein -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Protein">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#MaterialObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Quality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Quality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#SmallMolecule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#SmallMolecule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#MaterialObject"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#bp1001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#bp1001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#BProc1"/>
+        <hasParticipant rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1004"/>
+        <isIncludedIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1004"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#bp2001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#bp2001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#BProc2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#bp3001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#bp3001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#BProc3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#cc1001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#cc1001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#CComp1"/>
+        <isIncludedIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#cc2001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#cc2001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#CComp2"/>
+        <isIncludedIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1002"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#cc3001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#cc3001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#CComp3"/>
+        <isIncludedIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1003"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#d001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#d001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Dysfunctional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#d002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#d002">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Dysfunctional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#d003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#d003">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Dysfunctional"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#m1001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#m1001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Mol1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#m2001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#m2001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Mol2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#m3001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#m3001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Mol3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Org1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1002">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Org1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1003">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Org1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1004">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Org1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1005 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1005">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Org1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1006 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1006">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Org1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1007 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1007">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Org1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1008 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1008">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Org1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1009 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1009">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Org1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1010 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1010">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Org1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1011 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1011">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Org1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1012 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1012">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Org1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1013 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1013">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Org1"/>
+        <includes rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#pt1001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1014 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1014">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Org1"/>
+        <includes rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#pt2001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1015 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1015">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Org1"/>
+        <includes rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#pt3001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Prot1"/>
+        <isIncludedIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#cc1001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1002">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Prot1"/>
+        <isIncludedIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#cc2001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1003">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Prot1"/>
+        <isIncludedIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#cc3001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1004">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Prot1"/>
+        <isIncludedIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1004"/>
+        <isParticipantIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#bp1001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1005 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1005">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Prot1"/>
+        <isIncludedIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1005"/>
+        <isParticipantIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#bp2001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1006 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1006">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Prot1"/>
+        <isIncludedIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1006"/>
+        <isParticipantIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#bp3001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1007 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1007">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Prot1"/>
+        <isIncludedIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1007"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1008 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1008">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Prot1"/>
+        <isIncludedIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1008"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1009 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1009">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Prot1"/>
+        <isIncludedIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1009"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1010 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1010">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Prot1"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#isBearerOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Dysfunctional"/>
+            </owl:Restriction>
+        </rdf:type>
+        <isIncludedIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1010"/>
+        <isParticipantIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#ps001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1011 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1011">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Prot1"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#isBearerOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Dysfunctional"/>
+            </owl:Restriction>
+        </rdf:type>
+        <isIncludedIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1011"/>
+        <isParticipantIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#ps002"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1012 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1012">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Prot1"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#isBearerOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Dysfunctional"/>
+            </owl:Restriction>
+        </rdf:type>
+        <isIncludedIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1012"/>
+        <isParticipantIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#ps003"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1013 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1013">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Prot1"/>
+        <isBearerOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#d001"/>
+        <isIncludedIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1013"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1014 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1014">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Prot1"/>
+        <isBearerOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#d002"/>
+        <isIncludedIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1014"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1015 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#p1015">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Prot1"/>
+        <isBearerOf rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#d003"/>
+        <isIncludedIn rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#o1015"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#ps001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#ps001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Process"/>
+        <hasParticipant rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#m1001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#ps002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#ps002">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Process"/>
+        <hasParticipant rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#m2001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#ps003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#ps003">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Process"/>
+        <hasParticipant rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#m3001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#ps004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#ps004">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Process"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#ps005 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#ps005">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Process"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#ps006 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#ps006">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Process"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#pt1001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#pt1001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Phen1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#pt2001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#pt2001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Phen2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#pt3001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#pt3001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Phen3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#MaterialObject"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48#Quality"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+
