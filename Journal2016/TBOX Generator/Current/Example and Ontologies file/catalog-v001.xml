@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1456415633462" name="http://purl.org/biotop/btl2.owl" uri="btl2.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1456415633462" name="http://www.cin.ufpe.br/~integrativo" uri="example.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1456420051011" name="http://purl.org/biotop/btl2.owl" uri="btl2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1456420051011" name="http://www.cin.ufpe.br/~integrativo" uri="example.owl"/>
     </group>
 </catalog>
