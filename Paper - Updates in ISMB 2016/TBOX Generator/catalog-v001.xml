@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1452859884217" name="http://snomed.info/" uri="MODULE%20SNOMED/OWL/SIG_111_969.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1452859884217" name="duplicate:http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14" uri="integrativo_new.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1452859884217" name="duplicate:http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14" uri="integrativo_new_exp.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1452859884217" name="duplicate:http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14" uri="integrativo_new_exp2.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1452859884217" name="shadowed:http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14" uri="tmp/integrativo_exp_25520_201601122100_x10.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1452859884217" name="shadowed:http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14" uri="tmp/integrativo_exp_256502_201601122245_x100.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1452859884217" name="shadowed:http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14" uri="tmp/integrativo_exp_2607_201601122049_x1.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1452859884217" name="shadowed:http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14" uri="tmp/integrativo_exp_7506_201601122052_x3.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1452859884217" name="shadowed:http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14" uri="tmp/integrativo_exp_76988_201601122124_x30.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1456414737071" name="http://snomed.info/" uri="MODULE%20SNOMED/OWL/SIG_111_969.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1456414737071" name="duplicate:http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14" uri="integrativo_new.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1456414737071" name="duplicate:http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14" uri="integrativo_new_exp.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1456414737071" name="duplicate:http://www.semanticweb.org/schulz/ontologies/2015/7/untitled-ontology-14" uri="integrativo_new_exp2.owl"/>
     </group>
 </catalog>

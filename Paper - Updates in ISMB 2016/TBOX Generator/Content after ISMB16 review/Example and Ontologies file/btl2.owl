@@ -1,0 +1,3085 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://purl.org/biotop/btl2.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://purl.org/biotop/btl2.owl">
+    <Prefix name="" IRI="http://purl.org/biotop/btl2.owl#"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="btl2" IRI="http://purl.org/biotop/btl2.owl#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:format"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">application/rdf+xml</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Daniel Schober</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:identifier"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://purl.org/biotop/btl2.owl</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Udo Hahn</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">September 9, 2015</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:publisher"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Institute for Medical Informatics, Statistics and Documentation, Medical University of Graz, Austria</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gustavo Uribe</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Filipe Santana da Silva</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Elena Beisswanger</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Martin Boeker</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:language"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">en</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BioTopLite2</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://purl.org/biotop</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#PhysicalVolume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#universe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isGranularPartOf"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:contributor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StructuredBiologicalEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeInterval"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CollectiveMaterialEntity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBoundaryOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPrecededBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImmaterialThreeDimensionalPhysicalEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InformationObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NoncanonicalValueRegion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Process"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasComponentPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Situation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CanonicalValueRegion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Particular"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isParticipantIn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CellularComponent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CanonicityValueRegion"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:altLabel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaxonQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disposition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PointInTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organism"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCondition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPartOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Function"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImmaterialObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TaxonValueRegion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ValueRegion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InstantaneousProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalMass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZeroDimensionalPhysicalEntity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#represents"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcessQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalLength"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlanExecution"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIncludedIn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonoMolecularEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OneDimensionalPhysicalEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ObjectQuality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompoundOfCollectiveMaterialEntities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CollectiveProcess"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:language"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRepresentedBy"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:example"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhysicalForce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PolyMolecularCompositeEntity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#projectsOnto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubAtomicParticle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRealizationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParticipant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PluralityOfOrganisms"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:identifier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isProjectionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGranularPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemporalRegion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAgentIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#precedes"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#inheresIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isConditionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isCausedBy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wave"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBearerOf"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:publisher"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#atSomeTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLifeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPatient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canonicity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Life"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOutcome"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includes"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:source"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRealization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compound"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:format"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Role"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBoundary"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#causes"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPatientIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isReferredToAtTime"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isComponentPartOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AmountOfPureSubstance"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="skos:prefLabel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLife"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isOutcomeOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganismPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TwoDimensionalPhysicalEntity"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Action"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Process"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasAgent"/>
+                <Class abbreviatedIRI="owl:Thing"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#CompoundOfCollectiveMaterialEntities"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Compound"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasComponentPart"/>
+                <Class IRI="#CollectiveMaterialEntity"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Condition"/>
+        <ObjectUnionOf>
+            <Class IRI="#Disposition"/>
+            <Class IRI="#Function"/>
+            <Class IRI="#MaterialObject"/>
+            <Class IRI="#Process"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#InstantaneousProcess"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Process"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#projectsOnto"/>
+                <Class IRI="#PointInTime"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <ObjectUnionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasRealization"/>
+                <Class IRI="#Process"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isAgentIn"/>
+                <Class IRI="#Process"/>
+            </ObjectSomeValuesFrom>
+        </ObjectUnionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#causes"/>
+            <Class IRI="#Process"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#AmountOfPureSubstance"/>
+        <Class IRI="#CollectiveMaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AmountOfPureSubstance"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGranularPart"/>
+            <ObjectUnionOf>
+                <Class IRI="#Atom"/>
+                <Class IRI="#MonoMolecularEntity"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atom"/>
+        <Class IRI="#Compound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CanonicalValueRegion"/>
+        <Class IRI="#CanonicityValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canonicity"/>
+        <Class IRI="#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canonicity"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncludedIn"/>
+            <ObjectUnionOf>
+                <Class IRI="#Function"/>
+                <Class IRI="#ImmaterialObject"/>
+                <Class IRI="#MaterialObject"/>
+                <Class IRI="#Process"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canonicity"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#projectsOnto"/>
+            <Class IRI="#CanonicityValueRegion"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CanonicityValueRegion"/>
+        <Class IRI="#ValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CanonicityValueRegion"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isProjectionOf"/>
+            <Class IRI="#Canonicity"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cell"/>
+        <Class IRI="#StructuredBiologicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CellularComponent"/>
+        <Class IRI="#StructuredBiologicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CellularComponent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#atSomeTime"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isPartOf"/>
+                <Class IRI="#Cell"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CollectiveMaterialEntity"/>
+        <Class IRI="#MaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CollectiveMaterialEntity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGranularPart"/>
+            <Class IRI="#MaterialObject"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CollectiveProcess"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CollectiveProcess"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasGranularPart"/>
+                <Class IRI="#Process"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasGranularPart"/>
+                <Class IRI="#Process"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compound"/>
+        <Class IRI="#MaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compound"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#SubAtomicParticle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompoundOfCollectiveMaterialEntities"/>
+        <Class IRI="#Compound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condition"/>
+        <Class IRI="#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condition"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isConditionOf"/>
+            <Class IRI="#Situation"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disposition"/>
+        <Class IRI="#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disposition"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#atSomeTime"/>
+            <Class IRI="#Disposition"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disposition"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Disposition"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disposition"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasRealization"/>
+            <Class IRI="#Process"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disposition"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#inheresIn"/>
+            <ObjectUnionOf>
+                <Class IRI="#ImmaterialObject"/>
+                <Class IRI="#InformationObject"/>
+                <Class IRI="#MaterialObject"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disposition"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Disposition"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function"/>
+        <Class IRI="#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#atSomeTime"/>
+            <Class IRI="#Function"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Function"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasRealization"/>
+            <Class IRI="#Process"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#inheresIn"/>
+            <ObjectUnionOf>
+                <Class IRI="#ImmaterialObject"/>
+                <Class IRI="#InformationObject"/>
+                <Class IRI="#MaterialObject"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Function"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Function"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmaterialObject"/>
+        <Class IRI="#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmaterialObject"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isBearerOf"/>
+                <Class IRI="#PhysicalMass"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmaterialObject"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLife"/>
+            <Class IRI="#Life"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmaterialObject"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBearerOf"/>
+            <Class IRI="#PhysicalVolume"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmaterialObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#atSomeTime"/>
+            <Class IRI="#ImmaterialObject"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmaterialObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasBoundary"/>
+            <ObjectUnionOf>
+                <Class IRI="#OneDimensionalPhysicalEntity"/>
+                <Class IRI="#TwoDimensionalPhysicalEntity"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmaterialObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasLife"/>
+            <Class IRI="#Life"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmaterialObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#ImmaterialObject"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmaterialObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isBearerOf"/>
+            <ObjectUnionOf>
+                <Class IRI="#Disposition"/>
+                <Class IRI="#Function"/>
+                <Class IRI="#ObjectQuality"/>
+                <Class IRI="#Role"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmaterialObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <ObjectUnionOf>
+                <Class IRI="#ImmaterialObject"/>
+                <Class IRI="#MaterialObject"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmaterialObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isParticipantIn"/>
+            <Class IRI="#Process"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmaterialThreeDimensionalPhysicalEntity"/>
+        <Class IRI="#ImmaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmaterialThreeDimensionalPhysicalEntity"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasBoundary"/>
+            <ObjectUnionOf>
+                <Class IRI="#OneDimensionalPhysicalEntity"/>
+                <Class IRI="#TwoDimensionalPhysicalEntity"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmaterialThreeDimensionalPhysicalEntity"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isProjectionOf"/>
+            <ObjectUnionOf>
+                <Class IRI="#ImmaterialThreeDimensionalPhysicalEntity"/>
+                <Class IRI="#MaterialObject"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImmaterialThreeDimensionalPhysicalEntity"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#projectsOnto"/>
+            <Class IRI="#ImmaterialThreeDimensionalPhysicalEntity"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationObject"/>
+        <Class IRI="#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationObject"/>
+        <ObjectUnionOf>
+            <Class IRI="#Disposition"/>
+            <Class IRI="#Function"/>
+            <Class IRI="#InformationObject"/>
+            <Class IRI="#ObjectQuality"/>
+            <Class IRI="#Role"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationObject"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isBearerOf"/>
+                <Class IRI="#PhysicalMass"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationObject"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isBearerOf"/>
+                <Class IRI="#PhysicalVolume"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationObject"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLife"/>
+            <Class IRI="#Life"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationObject"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#inheresIn"/>
+            <Class IRI="#MaterialObject"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#atSomeTime"/>
+            <Class IRI="#InformationObject"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasLife"/>
+            <Class IRI="#Life"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#InformationObject"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasRealization"/>
+            <Class IRI="#Process"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncludedIn"/>
+            <ObjectUnionOf>
+                <Class IRI="#InformationObject"/>
+                <Class IRI="#MaterialObject"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#InformationObject"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InformationObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isParticipantIn"/>
+            <Class IRI="#Process"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Life"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Life"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isLifeOf"/>
+            <Class IRI="#Particular"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Life"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isLifeOf"/>
+            <ObjectUnionOf>
+                <Class IRI="#ImmaterialObject"/>
+                <Class IRI="#InformationObject"/>
+                <Class IRI="#MaterialObject"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialObject"/>
+        <Class IRI="#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialObject"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLife"/>
+            <Class IRI="#Life"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialObject"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#MaterialObject"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialObject"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#SubAtomicParticle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialObject"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBearerOf"/>
+            <Class IRI="#PhysicalMass"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialObject"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBearerOf"/>
+            <Class IRI="#PhysicalVolume"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialObject"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#projectsOnto"/>
+            <Class IRI="#ImmaterialThreeDimensionalPhysicalEntity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#atSomeTime"/>
+            <Class IRI="#MaterialObject"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasBoundary"/>
+            <Class IRI="#TwoDimensionalPhysicalEntity"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGranularPart"/>
+            <Class IRI="#MaterialObject"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasLife"/>
+            <Class IRI="#Life"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <ObjectUnionOf>
+                <Class IRI="#ImmaterialObject"/>
+                <Class IRI="#MaterialObject"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isBearerOf"/>
+            <ObjectUnionOf>
+                <Class IRI="#Disposition"/>
+                <Class IRI="#Function"/>
+                <Class IRI="#InformationObject"/>
+                <Class IRI="#ObjectQuality"/>
+                <Class IRI="#Role"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isParticipantIn"/>
+            <Class IRI="#Process"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialObject"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#projectsOnto"/>
+            <Class IRI="#ImmaterialThreeDimensionalPhysicalEntity"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonoMolecularEntity"/>
+        <Class IRI="#Compound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonoMolecularEntity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Atom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NoncanonicalValueRegion"/>
+        <Class IRI="#CanonicityValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObjectQuality"/>
+        <Class IRI="#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObjectQuality"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Quality"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#inheresIn"/>
+                <ObjectUnionOf>
+                    <Class IRI="#ImmaterialObject"/>
+                    <Class IRI="#MaterialObject"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObjectQuality"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#atSomeTime"/>
+            <Class IRI="#ObjectQuality"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ObjectQuality"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#inheresIn"/>
+            <ObjectUnionOf>
+                <Class IRI="#Function"/>
+                <Class IRI="#ImmaterialObject"/>
+                <Class IRI="#InformationObject"/>
+                <Class IRI="#MaterialObject"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OneDimensionalPhysicalEntity"/>
+        <Class IRI="#ImmaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organism"/>
+        <Class IRI="#StructuredBiologicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganismPart"/>
+        <Class IRI="#StructuredBiologicalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Particular"/>
+        <ObjectUnionOf>
+            <Class IRI="#Disposition"/>
+            <Class IRI="#Function"/>
+            <Class IRI="#ImmaterialObject"/>
+            <Class IRI="#InformationObject"/>
+            <Class IRI="#MaterialObject"/>
+            <Class IRI="#Process"/>
+            <Class IRI="#Quality"/>
+            <Class IRI="#Role"/>
+            <Class IRI="#TemporalRegion"/>
+            <Class IRI="#ValueRegion"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Particular"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isIncludedIn"/>
+            <Class IRI="#universe"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Particular"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isReferredToAtTime"/>
+            <Class IRI="#TemporalRegion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Particular"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isReferredToAtTime"/>
+            <Class IRI="#TemporalRegion"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalForce"/>
+        <Class IRI="#ProcessQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalLength"/>
+        <Class IRI="#ObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalMass"/>
+        <Class IRI="#ObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalMass"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#inheresIn"/>
+            <Class IRI="#MaterialObject"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhysicalVolume"/>
+        <Class IRI="#ObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plan"/>
+        <Class IRI="#InformationObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plan"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#represents"/>
+            <Class IRI="#Process"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlanExecution"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Action"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isRealizationOf"/>
+                <Class IRI="#Plan"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PluralityOfOrganisms"/>
+        <Class IRI="#CollectiveMaterialEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PluralityOfOrganisms"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBearerOf"/>
+            <Class IRI="#TaxonQuality"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PluralityOfOrganisms"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGranularPart"/>
+            <Class IRI="#Organism"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PointInTime"/>
+        <Class IRI="#TemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PolyMolecularCompositeEntity"/>
+        <Class IRI="#Compound"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <Class IRI="#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#projectsOnto"/>
+            <Class IRI="#TemporalRegion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasBoundary"/>
+            <Class IRI="#PointInTime"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Process"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasParticipant"/>
+            <ObjectUnionOf>
+                <Class IRI="#ImmaterialObject"/>
+                <Class IRI="#InformationObject"/>
+                <Class IRI="#MaterialObject"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#includes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Process"/>
+                <Class IRI="#ProcessQuality"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isBearerOf"/>
+            <Class IRI="#ProcessQuality"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isCausedBy"/>
+            <ObjectUnionOf>
+                <Class IRI="#Disposition"/>
+                <Class IRI="#ImmaterialObject"/>
+                <Class IRI="#InformationObject"/>
+                <Class IRI="#MaterialObject"/>
+                <Class IRI="#Process"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Process"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPrecededBy"/>
+            <ObjectUnionOf>
+                <Class IRI="#Process"/>
+                <Class IRI="#TemporalRegion"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isRealizationOf"/>
+            <ObjectUnionOf>
+                <Class IRI="#Disposition"/>
+                <Class IRI="#Function"/>
+                <Class IRI="#InformationObject"/>
+                <Class IRI="#Role"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#precedes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Process"/>
+                <Class IRI="#TemporalRegion"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Process"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#projectsOnto"/>
+            <Class IRI="#TemporalRegion"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessQuality"/>
+        <Class IRI="#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessQuality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#inheresIn"/>
+            <Class IRI="#Process"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcessQuality"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#inheresIn"/>
+            <Class IRI="#Process"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quality"/>
+        <Class IRI="#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#inheresIn"/>
+            <ObjectUnionOf>
+                <Class IRI="#ImmaterialObject"/>
+                <Class IRI="#MaterialObject"/>
+                <Class IRI="#Process"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quality"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#projectsOnto"/>
+            <Class IRI="#ValueRegion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quality"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Quality"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quality"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#inheresIn"/>
+            <ObjectUnionOf>
+                <Class IRI="#ImmaterialObject"/>
+                <Class IRI="#InformationObject"/>
+                <Class IRI="#MaterialObject"/>
+                <Class IRI="#Process"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quality"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isIncludedIn"/>
+            <ObjectUnionOf>
+                <Class IRI="#ImmaterialObject"/>
+                <Class IRI="#MaterialObject"/>
+                <Class IRI="#Process"/>
+                <Class IRI="#Quality"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quality"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Quality"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quality"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#projectsOnto"/>
+            <Class IRI="#ValueRegion"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Role"/>
+        <Class IRI="#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Role"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#atSomeTime"/>
+            <Class IRI="#Role"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Role"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#Role"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Role"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasRealization"/>
+            <Class IRI="#Process"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Role"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#inheresIn"/>
+            <ObjectUnionOf>
+                <Class IRI="#ImmaterialObject"/>
+                <Class IRI="#InformationObject"/>
+                <Class IRI="#MaterialObject"/>
+                <Class IRI="#Process"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Role"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Role"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Situation"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Situation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCondition"/>
+            <Class IRI="#Condition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Situation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#Life"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Situation"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasCondition"/>
+            <Class IRI="#Condition"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StructuredBiologicalEntity"/>
+        <Class IRI="#PolyMolecularCompositeEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StructuredBiologicalEntity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#atSomeTime"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isPartOf"/>
+                <Class IRI="#Organism"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StructuredBiologicalEntity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBearerOf"/>
+            <Class IRI="#TaxonQuality"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubAtomicParticle"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#MaterialObject"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="#hasPart"/>
+                <Class IRI="#SubAtomicParticle"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaxonQuality"/>
+        <Class IRI="#ObjectQuality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaxonQuality"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#projectsOnto"/>
+            <Class IRI="#TaxonValueRegion"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaxonValueRegion"/>
+        <Class IRI="#ValueRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TaxonValueRegion"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isProjectionOf"/>
+            <Class IRI="#TaxonQuality"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemporalRegion"/>
+        <Class IRI="#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemporalRegion"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasBoundary"/>
+            <Class IRI="#PointInTime"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemporalRegion"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasPart"/>
+            <Class IRI="#TemporalRegion"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemporalRegion"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPartOf"/>
+            <Class IRI="#TemporalRegion"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemporalRegion"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isPrecededBy"/>
+            <ObjectUnionOf>
+                <Class IRI="#Process"/>
+                <Class IRI="#TemporalRegion"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemporalRegion"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isProjectionOf"/>
+            <ObjectUnionOf>
+                <Class IRI="#Process"/>
+                <Class IRI="#TemporalRegion"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemporalRegion"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#precedes"/>
+            <ObjectUnionOf>
+                <Class IRI="#Process"/>
+                <Class IRI="#TemporalRegion"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeInterval"/>
+        <Class IRI="#TemporalRegion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TwoDimensionalPhysicalEntity"/>
+        <Class IRI="#ImmaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TwoDimensionalPhysicalEntity"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasBoundary"/>
+            <Class IRI="#OneDimensionalPhysicalEntity"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ValueRegion"/>
+        <Class IRI="#Particular"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ValueRegion"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#includes"/>
+            <Class IRI="#Quality"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ValueRegion"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#isProjectionOf"/>
+            <Class IRI="#Quality"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wave"/>
+        <Class IRI="#MaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZeroDimensionalPhysicalEntity"/>
+        <Class IRI="#ImmaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#universe"/>
+        <Class IRI="#MaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#PolyMolecularCompositeEntity"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isPartOf"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Atom"/>
+                    <Class IRI="#MonoMolecularEntity"/>
+                    <Class IRI="#SubAtomicParticle"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParticipant"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasRealization"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectSomeValuesFrom>
+        <ObjectUnionOf>
+            <Class IRI="#Disposition"/>
+            <Class IRI="#Function"/>
+            <Class IRI="#Plan"/>
+            <Class IRI="#Role"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#inheresIn"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectSomeValuesFrom>
+        <ObjectUnionOf>
+            <Class IRI="#Disposition"/>
+            <Class IRI="#Function"/>
+            <Class IRI="#InformationObject"/>
+            <Class IRI="#Quality"/>
+            <Class IRI="#Role"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isBearerOf"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectSomeValuesFrom>
+        <ObjectUnionOf>
+            <Class IRI="#ImmaterialObject"/>
+            <Class IRI="#InformationObject"/>
+            <Class IRI="#MaterialObject"/>
+            <Class IRI="#Process"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isParticipantIn"/>
+            <Class IRI="#Process"/>
+        </ObjectSomeValuesFrom>
+        <ObjectUnionOf>
+            <Class IRI="#ImmaterialObject"/>
+            <Class IRI="#InformationObject"/>
+            <Class IRI="#MaterialObject"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isPrecededBy"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectSomeValuesFrom>
+        <ObjectUnionOf>
+            <Class IRI="#Process"/>
+            <Class IRI="#ProcessQuality"/>
+            <Class IRI="#TemporalRegion"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isProjectionOf"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectSomeValuesFrom>
+        <ObjectUnionOf>
+            <Class IRI="#ImmaterialObject"/>
+            <Class IRI="#TemporalRegion"/>
+            <Class IRI="#ValueRegion"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isRealizationOf"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#precedes"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectSomeValuesFrom>
+        <ObjectUnionOf>
+            <Class IRI="#Process"/>
+            <Class IRI="#ProcessQuality"/>
+            <Class IRI="#TemporalRegion"/>
+        </ObjectUnionOf>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AmountOfPureSubstance"/>
+        <Class IRI="#PluralityOfOrganisms"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Atom"/>
+        <Class IRI="#InformationObject"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Atom"/>
+        <Class IRI="#MonoMolecularEntity"/>
+        <Class IRI="#PolyMolecularCompositeEntity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CanonicalValueRegion"/>
+        <Class IRI="#NoncanonicalValueRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Canonicity"/>
+        <Class IRI="#PhysicalForce"/>
+        <Class IRI="#PhysicalLength"/>
+        <Class IRI="#PhysicalMass"/>
+        <Class IRI="#PhysicalVolume"/>
+        <Class IRI="#TaxonQuality"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CanonicityValueRegion"/>
+        <Class IRI="#TaxonValueRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cell"/>
+        <Class IRI="#CellularComponent"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cell"/>
+        <Class IRI="#OrganismPart"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CellularComponent"/>
+        <Class IRI="#OrganismPart"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CollectiveMaterialEntity"/>
+        <Class IRI="#Compound"/>
+        <Class IRI="#SubAtomicParticle"/>
+        <Class IRI="#Wave"/>
+        <Class IRI="#universe"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Compound"/>
+        <Class IRI="#SubAtomicParticle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CompoundOfCollectiveMaterialEntities"/>
+        <Class IRI="#PluralityOfOrganisms"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Disposition"/>
+        <Class IRI="#ImmaterialObject"/>
+        <Class IRI="#InformationObject"/>
+        <Class IRI="#MaterialObject"/>
+        <Class IRI="#Process"/>
+        <Class IRI="#Quality"/>
+        <Class IRI="#Role"/>
+        <Class IRI="#TemporalRegion"/>
+        <Class IRI="#ValueRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Function"/>
+        <Class IRI="#ImmaterialObject"/>
+        <Class IRI="#InformationObject"/>
+        <Class IRI="#MaterialObject"/>
+        <Class IRI="#Process"/>
+        <Class IRI="#Quality"/>
+        <Class IRI="#Role"/>
+        <Class IRI="#TemporalRegion"/>
+        <Class IRI="#ValueRegion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ImmaterialThreeDimensionalPhysicalEntity"/>
+        <Class IRI="#OneDimensionalPhysicalEntity"/>
+        <Class IRI="#TwoDimensionalPhysicalEntity"/>
+        <Class IRI="#Wave"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ObjectQuality"/>
+        <Class IRI="#ProcessQuality"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PointInTime"/>
+        <Class IRI="#TimeInterval"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAgent"/>
+        <ObjectProperty IRI="#hasParticipant"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAgent"/>
+        <ObjectProperty IRI="#isCausedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBoundary"/>
+        <ObjectProperty IRI="#hasPart"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasComponentPart"/>
+        <ObjectProperty IRI="#hasPart"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCondition"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasGranularPart"/>
+        <ObjectProperty IRI="#hasPart"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLife"/>
+        <ObjectProperty IRI="#isParticipantIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasOutcome"/>
+        <ObjectProperty IRI="#hasParticipant"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPart"/>
+        <ObjectProperty IRI="#includes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPatient"/>
+        <ObjectProperty IRI="#hasParticipant"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRealization"/>
+        <ObjectProperty IRI="#causes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#inheresIn"/>
+        <ObjectProperty IRI="#isIncludedIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAgentIn"/>
+        <ObjectProperty IRI="#causes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAgentIn"/>
+        <ObjectProperty IRI="#isParticipantIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isBearerOf"/>
+        <ObjectProperty IRI="#includes"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isBoundaryOf"/>
+        <ObjectProperty IRI="#isPartOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isComponentPartOf"/>
+        <ObjectProperty IRI="#isPartOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isGranularPartOf"/>
+        <ObjectProperty IRI="#isPartOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isLifeOf"/>
+        <ObjectProperty IRI="#hasParticipant"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isOutcomeOf"/>
+        <ObjectProperty IRI="#isParticipantIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectProperty IRI="#isIncludedIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPatientIn"/>
+        <ObjectProperty IRI="#isParticipantIn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isProjectionOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isRealizationOf"/>
+        <ObjectProperty IRI="#isCausedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#projectsOnto"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#causes"/>
+        <ObjectProperty IRI="#isCausedBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAgent"/>
+        <ObjectProperty IRI="#isAgentIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasBoundary"/>
+        <ObjectProperty IRI="#isBoundaryOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasComponentPart"/>
+        <ObjectProperty IRI="#isComponentPartOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasCondition"/>
+        <ObjectProperty IRI="#isConditionOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasGranularPart"/>
+        <ObjectProperty IRI="#isGranularPartOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasOutcome"/>
+        <ObjectProperty IRI="#isOutcomeOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPart"/>
+        <ObjectProperty IRI="#isPartOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasParticipant"/>
+        <ObjectProperty IRI="#isParticipantIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPatient"/>
+        <ObjectProperty IRI="#isPatientIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasRealization"/>
+        <ObjectProperty IRI="#isRealizationOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#includes"/>
+        <ObjectProperty IRI="#isIncludedIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#inheresIn"/>
+        <ObjectProperty IRI="#isBearerOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isPrecededBy"/>
+        <ObjectProperty IRI="#precedes"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isProjectionOf"/>
+        <ObjectProperty IRI="#projectsOnto"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isRepresentedBy"/>
+        <ObjectProperty IRI="#represents"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasPart"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#includes"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isIncludedIn"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isPartOf"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isPrecededBy"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#precedes"/>
+    </TransitiveObjectProperty>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#hasCondition"/>
+            <ObjectProperty IRI="#isRealizationOf"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#hasCondition"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#isRealizationOf"/>
+            <ObjectProperty IRI="#inheresIn"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#isCausedBy"/>
+    </SubObjectPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Action</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">action</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#Action</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An action is a processual entity that that is promoted by an agent, having a clear role distinction between agent and patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AmountOfPureSubstance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">amount of pure substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#AmountOfPureSubstance</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">collection with molecules or atoms as granular parts of the same sort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Atom</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">atom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#Atom</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Basic building block of molecules. Particle of discrete types. Biologically important atoms are C, N, H, O, P, S, Na, Ca, K, Mg, Cl, J, Fe, Co, Zn ,... Atoms may be electrically neutral or ionic.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CanonicalValueRegion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">abstract region in which the value &quot;canonical&quot; of canonicity is located</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CanonicalValueRegion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">canonical value region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Canonicity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">canonicity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#Canonicity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The condition of an entity in terms of being well or ill-formed or behaving</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CanonicityValueRegion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">canonicity value region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#CanonicityValueRegion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">abstract region in which values of canonicity are located</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cell</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#Cell</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Constituting unit of an organism. The boundary between cell, syncytium and subcellular fragments such as platelets is problematic. Hence no full definition possible.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CellularComponent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">cellular component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#CellularComponent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Components which only can be formed inside living cells but which may survive their host cell.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CollectiveMaterialEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CollectiveMaterialEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">collective material entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#CollectiveMaterialEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mereological sum of multiple grains of the same sort without clear identity and unity criteria.
+Whether or not the grains are considered of the same sort depends on the view. Therefore this class does not really make a clear categorial distinction, because all matter can be described as a collection of atoms.
+As a consequence, these classes are not fully defined. 
+ </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CollectiveProcess</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">collective process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#CollectiveProcess</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The sum of processes of the same sort. E.g. a sequence of heartbeats</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Compound</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">compound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#Compound</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A compound is a material entity that consists of well-defined component parts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CompoundOfCollectiveMaterialEntities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">compound of collective material entities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#CompoundOfCollectiveMaterialEntities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Composition of different kinds of collections without clear unity and identity criteria.
+Old name: compound of collections.
+Practically all naturally occurring substances are of this sort. The different compounds are also called fractions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Condition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">condition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#Condition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Union of material entity, process, function, disposition. The rationale of this class is to represent the ambiguous nature of what is commonly referred to by disease, disorder, health-related condition (not necessarily pathologic).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Disposition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#Disposition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A disposition is a realizable entity. 
+Its manifestation is a process its bearer is involved in virtue of the bearer&apos;s physical make-up.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#Function</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A classical definition of function according to Wright is that the function F of X is Z means that X is there because it Zs, and Z is a consequence of X being there. 
+
+For artefacts, functions are distinguished from dispositions by the purpose they have been built. For example, a hammer has the function to drive in nails, but not to be used as a weapon. However, it has the disposition to be used as a weapon under certain circumstances.
+
+For biological objects, which developed by evolution, the definition of function is still subject to controversy (e.g. Barry Smith&apos;s view of function as pertaining to a canonical life plan, cf. 
+http://www.slideserve.com/presentation/103450/The-Canonical-Life). 
+
+In BFO &quot;Disposition&quot; and &quot;Function&quot; are siblings, in BioTop Function is more specific.
+ 
+However, function and disposition are not disjoint, so that functions can be dispositions in certain cases.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ImmaterialObject</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">immaterial object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:priorVersion"/>
+        <IRI>#ImmaterialObject</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">immaterial physical entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#ImmaterialObject</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Physical spaces that have a threedimensional spatial dimension but no mass.
+Old name: immaterial anatomical entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ImmaterialThreeDimensionalPhysicalEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">immaterial three dimensional physical entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#ImmaterialThreeDimensionalPhysicalEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">three-dimensional space</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#InformationObject</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">information object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#InformationObject</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Piece of information (not necessarily human) , as it exists independently of any potential material carrier.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#InstantaneousProcess</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">instantaneous process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#InstantaneousProcess</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">What happens at one point in time, typically a process boundary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Life</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">life</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#Life</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The whole process which is characterized by the existence of a physical or information entity. E.g. the life process of an organism perdures as long as this entity exists. 
+ </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MaterialObject</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#MaterialObject</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A material object that has exactly one mass and one volume at a time.  Material objects may have Immaterial nonphysical entities as parts (e.g. Heart and Heart Ventricle). </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#MonoMolecularEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mono molecular entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#MonoMolecularEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A mono-molecular entity is a self connected compound of two atoms or more which exhibit at least one covalent bound. Molecular entities can be isolated molecules or parts of molecules (groups, residue). They may be electrically neutral or not.
+
+In biological systems molecular entities generally occur in very high quantities. In text, references to chemicals are often ambiguous. When we state &quot;water has a molecular weight of 18&quot; we refer to single water molecules. However, saying that &quot;water has a density of 1kg/dm³&quot; under certain conditions then we make a statement about pluralities of water molecules each of which has water molecules as &quot;grains&quot;
+Old name: molecular entity
+
+The upper bound of monomolecular entities is shallow. Strictly even a diamond crystal would be a monomolecular entity. One argument against this idea is that a diamond crystal is still a diamond crystal if you take away some portions. 
+This is not the case with a classical molecule. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NoncanonicalValueRegion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">abstract region in which the value &quot;noncanonical&quot; of canonicity is located</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NoncanonicalValueRegion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">noncanonical value region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ObjectQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">object quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#ObjectQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">quality that inheres in an object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OneDimensionalPhysicalEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">one dimensional physical entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#OneDimensionalPhysicalEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">line or curve</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Organism</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">organism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Organism</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">FMAID:256135 Body</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#Organism</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Entire autonomous biological structure.  </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganismPart</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">organism part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#OrganismPart</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A well defined and circumscribed subdivision of an organism, not any arbitrary part. Macroscopic organism parts may be delimited mainly by natural boundaries but always exhibit at least small regions of fiat boundaries. An organism part may derive from an organism, i.e. it may continue to exist even when the organism does not exist any longer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Particular</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">particular at some time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#Particular</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">From an universalist point of view most BioTop classes can be considered the extension of universals. 
+
+However, BioTop does not claim that all of its classes are the extension of universals and is agnostic with regard to the existence of universals and the delineation between universals and non-universals.
+
+All particulars are in a temporal context.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PhysicalForce</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">physical force</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#PhysicalForce</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">force as defined by physics (mass + acceleration)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PhysicalLength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">physical length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#PhysicalLength</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">physical length (e.g. in meters)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PhysicalMass</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">physical mass</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#PhysicalMass</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mass (gravity independent) - not weight. Measured in g, kg, ...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PhysicalVolume</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">physical volume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#PhysicalVolume</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Volume of three-dimensional objects - third potency of length</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Plan</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">plan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#Plan</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A plan is a series of steps to be carried out in order to achieve a goal. Plans can only be realized by processes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PlanExecution</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">plan execution</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PluralityOfOrganisms</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">plurality of organisms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#PluralityOfOrganisms</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Collection of two or more organisms of the same sort.  </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PointInTime</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">point in time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#PointInTime</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">typically the boundary of a time interval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PolyMolecularCompositeEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">poly molecular composite entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#PolyMolecularCompositeEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">An object which contains several molecules, has direct parts (components) of different types and which changes its ontological nature if subdivided. It must have clear unity and identity criteria.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:priorVersion"/>
+        <IRI>#Process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">processual entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#Process</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Process is in BioTop the generic subsumer of anything that &quot;occurs&quot;. 
+Processes can span across time and have temporal parts (i.e. there is no time in which all parts of a process are simultaneously present). 
+
+A special kind of process is the event, which has no temporal extension. It can be regarded as Process Boundary (BFO).
+
+
+Processes have physical or informational entities as participants.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ProcessQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">process quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#ProcessQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">quality that inheres in a process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Quality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#Quality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A quality is a dependent entity that is exhibited if it inheres in some other entity or entities at all.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Role</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#Role</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A role is a realizable entity the manifestation of which brings about some result or end that is not essential to its bearer in virtue of the kind of thing that it is, but that can be served or participated in by that kind of continuant entity in some kinds of natural, social or institutional
+contexts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Situation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">situation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#Situation</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A situation is a part of an entity`s life, in which a certain condition is fully present</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#StructuredBiologicalEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">structured biological entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#StructuredBiologicalEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Corresponds to FMA anatomical structure but extends to any kind of organism: Material anatomical entity which is generated by coordinated expression of the organism&apos;s own genes that guide its morphogenesis; has inherent 3D shape; its parts are connected and spatially related to one another in patterns determined by coordinated gene expression. Examples: heart, right ventricle, mitral valve, myocardium, endothelium, lymphocyte, fibroblast, thorax, cardiovascular system, hemoglobin, T cell receptor.
+Old name: anatomical structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SubAtomicParticle</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">subatomic particle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TaxonQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">taxon quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#TaxonQuality</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The quality of one or more biological organisms, as well as of parts of organism pertaining to a biological taxon. [steschu20080127]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TaxonValueRegion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">taxon value region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#TaxonValueRegion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">abstract region in which the values of biological taxa are located (cf. Schulz et.al ISMB 2008). Biological taxa can be ascribed not only to organisms but also to ogranism parts, derivates, as well as populations.
+
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TemporalRegion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">temporal region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="owl:priorVersion"/>
+        <IRI>#TemporalRegion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">temporal entity, time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#TemporalRegion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Point or interval on the time axis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TimeInterval</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">time interval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#TimeInterval</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the interval between two time points</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TwoDimensionalPhysicalEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">two dimensional physical entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#TwoDimensionalPhysicalEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">plane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ValueRegion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">value region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#ValueRegion</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A value region is an abstract region in which (non quantitative) values of qualities are located.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Wave</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">wave</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#Wave</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">(wikipedia) disturbance that propagates through space and time, usually with transference of energy. 
+Due toe the particle wave dualism a wave can be ascribed a mass</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ZeroDimensionalPhysicalEntity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">zero dimensional physical entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#atSomeTime</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">at some time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#atSomeTime</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Relates a temporally nonqualified instance of a continuant to its temporarily qualified &quot;stages&quot;
+
+Example:
+
+John atSomeTime John_at_20120112 
+John_at_20120112  hasTemporalContext 20120112 
+
+John atSomeTime John_at_20130101
+John_at_20130101 hasTemporalContext 20130101
+
+John_at_20120112  hasPart Heart1
+
+John_at_20130101 hasPart Heart2
+ 
+
+Notes:
+- John, John_20120112, John_20130101 are the same individuals
+- Heart 1 and Heart 2 are different individuals
+- Every continuant can be an instance of temporally qualified continuant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#causes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">causes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#causes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Causation of a process is here understood as the disjunction between agency (a continuant causes a process) and as the realization of a disposition or a function, i.e. a disposition is considered the cause of a process. 
+ </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAgent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#hasAgent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">agentIn (inverse: hasAgent) relates a participant with a process, with the condition that this participant is causally active in the relevant process.
+This is the reason why agentIn is subsumed by the relation causedBy. 
+
+Example: A physician is the agent in a operation process; a solvent is the agent in a solving process. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasBoundary</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has boundary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#hasBoundary</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has boundary (inverse: boundary) relates (spatio)temporally  qualified object with another object it fully or partially bounds.
+
+Example: the surface of my liver physically bounds my liver. 
+
+this point in time is the boundary of my working contract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasComponentPart</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has component part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#hasComponentPart</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The non-transitive relation hasComponentPart (inverse: componentPartOf) relates components with a compound. Components strictly partition the compound, and the compound is the mereological sum of its components. A loss of some component affects the integrity of the compound, and possibly the type it instantiates, e.g. a complete vs. a defective organism. 
+
+The choice of what is a component of a compound is somewhat arbitrary, because there are several ways to divide a whole into parts. Strictly spoken, this relation should refer to some partition.
+
+Components should be - at least - partly bona fide parts. The use of this relation also requires the commitment to an underlying granularity level. So could we consider the codons (base triples) as the components of a DNA molecule but also the single nucleotides. Note that components of a compound may also be portions of matter.
+
+Examples: my liver is a component of my organism, a carboxy group is a component of some organic acid molecule.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasCondition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has condition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#hasCondition</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&apos;has condition&apos; (inverse &apos;is condition of&apos;) 
+connects exclusively situations (temporal slices of lives) with conditions as present during the whole extent of the corresponding situation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasGranularPart</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has granular part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#hasGranularPart</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasLife</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has life</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#hasLife</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&apos;has life&apos; (inverse &apos;is life of&apos;) connects a continuant with its life</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasOutcome</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has outcome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#hasOutcome</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">outcomeOf (inverse: hasOutcome) relates a participant to a process. This participant either
+- a) comes into being during the process
+or - b) undergoes some change during the process, so that it instantiates a different class at the end of the process 
+and it constitutes (one of) the main result(s) of the process
+
+Example: a Protein molecule is the outcome of a translation process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasPart</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#hasPart</IRI>
+        <Literal xml:lang="201209091213  my childhood is part of my life  this title is part of this book" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&apos;has part&apos; (inverser: &apos;part of&apos;)  relates a spatiotemporally qualified entity with another spatiotemporally qualified entity it is part of
+
+Example: 
+
+MyMitralValve@201209091213 is part of my heart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasParticipant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has participant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#hasParticipant</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&apos;has participant&apos; (inverse: &apos;is participant in&apos;) relates a process with a non processual entity which plays some role in the process. Process participants may exist during the whole process, remain unchanged or undergo changes; they may come into being or get out of being during the process. 
+
+Process participation is distinguished from process location.
+
+Example: 
+
+An urea molecule which is excreted in a renal filtration process is participant of this process.
+
+A person who undergoes an operation is participant of this process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasPatient</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#hasPatient</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">patientIn (inverse: hasPatient) relates a participant with a process, with the condition that that this participant is not causally active.  
+
+Example: A prey is the patient in a hunting process; a solute is the patient in a solving process. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasRealization</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has realization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#hasRealization</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Realization occurs if a disposition, a function, or a role manifests itself as a process. 
+Certain information entities can also have realizations, e.g. plans that are realized in processes. 
+
+Example: the disposition of a bird to fly (which exists even when it does not fly) is realized by its process of flying.  </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#includes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">includes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#includes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">includedIn  (inverse: includes) is the most general relation which relates one (spatio)temporally qualified entity with another (spatio)temporally qualified entity where it occurs, inheres, or is part of.
+
+Example: A heart pumping process is included in a heart. 
+A day is included in a month
+
+John</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#inheresIn</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">inheres in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#inheresIn</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">inheres in (inverse: is bearer of) relates a quality, role, function, disposition, or information object with the physical entity it depends on.
+
+Example: a color inheres in a paint, the ability to fly inheres in a bird, or a pdf file inheres in a USB stick.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isAgentIn</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is agent in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#isAgentIn</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">agentIn (inverse: hasAgent) relates a participant with a process, with the condition that this participant is causally active in the relevant process.
+This is the reason why agentIn is subsumed by the relation causedBy. 
+
+Example: A physician is the agent in a operation process; a solvent is the agent in a solving process. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isBearerOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is bearer of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#isBearerOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">inheres in (inverse: is bearer of) relates a quality, role, function, disposition, or information object with the physical entity it depends on.
+
+Example: a color inheres in a paint, the ability to fly inheres in a bird, or a pdf file inheres in a USB stick.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isBoundaryOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is boundary of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#isBoundaryOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">has boundary (inverse: boundary) relates (spatio)temporally  qualified object with another object it fully or partially bounds.
+
+Example: the surface of my liver physically bounds my liver. 
+
+this point in time is the boundary of my working contract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isCausedBy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is caused by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#isCausedBy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Causation of a process is here understood as the disjunction between agency (a continuant causes a process) and as the realization of a disposition or a function, i.e. a disposition is considered the cause of a process. 
+ </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isComponentPartOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is component part of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#isComponentPartOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The non-transitive relation hasComponentPart (inverse: componentPartOf) relates components with a compound. Components strictly partition the compound, and the compound is the mereological sum of its components. A loss of some component affects the integrity of the compound, and possibly the type it instantiates, e.g. a complete vs. a defective organism. 
+
+The choice of what is a component of a compound is somewhat arbitrary, because there are several ways to divide a whole into parts. Strictly spoken, this relation should refer to some partition.
+
+Components should be - at least - partly bona fide parts. The use of this relation also requires the commitment to an underlying granularity level. So could we consider the codons (base triples) as the components of a DNA molecule but also the single nucleotides. Note that components of a compound may also be portions of matter.
+
+Examples: my liver is a component of my organism, a carboxy group is a component of some organic acid molecule.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isConditionOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is condition of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#isConditionOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&apos;has condition&apos; (inverse &apos;is condition of&apos;) 
+connects exclusively situations (temporal slices of lives) with conditions as present during the whole extent of the corresponding situation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isGranularPartOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is granular part of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#isGranularPartOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isIncludedIn</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is included in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#isIncludedIn</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">includedIn  (inverse: includes) is the most general relation which relates one (spatio)temporally qualified entity with another (spatio)temporally qualified entity where it occurs, inheres, or is part of.
+
+Example: A heart pumping process is included in a heart. 
+A day is included in a month
+
+John</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#isIncludedIn</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isIncludedIn is a very broad relation which relates an entity with the place it occurs, inheres, or is part of.
+
+See property chain: a participant of a process at a given time is located where the process is located.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isLifeOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is life of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#isLifeOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&apos;has life&apos; (inverse &apos;is life of&apos;) connects a continuant with its life</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isOutcomeOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is outcome of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#isOutcomeOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">outcomeOf (inverse: hasOutcome) relates a participant to a process. This participant either
+- a) comes into being during the process
+or - b) undergoes some change during the process, so that it instantiates a different class at the end of the process 
+and it constitutes (one of) the main result(s) of the process
+
+Example: a Protein molecule is the outcome of a translation process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isPartOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is part of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#isPartOf</IRI>
+        <Literal xml:lang="201209091213  my childhood is part of my life  this title is part of this book" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&apos;has part&apos; (inverser: &apos;part of&apos;)  relates a spatiotemporally qualified entity with another spatiotemporally qualified entity it is part of
+
+Example: 
+
+MyMitralValve@201209091213 is part of my heart</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isParticipantIn</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is participant in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#isParticipantIn</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&apos;has participant&apos; (inverse: &apos;is participant in&apos;) relates a process with a non processual entity which plays some role in the process. Process participants may exist during the whole process, remain unchanged or undergo changes; they may come into being or get out of being during the process. 
+
+Process participation is distinguished from process location.
+
+Example: 
+
+An urea molecule which is excreted in a renal filtration process is participant of this process.
+
+A person who undergoes an operation is participant of this process.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isPatientIn</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is patient in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#isPatientIn</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">patientIn (inverse: hasPatient) relates a participant with a process, with the condition that that this participant is not causally active.  
+
+Example: A prey is the patient in a hunting process; a solute is the patient in a solving process. </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isPrecededBy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is preceded by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#isPrecededBy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">precedes (inverse: precededBy) relates two processes, one of which ends or totally happens before the second one begins. 
+
+Example: fecundation precedes embryonic development.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isProjectionOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is projection of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#isProjectionOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">projects onto (inverse: is projection of) relates an entity with a spatial, temporal, or abstract region.
+
+- material entities project onto spatial regions
+
+- process project onto temporal regions 
+
+-  qualities project onto abstract value region. The underlying idea, borrowed from the DOLCE ontology, is that the attribute / value distinction - as ubiquitous in information systems - should at least be optionally expressible in ontologies. 
+
+Value regions are abstract regions, in which qualitative just as quantitative &quot;values&quot; are located. Like in topographic regions, these entities can overlap or be disjoint.
+
+Example: &quot;Color&quot; as quality may be refined as &quot;Red Color&quot;. It can be fully defined in by &quot;projects onto some RedColorRegion&quot;   </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isRealizationOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is realization of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#isRealizationOf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Realization occurs if a disposition, a function, or a role manifests itself as a process. 
+Certain information entities can also have realizations, e.g. plans that are realized in processes. 
+
+Example: the disposition of a bird to fly (which exists even when it does not fly) is realized by its process of flying.  </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isReferredToAtTime</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is referred to at time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#isReferredToAtTime</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&apos;is referred to at time&apos; 
+relates a temporally qualified continuant with its the point in time at which a temporally relevant assertion is made.
+
+Should be functional. Functionality property not set for performance reasons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isRepresentedBy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is represented by</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#isRepresentedBy</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is represented by  (inverse: represents) relates entities with information entities. In contrast to encoding, the represented entity is completely independent on the denoting one. 
+
+Example: The inflammation of a sinus is represented by the word &apos;Sinusitis&apos;; as well as by the ICD code &quot;J10&quot; 
+
+
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#precedes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">precedes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#precedes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">precedes (inverse: precededBy) relates two processes, one of which ends or totally happens before the second one begins. 
+
+Example: fecundation precedes embryonic development.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#projectsOnto</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">projects onto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#projectsOnto</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">projects onto (inverse: is projection of) relates an entity with a spatial, temporal, or abstract region.
+
+- material entities project onto spatial regions
+
+- a temporally qualified continuant projects onto a temporal region
+
+- process project onto temporal regions 
+
+-  qualities project onto abstract value region. The underlying idea, borrowed from the DOLCE ontology, is that the attribute / value distinction - as ubiquitous in information systems - should at least be optionally expressible in ontologies. 
+
+Value regions are abstract regions, in which qualitative just as quantitative &quot;values&quot; are located. Like in topographic regions, these entities can overlap or be disjoint.
+
+Example: &quot;Color&quot; as quality may be refined as &quot;Red Color&quot;. It can be fully defined in by &quot;projects onto some RedColorRegion&quot;   </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#represents</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">represents</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="skos:definition"/>
+        <IRI>#represents</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">is represented by  (inverse: represents) relates entities with information entities. In contrast to encoding, the represented entity is completely independent on the denoting one. 
+
+Example: The inflammation of a sinus is represented by the word &apos;Sinusitis&apos;; as well as by the ICD code &quot;J10&quot; 
+
+
+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">thing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>owl:topObjectProperty</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The hierarchy of object properties is assumed to be exhaustive. In case the inclusion of new object properties is considered, it should be analyzed whether they can be expressed by the existing ones or whether they can be expressed as subclassed of process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>owl:topObjectProperty</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">top object property</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+
