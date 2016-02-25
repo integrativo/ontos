@@ -1,0 +1,66 @@
+The focus of this work is the formal interpretation of biological database content with the goal to enable content retrieval using powerful ontology-based queries.
+We demonstrated the ability of OWL ontologies using description logics reasoning to retrieve statements of interest from biological databases. 
+
+We implemented and tested a use case based on database extracts describing amino acid metabolism. 
+The interpretation is based on a specific ontological interpretation of representing biological database content: From each database record numerous defined OWL classes are generated, covering proteins, processes, molecular activities and dysfunctional phenotypes. Each class is assumed to contain at least one individual entity, corresponding to the outcome of a specific biological experiment described in the database. These individuals, however, are not explicitly represented in the ontology, as little as the data individuals in the database, which denote the domain entities.    
+Thus, all content is exclusively represented in a Tbox, which warrants finite and complete reasoning, in contrast to the costs of rich TBoxes together with populated ABoxes \citep{Motik2006a}. 
+
+
+%We ontologically ground database content, submitting the  generated 
+%content to a formal scrutiny. The process is guided by ontological 
+%principles and CQs written in DL.
+
+% This view can be updated with according to the queries created. 
+%However, the ontological interpretation of the database 
+%does not entail changes, e.g. due to the fixed database organization. In other 
+%words, the interpretation given to "what is a protein" from a single database may vary only if its schema changes. 
+
+The output, an ``ontologized'' database representation, enables queries on the experimental results summarized in database records. 
+The fact that typical queries often target possibilities ``\textit{Are members of the class A able to do B}?'' is addressed by two mechanisms. Firstly, by the inclusion of dispositions and functions as first-class entities in our ontology (as provided by the upper-level ontology BTL2), and secondly by the above mentioned addition of specific subclasses, assuming that these subclasses are  
+populated. An example: the fact that our generation approach creates the class 
+\textit{Cellular nitrogen compound metabolic process in Homo sapiens with Betaine homocysteine S methyltransferase 1 and Homocysteine}, which is created as a defined subclass of the GO class 0034641 (\textit{Cellular nitrogen compound metabolic process}), means that this process has been described at least once for Human with Homocystein and the related enzyme.  
+%, i.e. there are database records that support the creation of one or more classes. 
+In this sense, the question ``Are members of the class $A$ able to do $B$?" boils down to the question ``Does $A$ have a subclass $A'$ all members of which actually do $B$?''
+%, to highlight the existence of classes, and not its direct assertion. 
+
+Interpreting database content under an ontological perspective has been a topic of research interest \citep{Lehmann2009,Kanehisa2012,Carnielli2015}. 
+%\cite{Fanizzi2008} present a tool called DL- FOIL, which relies on refinement operators for class-learning. In DL-FOIL grounding is presented as learning by search of class definitions in an induced search space. A limitation of DL-FOIL is the treatment of individuals that do not belong to a specific class, as well as the incompleteness of the refinement operator.
+The DL-Learner system \cite{Lehmann2009} is grounded on the requirement for schema acquisition methods, addressed by class learning techniques. DL-Learner is designed to find logical explanations for individuals. It is limited by the fact that positive and negative examples must be provided, and individuals must be included directly in the ontology.
+In the biomedical domain, \cite{Kanehisa2012} highlighted the importance of data interpretation from biomedical databases. Interpretation strategies are embedded in KEGG by a set of mapping operations among internal modules, allowing the identification of organism-specific pathways. QueryGen \citep{Bobed2016} presented a system that, given user keywords, proposes formal queries to retrieve data from repositories. 
+% I REMOVED THE NEXT SENTENCE AS IST IS NOT UNDERSTANDABLE
+%In comparison, our approach already performs this task beforehand when the user interprets the database, and reasoning to resolve queries and misinterpretations.
+
+%Interpreting data and grounding them as ontology axioms seems as a suitable solution to boost interoperability with the support of formal ontologies. However, the usage of principled ontologies as guidance for interpreting data is quite limited and can be considered as a barrier. Earlier , we described how the content of tables from scientific publications can be interpreted using formal ontologies under a rigid upper level, also using competency questions for evaluation \citep{Santana2011b}. 
+
+The usage of DL reasoning may be considered a costly approach. However, our experiments demonstrate a reasonable performance in medium-sized scenarios. New DL calculus methods are under development, which may decrease reasoning time \citep{Freitas2011}.
+An improvement of our work could be the use of more expressive power to retrieve generalizable content by means of DL Query. Retrieval using OBDA-based approaches, like SPARQL endpoints fairly support reasoning that goes beyond what is available in current relational queries \citep{Angles2008a}. Our approach allows evaluating databases from the ontological level, e.g. computing class-subclass relations, consistency checking and subsumption. This reduces the need to manually filter/interpret data, without compromising the capability to be queried with SPARQL endpoints.
+%In this work, we re-affirm and demonstrate the power embedded in formal ontologies to represent database content. We model real data with the support of formal ontologies queries that requires reasoning at some extent, and exempt the user to know specific domain details to optimize domain query, like when creating relational or SPARQL queries. 
+For instance, to retrieve a protein that has methylation capability, with relational or SPARQL (without ontological treatment) queries, the user must create joins and filters to gather content from different sources. With DL query, the user only needs to define how the process behaves and leave the querying and computing to the machine. 
+
+%Following \cite{Laukens2015}, one may argue that a reasoning-based approach like ours generates more complexity for the user, as it requires familiarity with DL and ontologies. %, together with the inability (from the representation) to handle updates. 
+%However, the complexity behind representation and query retrieval with DL does not go too far from the logical foundation required to query relational databases. This can be easily overcome with some study about DL language and formal ontologies, and makes the argument less tangible. \todo{clarified??} %%We do not consider updates a major drawback because the interpretation process relies, at the same time, on schema and content.
+
+%%% este conteúdo é contemplado no trecho que que há bullet items, mais a frente.
+
+A certain degree of engineering complexity, \emph{viz.} the manual creation of ontology patterns is necessary when aiming at the production of a precise, ontology-based picture of what a database really represents, and how the informal database--ontology links are to be interpreted. Our solution has the advantage that it completely refrains from representing the denoting entities (i.e. the data instances), setting the full focus on the denotations, which -- in the presented use case -- are exclusively classes, which limits the task to pure TBox reasoning.
+
+Many solutions for life science data processing have mainly focused on network, pathway, and sequence analysis, and more recently on the functional analysis of data. All these approaches have mainly been limited to syntax, and they refrain from bringing implicit domain assumptions into the scope of representation and reasoning. Our approach incorporates what is underneath the surface of data structures, representing it by basic ontology axioms, which are generated out of patterns that formalize how entities like processes, enzymes, molecules, phenotypes are stuck together in biological organisms and their substructures.   
+Several limitations of our work need to be highlighted: 
+
+\begin{itemize}
+	\item Scaling problems could be demonstrated when increasing the size of data. Representing the whole content of databases in OWL is therefore not realistic. A mitigation strategy is to narrow down the database content of interest before creating the ontology. In our use case we did so by filtering database content by a single chemical entity.  
+	\item Computational issues can be addressed by decreasing the expressiveness of the representational language. The ontology patterns presented in this paper used disjunctions and value restrictions, both of which are not supported by the computationally ideal OWL EL profile. It has to be tested whether the substitution of axioms with disjunctions by simple subclass axioms and the substitution of value restrictions (used for the targets of dispositions and risks) by existential restrictions would yield the same reasoning results (even aware of the ontological improperness of the latter, cf. \cite{schulz2014}).
+	%This considerably increases classification and consistency checking time. 
+	%However, satisfiability of CQs were performed in a reasonable time.
+	\item
+	The proposed solution is highly prolific regarding the introduction of new entities as defined subclasses. This leads to a ratio of about 1:36 comparing database records with ontology axioms. This ratio increases with the number of fields considered, and with the average cardinality in multi valued fields. An alternative strategy, expressing everything as dispositions, would yield less axioms, but longer and less user friendly axioms, such as ``Organism $O$ has the disposition of performing a process $P$ with the participants $Q$, $R$, and $S$ in the cellular components $C_1$ and $C_2$'', or ``Organism $O$ has the disposition of developing a pathological phenotype $T$ as the effect dysfunction of $P$ with...''. 
+	\item Although DL Queries are relatively simple to create, users need to get familiar with description logics syntax and semantics, as well as they need to have basic notions of formal-ontological thinking. In addition, many queries require a two-step processing, i.e. the list of classes as the result of the DL query proper has to be filtered afterwards.
+	%but users have to change the way current query strategies from the relational basis to a more expressive paradigm.  
+	%Users may have to know how the ontologies are organized and created, 
+	%as well as for creating relational queries, in order to 
+	%handle query creation, even if ontologies adheres to one or more real world interpretations.
+	%\item Databases may adhere to one or more ontological representation in order to make clear to the user whether a record from a DB %refers to an ontology class, or a given DB entry refer to an ontology class.
+	\item From an epistemic point of view, our approach makes a rough simplification by interpreting every database entry as statement of a scientific law. This ignores the mechanism of database population (e.g. by expert curation vs. text mining, with the latter being less trustworthy), fallibility and fraud in research, as well as the amount of experimental evidence to support the veracity of a given class-level assertion.
+\end{itemize}
+
+Further investigations are required to address the impact that database updates may generate. Modification in the schema level requires adaptations of the interpretation procedure, such as table joins or the obsolescence of certain content. In this case, the interpretation procedure must be recreated to include updates. We are currently developing a system to support the interpretation procedure, which minimizes the deep ontological understanding required by the current approach and addresses the inherent awareness of data interpretation. A fully automated approach may obfuscate some ontological assumptions that cannot be logically represented, and it may be epistemologically controversial.

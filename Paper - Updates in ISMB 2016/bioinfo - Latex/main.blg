@@ -1,0 +1,13 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+The style file: natbib.bst
+n is an unknown function---line 241 of file natbib.bst
+Database file #1: BIB/mybib.bib
+Warning--entry type for "Horridge2009" isn't style-file defined
+--line 518 of file BIB/mybib.bib
+Repeated entry---line 988 of file BIB/mybib.bib
+ : @article{Naturwissenschaften2014
+ :                                 ,
+I'm skipping whatever remains of this entry
+Warning--can't use both author and editor fields in Baader2007g
+Warning--empty journal in Tsarkov2006
+(There were 2 error messages)

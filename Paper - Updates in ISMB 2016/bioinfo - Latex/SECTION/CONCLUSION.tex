@@ -1,0 +1,51 @@
+Biological databases represent large amounts of experimental data and connect them with content from domain ontologies. Querying these databases generally follows the syntax of the underlying database scheme, in which ontologies represent little more than a simple domain vocabulary. Two important aspects are ignored, viz. (i) making the underlying ontological assumptions of the database scheme explicit (i.e. how the entities are related with each other) and (ii) exploiting the representational richness of the related ontologies. 
+Both aspects are addressed by this work, in which the interpretation of biological database 
+content is supported by an ontology grounding framework under the upper-level ontology BTL2, 
+importing parts of the ontologies GO, PR, SNOMED CT and ChEBI. 
+The content of biological databases is automatically converted into OWL axioms, 
+guided by a set of ontology patterns, which were manually crafted after a 
+thorough scrutiny of the implicit meaning of the database structures of Uniprot, Ensembl, 
+and NCBI Taxonomy. The ontology creation process obeyed the principles of 
+philosophically founded and formally accurate ontology design and resulted 
+in a large ontology, which uniquely represented TBox entities, i.e. no individuals. 
+
+This output ontology was then tested with six competency questions, formulated as description logics queries with subsequent filtering. The results corresponded to the expectations. Performance benchmarks were done with programmatically enlarged test ontologies, which showed limitations when TBoxes were increased by a factor of  > 30, partly due to hardware limitations.
+
+The methodology appears suitable to be integrated within a larger query environment for biological knowledge. Performance bottlenecks may be addressed by content pre-filtering and the extraction of modules from the imported bio-ontologies.   
+
+ 
+%used to translate databases' content into formal ontologies. The resultant ontological 
+% content was presented to formal scrutiny with DL queries, answered only by means of reasoning.
+
+%The ontology derivate we produce focus on TBox reasoning rather than the analysis of data itself. 
+% Following this, a databased grounded under a formal ontology might enable the identification of 
+% representational flaws under real world situations, opposite to application-driven databases. 
+% As database is extensive by nature, its organization under real world settlements certainly 
+% would be improved when accompanied by formal ontologies. Additionally, it may enable 
+% further integration capabilities by means of automated evaluation using reasoning, e.g. 
+% without any dependence in user support.
+
+% According to our findings, this is possible because we interpret the entries in biological 
+% databases in ways that derive generalizable statements. These are expected to reveal 
+% scientific laws and can be ascribed to all individuals that are members of a given 
+% class as well as database records. Reasoning can then be restricted to a TBox level, 
+% thus avoiding high processing cost that occurs when populating highly axiomatised 
+% TBoxes with individuals. 
+
+%As we exemplified our framework under the biological domain, it can be 
+% ported to other domains that includes highly constrained and formalized 
+% ontologies. For instance, \cite{Prestes2013} described an upper-domain 
+% ontology based on IEEE standards for representing intelligent agent 
+% systems knowledge bases, following DOLCE \citep{Gangemi2002} and 
+% SUMO \citep{Pease2002}. %Other example is the Ontology for Home 
+% Energy Management Domain \citep{Shah2011a}, which follows SUMO. 
+%In this sense, our approach can be exploited by other domains that 
+% (following a formal background) aims at enabling interoperability, 
+%  but without sacrificing the formal status of the ontology, 
+% and keeping the application focusing in real world situations.
+
+% The feasibility of the approach could be demonstrated using CQs 
+% formulated as DL queries. We query the data ontologically,  
+% without requiring any additional database processing or user intervention. 
+% If the data interpretation  is ontologically  sound, by inheritance 
+% all data may be considered sound in a real world use case.

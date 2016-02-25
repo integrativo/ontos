@@ -1,0 +1,43 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
+\doTocEntry\tocsection{}{\csname a:TocLink\endcsname{1}{Q1-1-0}{}{\numberline {1}Introduction}}{3}\relax 
+\doTocEntry\tocsection{}{\csname a:TocLink\endcsname{1}{Q1-1-0}{}{\numberline {2}Background}}{3}\relax 
+\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-0}{}{\numberline {{2.1}}Formal ontologies}}{3}\relax 
+\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-0}{}{\numberline {{2.2}}Interpreting databases with ontologies}}{3}\relax 
+\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-0}{}{\numberline {{2.3}}Description Logics and OWL2}}{4}\relax 
+\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-0}{}{\numberline {{2.4}}Application background}}{4}\relax 
+\doTocEntry\tocsection{}{\csname a:TocLink\endcsname{1}{Q1-1-0}{}{\numberline {3}Resources}}{4}\relax 
+\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-0}{}{\numberline {{3.1}}Biomedical Ontologies}}{4}\relax 
+\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-0}{}{\numberline {{3.2}}Biological Databases}}{5}\relax 
+\doTocEntry\tocsection{}{\csname a:TocLink\endcsname{1}{Q1-1-0}{}{\numberline {4}Methods}}{5}\relax 
+\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-0}{}{\numberline {{4.1}}Sampling}}{5}\relax 
+\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-0}{}{\numberline {{4.2}}Ontological grounding and ontology generation}}{5}\relax 
+\doTocEntry\toclof{1}{\csname a:TocLink\endcsname{1}{x1-20r1}{}{\ignorespaces Alignment of GO, ChEBI and PR under BTL2 }}{figure}\relax 
+\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-1}{}{\numberline {{4.3}}Methodology for CQ evaluation}}{9}\relax 
+\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-1}{}{\numberline {{4.4}}Methodology for evaluation of scalability}}{9}\relax 
+\doTocEntry\tocsection{}{\csname a:TocLink\endcsname{1}{Q1-1-1}{}{\numberline {5}Results}}{9}\relax 
+\doTocEntry\toclot{1}{\csname a:TocLink\endcsname{1}{x1-36r1}{}{\ignorespaces Uniprot and Ensembl table view.}}{table}\relax 
+\doTocEntry\toclot{2}{\csname a:TocLink\endcsname{1}{x1-37r2}{}{\ignorespaces Template table.}}{table}\relax 
+\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-3}{}{\numberline {{5.1}}Basic assumptions}}{15}\relax 
+\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-3}{}{\numberline {{5.2}}Ontological Grounding}}{15}\relax 
+\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-3}{}{\numberline {{5.3}}Ontology patterns}}{15}\relax 
+\doTocEntry\toclot{3}{\csname a:TocLink\endcsname{1}{x1-41r3}{}{\ignorespaces Defined Subclasses of proteins \textit  {P}.}}{table}\relax 
+\doTocEntry\toclot{4}{\csname a:TocLink\endcsname{1}{x1-42r4}{}{\ignorespaces Defined Subclasses of biological process \textit  {Bp}.}}{table}\relax 
+\doTocEntry\toclot{5}{\csname a:TocLink\endcsname{1}{x1-43r5}{}{\ignorespaces Cellular component \textit  {C} union classes.}}{table}\relax 
+\doTocEntry\toclot{6}{\csname a:TocLink\endcsname{1}{x1-44r6}{}{\ignorespaces \textit  {Bp\_in\_O\_with\_P\_and\_M}.}}{table}\relax 
+\doTocEntry\toclot{7}{\csname a:TocLink\endcsname{1}{x1-45r7}{}{\ignorespaces Dysfunctional phenotypes of \textit  {Bp\_in\_O\_with\_P\_and\_M}.}}{table}\relax 
+\doTocEntry\toclot{8}{\csname a:TocLink\endcsname{1}{x1-46r8}{}{\ignorespaces Subclasses created for the organism specific protein (\textit  {P\_sensu\_O}) classes in database records}}{table}\relax 
+\doTocEntry\toclot{9}{\csname a:TocLink\endcsname{1}{x1-47r9}{}{\ignorespaces Axioms generated for organisms \textit  {O} in database records}}{table}\relax 
+\doTocEntry\tocsubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-10}{}{\numberline {{5.4}}Evaluating the content generated}}{36}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-10}{}{\numberline {{{5.4}.1}}Evaluation of Competency Questions (QCs)}}{36}\relax 
+\doTocEntry\toclot{10}{\csname a:TocLink\endcsname{1}{x1-50r10}{}{\ignorespaces Competency Question #1 in DL.}}{table}\relax 
+\doTocEntry\toclot{11}{\csname a:TocLink\endcsname{1}{x1-51r11}{}{\ignorespaces Competency Question #2 in DL.}}{table}\relax 
+\doTocEntry\toclot{12}{\csname a:TocLink\endcsname{1}{x1-52r12}{}{\ignorespaces Competency Question #3 in DL.}}{table}\relax 
+\doTocEntry\toclot{13}{\csname a:TocLink\endcsname{1}{x1-53r13}{}{\ignorespaces Competency Question #4}}{table}\relax 
+\doTocEntry\toclot{14}{\csname a:TocLink\endcsname{1}{x1-54r14}{}{\ignorespaces Competency Question #5}}{table}\relax 
+\doTocEntry\toclot{15}{\csname a:TocLink\endcsname{1}{x1-55r15}{}{\ignorespaces Competency Question #6.}}{table}\relax 
+\doTocEntry\tocsubsubsection{}{\csname a:TocLink\endcsname{1}{Q1-1-16}{}{\numberline {{{5.4}.2}}Computational performance}}{54}\relax 
+\doTocEntry\toctdo{}{\csname a:TocLink\endcsname{1}{x1-57}{}{adicionar consulta nos resultados conforme pedido de stefan, e snomed na versao final.}}{54}\relax 
+\doTocEntry\tocsection{}{\csname a:TocLink\endcsname{1}{Q1-1-16}{}{\numberline {6}Discussion}}{54}\relax 
+\doTocEntry\tocsection{}{\csname a:TocLink\endcsname{1}{Q1-1-16}{}{\numberline {7}Conclusion}}{55}\relax 
+\doTocEntry\toctdo{}{\csname a:TocLink\endcsname{1}{x1-60}{}{atualizar no final}}{55}\relax 
+\par 

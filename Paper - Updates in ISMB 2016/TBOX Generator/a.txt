@@ -1,0 +1,42 @@
+ Datentr„ger in Laufwerk C: ist Windows7_OS
+ Volumeseriennummer: A6A9-8321
+
+ Verzeichnis von C:\Users\schulz\Dropbox\BST_Papers\2016\ISMB 2016\TBOX Generator
+
+12.01.2016  20:54    <DIR>          .
+12.01.2016  20:54    <DIR>          ..
+12.01.2016  20:54                 0 a.txt
+10.01.2016  13:33             5.578 catalog-v001.xml
+06.09.2015  10:40            58.866 Data_and_Generatorv12.xlsm
+07.01.2016  18:04         1.424.083 Data_and_Generator_benchmark.xlsm
+08.01.2016  15:53            82.511 Data_and_Generator_benchmark_v2.xlsm
+10.01.2016  13:35            99.650 Data_and_Generator_benchmark_v3.xlsm
+08.01.2016  19:31       144.420.048 integrativo_exp_241370_201601081930.owl
+08.01.2016  19:18        14.360.578 integrativo_exp_24200_201601081918.owl
+10.01.2016  12:49        14.897.231 integrativo_exp_24212_201601101249.owl
+08.01.2016  19:16         1.423.319 integrativo_exp_2483_201601081916.owl
+09.01.2016  11:50         1.423.319 integrativo_exp_2483_201601091150.owl
+09.01.2016  11:51         1.423.319 integrativo_exp_2483_201601091151.owl
+09.01.2016  11:53         1.423.319 integrativo_exp_2483_201601091153.owl
+10.01.2016  13:04       155.886.155 integrativo_exp_249173_201601101304.owl
+10.01.2016  12:48         1.481.135 integrativo_exp_2491_201601101248.owl
+10.01.2016  12:21         4.008.201 integrativo_exp_6768_201601101221.owl
+10.01.2016  12:05         4.060.180 integrativo_exp_6901_201601101205.owl
+08.01.2016  19:21        43.260.798 integrativo_exp_72460_201601081921.owl
+10.01.2016  12:48         4.445.942 integrativo_exp_7283_201601101248.owl
+08.01.2016  19:17         4.296.381 integrativo_exp_7309_201601081917.owl
+10.01.2016  12:52        46.412.468 integrativo_exp_74507_201601101252.owl
+10.01.2016  12:10         4.547.965 integrativo_exp_8428_201601101210.owl
+08.01.2016  16:40         2.470.634 integrativo_new.owl
+07.01.2016  10:11        14.715.317 integrativo_new_exp.owl
+08.01.2016  18:47         1.387.637 integrativo_new_exp2.owl
+07.01.2016  21:13       147.143.113 integrativo_new_exp_100x.owl
+07.01.2016  20:53        14.613.635 integrativo_new_exp_10x.owl
+07.01.2016  20:28         1.445.123 integrativo_new_exp_1x.owl
+08.01.2016  15:45         1.387.637 integrativo_new_exp_1_x.owl
+07.01.2016  20:55        44.062.298 integrativo_new_exp_30x.owl
+07.01.2016  20:52         4.369.167 integrativo_new_exp_3x.owl
+11.01.2016  12:02    <DIR>          MODULE SNOMED
+07.01.2016  23:31            10.918 PERFORMANCE.xlsx
+              32 Datei(en),    681.046.525 Bytes
+               3 Verzeichnis(se), 30.082.609.152 Bytes frei

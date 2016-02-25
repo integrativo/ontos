@@ -1,0 +1,262 @@
+\begin{thebibliography}{}
+
+\bibitem[Angles and Gutierrez(2008)Angles and Gutierrez]{Angles2008a}
+Angles, R. and Gutierrez, C. (2008).
+\newblock {The Expressive Power of SPARQL}.
+\newblock {\em LNCS\/}, {\bf 5318}, 114--129.
+
+\bibitem[Baader {\em et~al.}(2007)Baader, McGuinness, Nardi, Patel-Schneider,
+  Calvanese, McGuinness, Nardi, and Patel-Schneider]{Baader2007g}
+Baader, F., McGuinness, D.~L., Nardi, D., {\em et~al.} (2007).
+\newblock {\em {The Description Logics Handbook: Theory, implementation, and
+  applications}\/}.
+\newblock Cambridge University Press, Cambridge, 2 edition.
+
+\bibitem[Bobed and Mena(2016)Bobed and Mena]{Bobed2016}
+Bobed, C. and Mena, E. (2016).
+\newblock {QueryGen: Semantic interpretation of keyword queries over
+  heterogeneous information systems}.
+\newblock {\em Inf. Sci. (Ny).}, {\bf 329}, 412--433.
+
+\bibitem[Carnielli {\em et~al.}(2015)Carnielli, Winck, and {Paes
+  Leme}]{Carnielli2015}
+Carnielli, C.~M., Winck, F.~V., and {Paes Leme}, A.~F. (2015).
+\newblock {Functional annotation and biological interpretation of proteomics
+  data}.
+\newblock {\em Biochim Biophys Acta\/}, {\bf 1854}(1), 46--54.
+
+\bibitem[Cunningham {\em et~al.}(2014)Cunningham, Amode, Barrell, Beal, Billis,
+  Brent, Carvalho-Silva, Clapham, Coates, Fitzgerald, Gil, Giron, Gordon,
+  Hourlier, Hunt, Janacek, Johnson, Juettemann, Kahari, Keenan, Martin, Maurel,
+  McLaren, Murphy, Nag, Overduin, Parker, Patricio, Perry, Pignatelli, Riat,
+  Sheppard, Taylor, Thormann, Vullo, Wilder, Zadissa, Aken, Birney, Harrow,
+  Kinsella, Muffato, Ruffier, Searle, Spudich, Trevanion, Yates, Zerbino, and
+  Flicek]{Cunningham2014}
+Cunningham, F., Amode, M.~R., Barrell, D., {\em et~al.} (2014).
+\newblock {Ensembl 2015}.
+\newblock {\em Nucl. Acids Res.}, {\bf 43}(D1), D662--D669.
+
+\bibitem[Freitas(2011)Freitas]{Freitas2011}
+Freitas, F. (2011).
+\newblock {A Connection Method for the Description Logic ALC}.
+\newblock In R.~Rosati, S.~Rudolph, and M.~Zakharyaschev, editors, {\em DL
+  2011\/}, Barcelona. CEUR-WS.
+
+\bibitem[Gruninger and Fox(1994)Gruninger and Fox]{Gruninger1994}
+Gruninger, M. and Fox, M.~S. (1994).
+\newblock {The Role of Competency Questions in Enterprise Engineering}.
+\newblock In {\em IFIP WG5.7 Work.}, pages 1--17, Trondheim, Norway.
+
+\bibitem[Hastings {\em et~al.}(2013)Hastings, {De Matos}, Dekker, Ennis,
+  Harsha, Kale, Muthukrishnan, Owen, Turner, Williams, and
+  Steinbeck]{Hastings2013}
+Hastings, J., {De Matos}, P., Dekker, A., {\em et~al.} (2013).
+\newblock {The ChEBI reference database and ontology for biologically relevant
+  chemistry: Enhancements for 2013}.
+\newblock {\em Nucl. Acids Res.}, {\bf 41}(D1), D456--63.
+
+\bibitem[Horridge and Patel-Schneider(2009)Horridge and
+  Patel-Schneider]{Horridge2009}
+Horridge, M. and Patel-Schneider, P.~F. (2009).
+\newblock {OWL 2 Web Ontology Language: Manchester Syntax}.
+\newblock http://www.w3.org/TR/owl2-manchester-syntax/.
+
+\bibitem[Horrocks {\em et~al.}(2006)Horrocks, Kutz, and Sattler]{Horrocks2006}
+Horrocks, I., Kutz, O., and Sattler, U. (2006).
+\newblock {The Even More Irresistible SROIQ}.
+\newblock In {\em KR 2006\/}, pages 1--36.
+
+\bibitem[Huntley {\em et~al.}(2014)Huntley, Sawford, Mutowo-Meullenet,
+  Shypitsyna, Bonilla, Martin, and O'Donovan]{Huntley2014}
+Huntley, R.~P., Sawford, T., Mutowo-Meullenet, P., {\em et~al.} (2014).
+\newblock {The GOA database: Gene Ontology annotation updates for 2015}.
+\newblock {\em Nucl. Acids Res.}, {\bf 43}(D1), D1057--D1063.
+
+\bibitem[Hustadt {\em et~al.}(2005)Hustadt, Motik, and Sattler]{Hustadt2005}
+Hustadt, U., Motik, B., and Sattler, U. (2005).
+\newblock {Data Complexity of Reasoning in Very Expressive Description Logics}.
+\newblock In {\em IJCAI-05\/}, pages 466--471, Edinburg, Scotland. Morgan
+  Kaufmann Publishers Inc.
+
+\bibitem[IHTSDO(2015)IHTSDO]{IHTSDO2015}
+IHTSDO (2015).
+\newblock {International Health Terminology Standards Development Organisation:
+  SNOMED CT® Technical Imple- mentation Guide.}
+\newblock http://www.snomed.org/tig.pdf.
+
+\bibitem[Jiang {\em et~al.}(2011)Jiang, Solbrig, Chalmers, Spackman, Rector,
+  and Chute]{Jiang2011}
+Jiang, G., Solbrig, H.~R., Chalmers, R.~J., {\em et~al.} (2011).
+\newblock {A Case Study of ICD-11 Anatomy Value Set Extraction from SNOMED CT}.
+\newblock In {\em ICBO 2011\/}, pages 133--138, Buffalo.
+
+\bibitem[Kanehisa {\em et~al.}(2012)Kanehisa, Goto, Sato, Furumichi, and
+  Tanabe]{Kanehisa2012}
+Kanehisa, M., Goto, S., Sato, Y., Furumichi, M., and Tanabe, M. (2012).
+\newblock {KEGG for integration and interpretation of large-scale molecular
+  data sets}.
+\newblock {\em Nucl. Acids Res.}, {\bf 40}(D1), 1--6.
+
+\bibitem[Lehmann(2009)Lehmann]{Lehmann2009}
+Lehmann, J. (2009).
+\newblock {DL-Learner: Learning Concepts in Description Logics}.
+\newblock {\em J. Mach. Learn. Res.}, {\bf 10}, 2639--2642.
+
+\bibitem[Martinez-Costa {\em et~al.}(2015)Martinez-Costa, Cornet, Karlsson,
+  Schulz, and Kalra]{Martinez-Costa2015}
+Martinez-Costa, C., Cornet, R., Karlsson, D., Schulz, S., and Kalra, D. (2015).
+\newblock {Semantic enrichment of clinical models towards semantic
+  interoperability. The heart failure summary use case}.
+\newblock {\em JAMIA\/}, pages 565--576.
+
+\bibitem[Motik and Sattler(2006)Motik and Sattler]{Motik2006a}
+Motik, B. and Sattler, U. (2006).
+\newblock {A Comparison of Reasoning Techniques for Querying Large Description
+  Logic ABoxes}.
+\newblock In {\em LPAR-06\/}, Phnom Penh, Cambodia. Springer-Verlag Berlin,
+  Heidelberg.
+
+\bibitem[Muniz {\em et~al.}(2006)Muniz, Siqueira, Fonseca, D?Almeida, Hotta,
+  dos Santos, Cavalcanti, and Sampaio]{Muniz2006}
+Muniz, M. T.~C., Siqueira, E.~R., Fonseca, R.~a., {\em et~al.} (2006).
+\newblock {Avalia{\c{c}}{\~{a}}o da rela{\c{c}}{\~{a}}o entre o polimorfismo
+  C677T no gene para MTHFR e a concentra{\c{c}}{\~{a}}o plasm{\'{a}}tica de
+  homociste{\'{\i}}na na doen{\c{c}}a arterial coronariana}.
+
+\bibitem[Natale {\em et~al.}(2014)Natale, Arighi, Blake, Bult, Christie,
+  Cowart, D'Eustachio, Diehl, Drabkin, Helfer, Huang, Masci, Ren, Roberts,
+  Ross, Ruttenberg, Shamovsky, Smith, Yerramalla, Zhang, Aljanahi, \c{C}elen,
+  Gan, Lv, Schuster-Lezell, and Wu]{Natale2014}
+Natale, D.~a., Arighi, C.~N., Blake, J.~a., {\em et~al.} (2014).
+\newblock {Protein Ontology: A controlled structured network of protein
+  entities}.
+\newblock {\em Nucl. Acids Res.}, {\bf 42}(D1), 415--421.
+
+\bibitem[{NCBI Resource Coordinators}(2015){NCBI Resource
+  Coordinators}]{NCBI2015}
+{NCBI Resource Coordinators} (2015).
+\newblock {Database resources of the National Center for Biotechnology
+  Information}.
+\newblock {\em Nucl. Acids Res.}, {\bf 43}(Database issue), D6--D17.
+
+\bibitem[Poggi {\em et~al.}(2008)Poggi, Lembo, Calvanese, {De Giacomo},
+  Lenzerini, and Rosati]{Poggi2008}
+Poggi, A., Lembo, D., Calvanese, D., {\em et~al.} (2008).
+\newblock {Linking data to ontologies}.
+\newblock {\em LNCS\/}, {\bf 4900}, 133--173.
+
+\bibitem[Rector(2008)Rector]{Rector2008}
+Rector, A. (2008).
+\newblock Barriers, approaches and research priorities for integrating
+  biomedical ontologies.
+\newblock Technical report, EU Semantic Health Support Action.
+
+\bibitem[Santana {\em et~al.}(2011)Santana, Schober, Medeiros, Freitas, and
+  Schulz]{Santana2011b}
+Santana, F., Schober, D., Medeiros, Z., Freitas, F., and Schulz, S. (2011).
+\newblock {Ontology patterns for tabular representations of biomedical
+  knowledge on neglected tropical diseases}.
+\newblock {\em Bioinformatics\/}, {\bf 27}(13), i349--i356.
+
+\bibitem[Schober {\em et~al.}(2009)Schober, Smith, Lewis, Kusnierczyk, Lomax,
+  Mungall, Taylor, Rocca-serra, and Sansone]{Schober2009}
+Schober, D., Smith, B., Lewis, S.~E., {\em et~al.} (2009).
+\newblock {Survey-based naming conventions for use in OBO Foundry ontology
+  development.}
+\newblock {\em BMC Bioinformatics\/}, {\bf 10}, 125.
+
+\bibitem[Schulz and Boeker(2013)Schulz and Boeker]{Schulz2013}
+Schulz, S. and Boeker, M. (2013).
+\newblock {BioTopLite: An Upper Level Ontology for the Life Sciences.
+  Evolution, Design and Application}.
+\newblock In U.~Furbach and S.~Staab, editors, {\em Inform. 2013\/}, Koblenz.
+  IOS Press.
+
+\bibitem[Schulz and Jansen(2013)Schulz and Jansen]{Naturwissenschaften2014}
+Schulz, S. and Jansen, L. (2013).
+\newblock {Formal Ontologies in Biomedical Knowledge Representation}.
+\newblock {\em IMIA Yearb. 2013\/}, {\bf 8}(Evidence-based Health Informatics),
+  132--146.
+
+\bibitem[Schulz {\em et~al.}(2008)Schulz, Stenzhorn, and Boeker]{Schulz2008}
+Schulz, S., Stenzhorn, H., and Boeker, M. (2008).
+\newblock {The ontology of biological taxa}.
+\newblock {\em Bioinformatics\/}, {\bf 24}(13), 313--321.
+
+\bibitem[Schulz {\em et~al.}(2011)Schulz, Brochhausen, and
+  Hoehndorf]{Schulz2011a}
+Schulz, S., Brochhausen, M., and Hoehndorf, R. (2011).
+\newblock {Higgs Bosons, Mars Missions, and Unicorn Delusions: How to Deal with
+  Terms of Dubious Reference in Scientific Ontologies.}
+\newblock In {\em ICBO 2011\/}, pages 183--189, Buffalo.
+
+\bibitem[Schulz {\em et~al.}(2012)Schulz, Grewe, R\"{o}hl, Schober, Boeker, and
+  Jansen]{Schulz2012}
+Schulz, S., Grewe, N., R\"{o}hl, J., {\em et~al.} (2012).
+\newblock {Guideline on Developing Good Ontologies in the Biomedical Domain
+  with Description Logics}.
+\newblock Technical Report December, Universit\"{a}t Rostock, Rostock.
+
+\bibitem[Schulz {\em et~al.}(2014)Schulz, Mart{\'{\i}}nez-Costa, Karlsson,
+  Cornet, Brochhausen, and Rector]{schulz2014}
+Schulz, S., Mart{\'{\i}}nez-Costa, C., Karlsson, D., {\em et~al.} (2014).
+\newblock {An Ontological Analysis of Reference in Health Record Statements}.
+\newblock {\em Front. Artif. Intell. Appl.}, {\bf 267}(FOIS'14), 289 -- 302.
+
+\bibitem[Selhub(1999)Selhub]{Selhub1999}
+Selhub, J. (1999).
+\newblock {Homocysteine metabolism.}
+\newblock {\em Annu. Rev. Nutr.}, {\bf 19}, 217--246.
+
+\bibitem[Siqueira {\em et~al.}(2011)Siqueira, Oliveira, Muniz, Silva, Pereira,
+  and Carrilho]{Siqueira2011b}
+Siqueira, E. R.~F., Oliveira, C. P. M.~S., Muniz, M. T.~C., {\em et~al.}
+  (2011).
+\newblock {Methylenetetrahydrofolate reductase (MTHFR) C677T polymorphism and
+  high plasma homocysteine in chronic hepatitis C (CHC) infected patients from
+  the Northeast of Brazil.}
+\newblock {\em Nutr. J.}, {\bf 10}(1), 86.
+
+\bibitem[Smith {\em et~al.}(2005)Smith, Ceusters, Klagges, K\"{o}hler, Kumar,
+  Lomax, Mungall, Neuhaus, Rector, and Rosse]{Smith2005}
+Smith, B., Ceusters, W., Klagges, B., {\em et~al.} (2005).
+\newblock {Relations in biomedical ontologies.}
+\newblock {\em Genome Biol.}, {\bf 6}(5), R46.
+
+\bibitem[Smith {\em et~al.}(2007)Smith, Ashburner, Rosse, Bard, Bug, Ceusters,
+  Goldberg, Eilbeck, Ireland, Mungall, Leontis, Rocca-Serra, Ruttenberg,
+  Sansone, Scheuermann, Shah, Whetzel, and Lewis]{Smith2007}
+Smith, B., Ashburner, M., Rosse, C., {\em et~al.} (2007).
+\newblock {The OBO Foundry: coordinated evolution of ontologies to support
+  biomedical data integration.}
+\newblock {\em Nat. Biotechnol.}, {\bf 25}(11), 1251--5.
+
+\bibitem[Spear(2006)Spear]{Spear2006}
+Spear, A.~D. (2006).
+\newblock {\em {Ontology for the Twenty First Century : An Introduction with
+  Recommendations}\/}.
+\newblock IFOMIS, Saarbr\"{u}cken, Germany.
+\newblock http://www.ifomis.org/bfo/manual.
+
+\bibitem[{The Gene Ontology Consortium}(2014){The Gene Ontology
+  Consortium}]{Gene2014a}
+{The Gene Ontology Consortium} (2014).
+\newblock {Gene Ontology Consortium: going forward}.
+\newblock {\em Nucl. Acids Res.}, {\bf 43}(D1), D1049--D1056.
+
+\bibitem[Tsarkov and Horrocks(2006)Tsarkov and Horrocks]{Tsarkov2006}
+Tsarkov, D. and Horrocks, I. (2006).
+\newblock {FaCT ++ Description Logic Reasoner : System Description}.
+\newblock {\bf 4130}, 292--297.
+
+\bibitem[{UniProt Consortium}(2014){UniProt Consortium}]{UniProtConsortium2014}
+{UniProt Consortium} (2014).
+\newblock {Activities at the Universal Protein Resource (UniProt).}
+\newblock {\em Nucl. Acids Res.}, {\bf 42}(Database issue), D191--8.
+
+\bibitem[W3C(2012)W3C]{W3C2012}
+W3C (2012).
+\newblock {OWL 2 Web Ontology Language Document Overview}.
+\newblock http://www.w3.org/TR/owl2-overview/.
+
+\end{thebibliography}

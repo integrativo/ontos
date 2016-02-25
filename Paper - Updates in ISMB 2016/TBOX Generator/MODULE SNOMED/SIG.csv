@@ -1,0 +1,137 @@
+SNOMED_ID;SNOMED;ENSEMBL
+233985008;Abdominal aortic aneurysm (disorder);Abdominal Aortic Aneurysm
+274769005;Albuminuria (finding);Albuminuria
+44779003;Disorder of amino acid metabolism (disorder);Amino Acid Metabolism errors
+392291006;Angle-closure glaucoma (disorder);Angle-Closure Glaucoma
+54329005;Acute myocardial infarction of anterior wall (disorder);Anterior Wall Myocardial Infarction
+7305005;Coarctation of aorta (disorder);Aortic Coarctation
+195967001;Asthma (disorder);Asthma
+441574008;Atherosclerosis of artery (disorder);Atherosclerosis
+49601007;Disorder of cardiovascular system (disorder);Cardiovascular Diseases
+64586002;Carotid artery stenosis (disorder);Carotid Stenosis
+193570009;Cataract (disorder);Cataract
+68478007;Central retinal vein occlusion (disorder);Central Retinal Vein Occlusion
+126951006;Neoplasm of central nervous system (disorder);Central nervous system tumour
+432504007;Cerebral infarction (disorder);Cerebral Infarction
+67531005;Spina bifida (disorder);Spina bifida
+425687007;Spina bifida aperta of cervical spine (disorder);Cervical spina bifida aperta = Cervical spina bifida cystica
+429466000;;Cervicothoracic spina bifida aperta = Cervicothoracic spina bifida cystica
+84522009;;
+67186000;;
+102286006;;
+50310005;;
+312104005; Cholangiocarcinoma of biliary tract (disorder);Cholangiocarcinoma
+90688005;Chronic renal failure syndrome (disorder);Chronic Kidney Failure
+197613008; Chronic mesangial proliferative glomerulonephritis (disorder);Chronic Mesangial Proliferative Glomerulonephritis
+90688005;Chronic renal failure syndrome (disorder);Chronic Renal Insufficiency
+254915003;Clear cell carcinoma of kidney (disorder);Clear-cell metastatic renal cell carcinoma
+93761005;Primary malignant neoplasm of colon (disorder);Colorectal Neoplasms
+373662000;Primary adrenocortical insufficiency (disorder);Congenital Adrenal Insufficiency
+79410001;Congenital cataract (disorder);Congenital Cataracts
+53741008;Coronary arteriosclerosis (disorder);Coronary Artery Disease
+13003007;Cystathioninuria (disorder);Cystathininuria
+24308003;Cystathionine beta-synthase deficiency (disorder);Cystathionine beta-synthase deficiency
+127013003;Diabetic renal disease (disorder);Diabetic Nephropathies
+4855003;Diabetic retinopathy (disorder);Diabetic Retinopathy
+123844007;Neoplasm of endometrium (disorder);Endometrium tumour
+371405004;Disorder of eye proper (disorder);Eye Disease
+197321007;Steatosis of liver (disorder);Fatty Liver
+6885006;Cystathionine gamma-lyase deficiency (disorder);Gamma-cystathionase deficiency
+420120006;Gastrointestinal stromal tumor (disorder);Gastrointestinal Stromal Tumors
+234646005;Graft-versus-host disease (disorder);Graft vs Host Disease
+353295004;Graves' disease (disorder);Graves Disease
+269475001;Malignant tumor of lymphoid, hemopoietic AND/OR related tissue (disorder);Haematopoietic and lymphoid tissue tumour
+15188001;Hearing loss (disorder);Hearing Loss
+52072009;Heat stroke (disorder);Heat Stroke
+315058005;Hereditary nonpolyposis colon cancer (disorder);Hereditary Nonpolyposis
+52311001;Homocystinemia (disorder);Homocysteinemia
+11282001;Homocystinuria (disorder);Homocystinuria
+419503008;Hyperhomocysteinemia (disorder);Hyperhomocysteinemia
+34486009;Hyperthyroidism (disorder);Hyperthyroidism
+82196007;Vascular insufficiency of intestine (disorder);Intestinal Ischemia
+422504002; Ischemic stroke (disorder);Ischemic stroke
+89369001;Anencephalus and similar anomalies (disorder);Isolated anencephaly/exencephaly
+126880001;Neoplasm of kidney (disorder);Kidney tumour
+404148006; Diffuse large B-cell lymphoma (nodal/systemic with skin involvement) (disorder);Large B-Cell Diffuse Lymphoma
+126837005;Neoplasm of large intestine (disorder);Large intestine tumour
+126851005;Neoplasm of liver (disorder);Liver Neoplasms
+126851005;Neoplasm of liver (disorder);Liver tumour
+58557008;;Lumbosacral spina bifida aperta = Lumbosacral spina bifida cystica
+67186000;;
+102286006;;
+77224008;Spina bifida of lumbar region (disorder);
+126713003;Neoplasm of lung (disorder);Lung tumour
+53165003;Megaloblastic anemia (disorder);Megaloblastic anemia
+13445001;Ménière's disease (disorder);Meniere Disease
+290680001;Methotrexate poisoning (disorder);Methotrexate poisoning
+41797007;5,10-Methylenetetrahydrofolate reductase deficiency (disorder);Methylenetetrahydrofolate reductase deficiency
+41797007;5,10-Methylenetetrahydrofolate reductase deficiency (disorder);Methylenetetrahydrofolate reductase deficiency (MTHFRD)
+233845001;Cardiac syndrome X (finding);Microvascular Angina
+37796009;Migraine (disorder);Migraine Disorders
+4473006;Migraine with aura (disorder);Migraine with Aura
+404659001;Anterior ischemic optic neuropathy (disorder);NONARTERITIC ANTERIOR ISCHEMIC OPTIC NEUROPATHY
+49817004;Neonatal diabetes mellitus (disorder);Neonatal Diabetes Mellitus
+32916005;Nephrosclerosis (disorder);Nephrosclerosis
+253098009;Neural tube defect (disorder);Neural Tube Defects
+253098009;Neural tube defect (disorder);Neural tube defect
+253098009;Neural tube defect (disorder);Neural tube defects
+362975008;;Neurodegeneration
+25087005;;
+84494001;Open-angle glaucoma (disorder);Open-Angle Glaucoma
+307576001;Osteosarcoma of bone (disorder);Osteosarcoma
+123843001;Neoplasm of ovary (disorder);Ovary tumour
+126859007; Neoplasm of pancreas (disorder);Pancreas tumour
+126859007; Neoplasm of pancreas (disorder);Pancreatic Neoplasms
+399957001;Peripheral arterial occlusive disease (disorder);Peripheral Arterial Disease
+126906006;Neoplasm of prostate (disorder);Prostate tumour
+702391001;Renal cell carcinoma (disorder);Renal Cell Carcinoma
+29555009;Retinal disorder (disorder);Retinal Diseases
+69896004;Rheumatoid arthritis (disorder);Rheumatoid Arthritis
+58214004;Schizophrenia (disorder);Schizophrenia
+126488004; Neoplasm of skin (disorder);Skin tumour
+254632001;Small cell carcinoma of lung (disorder);Small Cell Lung Carcinoma
+402815007;Squamous cell carcinoma (disorder);Squamous Cell Carcinoma
+79471008;Sudden hearing loss (disorder);Sudden Hearing Loss
+41797007;5,10-Methylenetetrahydrofolate reductase deficiency (disorder);Thermolabile Type Mthfr Deficiency
+58557008;;Thoracolumbosacral spina bifida aperta = Thoracolumbosacral spina bifida cystica
+67186000;;
+102286006;;
+50310005;;
+ 54735007;Bone structure of sacrum (body structure);
+234467004; Thrombophilia (disorder);Thrombophilia
+126729006;Thrombotic microangiopathy (disorder);Thrombotic Microangiopathies
+58557008;;Total spina bifida aperta = Total spina bifida cystica
+84522009;;
+67186000;;
+102286006;;
+50310005;;
+118287003;Transitional cell neoplasm (morphologic abnormality);Transitional Cell Carcinoma
+46635009;Diabetes mellitus type 1 (disorder);Type 1 Diabetes Mellitus
+44054006;Diabetes mellitus type 2 (disorder);Type 2 Diabetes Mellitus
+427216002; Spina bifida aperta of thoracic spine (disorder);Upper thoracic spina bifida aperta = Upper thoracic spina bifida cystica
+126885006;Neoplasm of bladder (disorder);Urinary Bladder Neoplasms
+237897009;Vascular calcification (disorder);Vascular Calcification
+111293003;Venous thrombosis (disorder);Venous Thrombosis
+414173003;Exudative age-related macular degeneration (disorder);Wet Macular Degeneration
+302849000;Nephroblastoma (disorder);Wilms Tumor
+26926005;Neoplasm of breast (disorder);breast tumour
+15454001;;endocrine pancreas increased size
+361339003;;
+19776001;;exocrine pancreas decreased size
+248202004;;
+19776001;;eye decreased size
+244486005;;
+19776001;;head decreased size
+302548004;;
+19776001;;intestine decreased size
+256876008;;
+19776001;;liver decreased size
+181268008;;
+;N/A;methylcobalamin deficiency
+259512006;;
+15454001;;notochord increased size
+308820002;;
+;;pancreatic B cell present in greater numbers
+126824007;Neoplasm of stomach (disorder);stomach tumour
+18250007;;trunk decreased thickness
+262225004;;

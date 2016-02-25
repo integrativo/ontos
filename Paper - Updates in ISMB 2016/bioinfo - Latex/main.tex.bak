@@ -1,0 +1,98 @@
+\documentclass{bioinfo}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{todonotes}
+\usepackage{amsmath}
+%\usepackage{amsthm}
+\usepackage{threeparttable}
+\usepackage{bibentry}
+\usepackage{float}
+%\usepackage{tabularx}
+\usepackage{booktabs}
+%\usepackage{hyperref}
+%\usepackage{fixltx2e}
+%\usepackage{refcheck}
+
+\copyrightyear{2016} \pubyear{2016}
+
+\access{Advance Access Publication Date: Day Month Year}
+\appnotes{ISMB 2016 Proceedings}
+
+\begin{document}
+\firstpage{1}
+
+\subtitle{Databases, Ontologies \& Text mining}
+
+%\title[Logic-based integration of biomedical databases with ontologies]{Logic-based integration of biomedical databases with ontologies}
+
+\title[Representing biomedical database content as ontologies for enhanced querying]{Representing biomedical database content as ontologies for enhanced querying}
+
+\author[F. Santana \textit{et~al}.]{Filipe Santana\,$^{\text{\sfb 1,}*}$, Fred Freitas\,$^{\text{\sfb 1}}$ and Stefan Schulz\,$^{\text{\sfb 2}}$}
+\address{$^{\text{\sf 1}}$Centro de Inform\'{a}tica (CIn), Universidade Federal de Pernambuco (UFPE), Recife, 50740-560, Brazil,  and \\
+$^{\text{\sf 2}}$Institut f\"{u}r Medizinische Informatik, Statistik und Dokumentation, Medzinische Universit\"{a}t Graz, 8036, Austria}
+
+\corresp{$^\ast$To whom correspondence should be addressed.}
+
+\history{Received on XXXXX; revised on XXXXX; accepted on XXXXX}
+
+\editor{Associate Editor: XXXXXXX}
+
+\abstract{\textbf{Motivation:} 
+Although entities from biomedical domain ontologies represent a major source of the content of biological databases, current querying strategies mainly follow the syntax of the underlying database scheme and use ontologies mainly as domain vocabularies. 
+We address this shortcoming by ontology grounding, an approach that makes underlying ontological assumptions of databases explicit and which exploits the representational richness of the related domain ontologies. The result is a large ontology, in which database and ontology content is seamlessly integrated as a large set of OWL axioms, underpinned by formal-ontological principles. 
+This ontology is generated fully automatically, guided by a set of manually crafted database-specific ontology patterns.  \\
+\textbf{Results:} We applied ontology grounding to a database (Uniprot, Ensembl) extract on amino acid metabolism. Ontology completeness and correctness were tested using pre-formulated competence questions as description logics (DL) queries, encompassing proteins, biological processes, molecular activities and dysfunctional phenotypes. The expected results could be reproduced by the description logics reasoner. Benchmark tests showed moderate scalibility. Real-world use of this method still depends on large-scale content filtering and modularization prior to ontology creation.\\ 
+\textbf{Availability:} \href{http://www.cin.ufpe.br/~integrativo}{http://www.cin.ufpe.br/~integrativo}\\
+\textbf{Contact:} \href{fss3@cin.ufpe.br}{fss3@cin.ufpe.br}\\
+}
+
+\maketitle
+
+\section{Introduction}
+\input{SECTION/INTRO.tex}
+%\enlargethispage{12pt}
+
+\section{Background}
+\input{SECTION/BACKGROUND.tex}
+
+\section{Resources}
+\label{sec:resources}
+\input{SECTION/RESOURCES.tex}
+
+\begin{methods}
+\section{Methods}
+\input{SECTION/METHODS.tex}
+\end{methods}
+
+\section{Results}
+\input{SECTION/RESULTS.tex}
+
+\section{Discussion}
+\input{SECTION/DISCUSSION.tex}
+
+\section{Conclusion}
+\input{SECTION/CONCLUSION.tex}
+
+\section*{Funding}
+
+This work was funded by \textit{Conselho Nacional de Aperfei\c{c}oamento de Pessoal de N\'{i}vel Superior} (CAPES) 3914/2014-03; and, \textit{Conselho Nacional de Desenvolvimento Cient\'{i}fico e Tecnol\'{o}gico} (CNPq) 140698/2012-4.
+Conflict of Interest: none declared. \vspace*{-12pt}
+
+\bibliographystyle{natbib}
+%\bibliographystyle{achemnat}
+%\bibliographystyle{plainnat}
+%\bibliographystyle{abbrv}
+%\bibliographystyle{bioinformatics}
+%
+%\bibliographystyle{plain}
+%
+\bibliography{BIB/mybib}
+
+
+%\begin{thebibliography}{}
+%	\bibliography{BIB/mybib}
+%\end{thebibliography}
+
+\end{document}
