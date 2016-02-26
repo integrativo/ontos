@@ -402,12 +402,73 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#Cyt"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
                         <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#Zebrafish"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.cin.ufpe.br/~integrativo#BP1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo#BP1_in_Zebrafish_with_BHMT_and_MF1 -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo#BP1_in_Zebrafish_with_BHMT_and_MF1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo#BP1_in_Zebrafish_with_BHMT"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#MF1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cin.ufpe.br/~integrativo#BP1_in_Zebrafish_with_BHMT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo#BP1_in_Zebrafish_with_BHMT_and_MF2 -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo#BP1_in_Zebrafish_with_BHMT_and_MF2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo#BP1_in_Zebrafish_with_BHMT"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#MF2"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cin.ufpe.br/~integrativo#BP1_in_Zebrafish_with_BHMT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo#BP1_in_Zebrafish_with_BHMT_and_MF3 -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo#BP1_in_Zebrafish_with_BHMT_and_MF3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo#BP1_in_Zebrafish_with_BHMT"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#MF3"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cin.ufpe.br/~integrativo#BP1_in_Zebrafish_with_BHMT"/>
     </owl:Class>
     
 
@@ -433,12 +494,73 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#Cyt"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
                         <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#Zebrafish"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.cin.ufpe.br/~integrativo#BP2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo#BP2_in_Zebrafish_with_BHMT_and_MF1 -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo#BP2_in_Zebrafish_with_BHMT_and_MF1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo#BP2_in_Zebrafish_with_BHMT"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#MF1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cin.ufpe.br/~integrativo#BP2_in_Zebrafish_with_BHMT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo#BP2_in_Zebrafish_with_BHMT_and_MF2 -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo#BP2_in_Zebrafish_with_BHMT_and_MF2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo#BP2_in_Zebrafish_with_BHMT"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#MF2"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cin.ufpe.br/~integrativo#BP2_in_Zebrafish_with_BHMT"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo#BP2_in_Zebrafish_with_BHMT_and_MF3 -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo#BP2_in_Zebrafish_with_BHMT_and_MF3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo#BP2_in_Zebrafish_with_BHMT"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#MF3"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cin.ufpe.br/~integrativo#BP2_in_Zebrafish_with_BHMT"/>
     </owl:Class>
     
 
@@ -553,6 +675,68 @@
     
 
 
+    <!-- http://www.cin.ufpe.br/~integrativo#MF1_of_BHMT_from_Zebrafish_in_BP1 -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo#MF1_of_BHMT_from_Zebrafish_in_BP1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo#MF1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasParticipant"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#BHMT"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#Cyt"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#Zebrafish"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#BP1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cin.ufpe.br/~integrativo#MF1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo#MF1_of_BHMT_from_Zebrafish_in_BP2 -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo#MF1_of_BHMT_from_Zebrafish_in_BP2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo#MF1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasParticipant"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#BHMT"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#Cyt"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#Zebrafish"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#BP2"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cin.ufpe.br/~integrativo#MF1"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.cin.ufpe.br/~integrativo#MF2 -->
 
     <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo#MF2">
@@ -561,10 +745,134 @@
     
 
 
+    <!-- http://www.cin.ufpe.br/~integrativo#MF2_of_BHMT_from_Zebrafish_in_BP1 -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo#MF2_of_BHMT_from_Zebrafish_in_BP1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo#MF2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasParticipant"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#BHMT"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#Cyt"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#Zebrafish"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#BP1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cin.ufpe.br/~integrativo#MF2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo#MF2_of_BHMT_from_Zebrafish_in_BP2 -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo#MF2_of_BHMT_from_Zebrafish_in_BP2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo#MF2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasParticipant"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#BHMT"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#Cyt"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#Zebrafish"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#BP2"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cin.ufpe.br/~integrativo#MF2"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.cin.ufpe.br/~integrativo#MF3 -->
 
     <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo#MF3">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo#MF3_of_BHMT_from_Zebrafish_in_BP1 -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo#MF3_of_BHMT_from_Zebrafish_in_BP1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo#MF3"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasParticipant"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#BHMT"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#Cyt"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#Zebrafish"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#BP1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cin.ufpe.br/~integrativo#MF3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo#MF3_of_BHMT_from_Zebrafish_in_BP2 -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo#MF3_of_BHMT_from_Zebrafish_in_BP2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo#MF3"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#hasParticipant"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#BHMT"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#Cyt"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#Zebrafish"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#BP2"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cin.ufpe.br/~integrativo#MF3"/>
     </owl:Class>
     
 
@@ -784,6 +1092,25 @@
                                 </owl:intersectionOf>
                             </owl:Class>
                         </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.cin.ufpe.br/~integrativo#Zebrafish"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cin.ufpe.br/~integrativo#Zebrafish_with_Cyt -->
+
+    <owl:Class rdf:about="http://www.cin.ufpe.br/~integrativo#Zebrafish_with_Cyt">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.cin.ufpe.br/~integrativo#Zebrafish"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/biotop/btl2.owl#includes"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cin.ufpe.br/~integrativo#Cyt"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
