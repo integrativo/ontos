@@ -1,0 +1,38 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: BMC - Paper.aux
+The style file: bmc-mathphys.bst
+Database file #1: BIB/mybib.bib
+Warning--entry type for "Horridge2009" isn't style-file defined
+--line 518 of file BIB/mybib.bib
+Repeated entry---line 988 of file BIB/mybib.bib
+ : @article{Naturwissenschaften2014
+ :                                 ,
+I'm skipping whatever remains of this entry
+Warning--"{The" isn't a brace-balanced string for entry Baader2007g
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{The" isn't a brace-balanced string for entry Baader2007g
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{The" isn't a brace-balanced string for entry Baader2007g
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"applications}" isn't a brace-balanced string for entry Baader2007g
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"applications}" isn't a brace-balanced string for entry Baader2007g
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"APPLICATIONS}" isn't a brace-balanced string for entry Baader2007g
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{Ontology" isn't a brace-balanced string for entry Spear2006
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{Ontology" isn't a brace-balanced string for entry Spear2006
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{Ontology" isn't a brace-balanced string for entry Spear2006
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"Recommendations}" isn't a brace-balanced string for entry Spear2006
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{OWL" isn't a brace-balanced string for entry Horridge2009
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{OWL" isn't a brace-balanced string for entry Horridge2009
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"{OWL" isn't a brace-balanced string for entry Horridge2009
+while executing--line 2686 of file bmc-mathphys.bst
+Warning--"Syntax}" isn't a brace-balanced string for entry Horridge2009
+while executing--line 2686 of file bmc-mathphys.bst
+(There was 1 error message)
