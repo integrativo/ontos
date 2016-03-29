@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/go/releases/2015-05-01/go.owl" uri="file:/C:/Users/filip/Documents/GitHub/ontos/Journal2016/TBOX%20Generator/Current/Modules/go_module.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.bioontology.org/ontology/NCBITAXON" uri="file:/C:/Users/filip/Documents/GitHub/ontos/Journal2016/TBOX%20Generator/Current/Modules/ncbitaxon.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.org/biotop/btl2.owl" uri="https://raw.githubusercontent.com/BioTopOntology/biotop/master/btl2.owl"/>
+    <uri id="Imports Wizard Entry" name="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl" uri="file:/C:/Users/filip/Documents/GitHub/ontos/Journal2016/TBOX%20Generator/Current/Modules/chebi_module.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1456607665711" name="http://purl.org/biotop/btl2.owl" uri="btl2.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1456607665711" name="http://www.cin.ufpe.br/~integrativo" uri="example.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1459205784745" name="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl" uri="chebi/chebi.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1459205784745" name="http://purl.obolibrary.org/obo/go/extensions/go-plus.owl" uri="go-plus/go-plus.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1459205784745" name="http://purl.obolibrary.org/obo/pr/pr-non-classified.owl" uri="pro/pro.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1459205784745" name="http://purl.org/biotop/btl2.owl" uri="btl2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1459205784745" name="http://www.cin.ufpe.br/~integrativo#" uri="integrativo.owl"/>
     </group>
 </catalog>
