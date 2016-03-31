@@ -86,3 +86,6 @@ CQ5 -- Which biological processes that have a protein of the type X in organism 
 
 
 CQ6 --  Which situations have as participants proteins that can be found in a specific site during a biological process of type X?
+
+CQ7 -- Which are the organisms that includes a protein of type X and are also found in situations of type Y?
+
