@@ -63,16 +63,21 @@ Methionine_synthase_in_Homo_sapiens__Human__in_methylation__GO_0032259_
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+CQ4 -- Which similar process takes place in two distinct organisms of the type A and B when a protein sufurated protein is available?
 
-CQ4 -- Which biological processes that have a protein of the type X in organism A also takes place in an organism of type B?
+biological_process and (hasParticipant some MTHFR) and ('is included in some 'Homo sapiens') and ('is included in' some Putterfish)
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CQ5 --  Which situations have as participants proteins that can be found in a specific site during a biological process of type X?
 
+Situation and (hasParticipant some (ProteinA and (isIncludedIn some Cytoplasm)))
+
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 CQ6 -- Which are the organisms that includes a protein of type X and are also found in situations of type Y?
+
+Organism and (hasPart some (ProteinX and (isParticipantIn some SituationY)))
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -84,7 +89,14 @@ Protein and (isIncludedIn some 'sulfur-based catabolic process')
 CQ8 -- Which are the molecular functions performed by proteins of the type 'betaine homocysteine metil transferase 1' in organisms of the type Xenopus tropicalis?
 
 Molecular function and (hasParticipant some 'betaine homocysteine metil transferase 1') and isIncludedIn some 'Xenopus tropicalis'
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-CQ9 -- Some consistency checking
+
+CQ9 -- Are there molecular functions that takes place in organisms of the type Mus musculus?
+
+molecular_function and (isIncludedIn some MusMusculus)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 
 CQ10 -- Some consistency checking

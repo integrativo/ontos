@@ -41,10 +41,10 @@
         <Class IRI="protein_sulfhydration__GO_0044524__in_Homo_sapiens__Human__with_Cystathionine_gamma_lyase"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.bioontology.org/ontology/NCBITAXON#XenopusTropicalis"/>
+        <Class IRI="Homo_sapiens__Human__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__and_small_molecule_metabolic_process__GO_0044281_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Homo_sapiens__Human__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__and_small_molecule_metabolic_process__GO_0044281_"/>
+        <Class IRI="http://purl.bioontology.org/ontology/NCBITAXON#XenopusTropicalis"/>
     </Declaration>
     <Declaration>
         <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Canis_familiaris__Dog___Canis_lupus_familiaris__in_homocysteine_metabolic_process__GO_0050667_"/>
@@ -104,16 +104,16 @@
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Oreochromis_niloticus__Nile_tilapia___Tilapia_nilotica_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Rattus_norvegicus__Rat__with_Neurodegeneration_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Homo_sapiens__Human__with_Cervical_spina_bifida_cystica"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_gamma_lyase_Dysfunctional_in_Sus_scrofa__Pig_"/>
+        <Class IRI="Rattus_norvegicus__Rat__with_Neurodegeneration_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
         <Class IRI="identical_protein_binding__GO_0042802__in_Mus_musculus__Mouse__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cystathionine_gamma_lyase_Dysfunctional_in_Sus_scrofa__Pig_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Gallus_gallus__Chicken__with_cytosol__GO_0005829_"/>
@@ -143,10 +143,10 @@
         <Class IRI="Vascular_Calcification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Mus_musculus__Mouse__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_negative_regulation_of_apoptotic_process__GO_0043066_"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Rattus_norvegicus__Rat__in_response_to_nutrient_levels__GO_0031667_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Rattus_norvegicus__Rat__in_response_to_nutrient_levels__GO_0031667_"/>
+        <Class IRI="Mus_musculus__Mouse__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_negative_regulation_of_apoptotic_process__GO_0043066_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Rattus_norvegicus__Rat__with_Fatty_Liver_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
@@ -170,19 +170,19 @@
         <Class IRI="http://purl.org/biotop/btl2.owl#MonoMolecularEntity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_gamma_lyase_in_Sus_scrofa__Pig__in_protein_pyridoxal_5_phosphate_linkage_via_peptidyl_N6_pyridoxal_phosphate_L_lysine__GO_0018272_"/>
+        <Class IRI="Sus_scrofa__Pig__with_Cystathionine_gamma_lyase_and_hydrogen_sulfide_biosynthetic_process__GO_0070814_"/>
     </Declaration>
     <Declaration>
         <Class IRI="response_to_interleukin_1__GO_0070555__in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Sus_scrofa__Pig__with_Cystathionine_gamma_lyase_and_hydrogen_sulfide_biosynthetic_process__GO_0070814_"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0070829"/>
+        <Class IRI="Cystathionine_gamma_lyase_in_Sus_scrofa__Pig__in_protein_pyridoxal_5_phosphate_linkage_via_peptidyl_N6_pyridoxal_phosphate_L_lysine__GO_0018272_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Rattus_norvegicus__Rat__with_Anterior_Wall_Myocardial_Infarction_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0070829"/>
     </Declaration>
     <Declaration>
         <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Homo_sapiens__Human__with_Methotrexate_poisoning"/>
@@ -269,10 +269,10 @@
         <Class IRI="breast_tumour"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0072341"/>
+        <Class IRI="Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_cerebellum_morphogenesis__GO_0021587_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_cerebellum_morphogenesis__GO_0021587_"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0072341"/>
     </Declaration>
     <Declaration>
         <Class IRI="Bos_taurus__Bovine__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__and_one_carbon_metabolic_process__GO_0006730_"/>
@@ -332,10 +332,10 @@
         <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Homo_sapiens__Human__with_Upper_thoracic_spina_bifida_aperta"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Thoracolumbosacral_spina_bifida_aperta_in_Homo_sapiens__Human__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
+        <Class IRI="Congenital_Adrenal_Insufficiency"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Congenital_Adrenal_Insufficiency"/>
+        <Class IRI="Thoracolumbosacral_spina_bifida_aperta_in_Homo_sapiens__Human__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
         <Class IRI="Mus_musculus__Mouse__with_Methionine_synthase"/>
@@ -452,16 +452,16 @@
         <Class IRI="modified_amino_acid_binding__GO_0072341__in_Canis_familiaris__Dog___Canis_lupus_familiaris__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Rattus_norvegicus__Rat__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_response_to_folic_acid__GO_0051593_"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Pan_troglodytes__Chimpanzee__with_Cystathionine_beta_synthase__EC_4_2_1_22__Dysfunctional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_gamma_lyase_in_Sus_scrofa__Pig__in_nucleus__GO_0005634_"/>
+        <Class IRI="Rattus_norvegicus__Rat__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_response_to_folic_acid__GO_0051593_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Methionine_synthase_Dysfunctional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Cystathionine_gamma_lyase_in_Sus_scrofa__Pig__in_nucleus__GO_0005634_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Bos_taurus__Bovine__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_superoxide_metabolic_process__GO_0006801_"/>
@@ -506,10 +506,10 @@
         <Class IRI="tetrahydrofolate_interconversion__GO_0035999__in_Homo_sapiens__Human__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="maternal_process_involved_in_female_pregnancy__GO_0060135__in_Oryctolagus_cuniculus__Rabbit__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="Homocysteine_in_Mus_musculus__Mouse__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Homocysteine_in_Mus_musculus__Mouse__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="maternal_process_involved_in_female_pregnancy__GO_0060135__in_Oryctolagus_cuniculus__Rabbit__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
@@ -539,10 +539,10 @@
         <Class IRI="Homo_sapiens__Human__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_homocysteine_metabolic_process__GO_0050667_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Homocystinuria_in_Rattus_norvegicus__Rat__with_Cystathionine_beta_synthase__EC_4_2_1_22__Dysfunctional"/>
+        <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="http://purl.org/biotop/btl2.owl#isIncludedIn"/>
+        <Class IRI="Homocystinuria_in_Rattus_norvegicus__Rat__with_Cystathionine_beta_synthase__EC_4_2_1_22__Dysfunctional"/>
     </Declaration>
     <Declaration>
         <Class IRI="Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__Dysfunctional_in_Homo_sapiens__Human__with_Kidney_tumour"/>
@@ -605,10 +605,10 @@
         <Class IRI="Methionine_synthase_Dysfunctional_in_Homo_sapiens__Human__with_Homocysteinemia"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Renal_Cell_Carcinoma_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
+        <Class IRI="Mus_musculus__Mouse__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_blood_vessel_remodeling__GO_0001974_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Mus_musculus__Mouse__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_blood_vessel_remodeling__GO_0001974_"/>
+        <Class IRI="Renal_Cell_Carcinoma_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
         <Class IRI="L_cystine_L_cysteine_lyase__deaminating___GO_0044540__in_Mus_musculus__Mouse__with_Cystathionine_gamma_lyase"/>
@@ -620,10 +620,10 @@
         <Class IRI="L_cysteine_desulfhydrase_activity__GO_0080146__in_Homo_sapiens__Human__with_Cystathionine_gamma_lyase"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Ailuropoda_melanoleuca__Giant_panda__in_maternal_process_involved_in_female_pregnancy__GO_0060135_"/>
+        <Class IRI="betaine_homocysteine_S_methyltransferase_activity__GO_0047150__in_Xenopus_tropicalis__Western_clawed_frog___Silurana_tropicalis__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="betaine_homocysteine_S_methyltransferase_activity__GO_0047150__in_Xenopus_tropicalis__Western_clawed_frog___Silurana_tropicalis__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5_"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Ailuropoda_melanoleuca__Giant_panda__in_maternal_process_involved_in_female_pregnancy__GO_0060135_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cystathionine_gamma_lyase_in_Sus_scrofa__Pig__in_cytoplasm__GO_0005737_"/>
@@ -635,10 +635,10 @@
         <Class IRI="Chronic_Renal_Insufficiency"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0034641"/>
+        <Class IRI="extracellular_vesicular_exosome__GO_0070062__in_Rattus_norvegicus__Rat_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="extracellular_vesicular_exosome__GO_0070062__in_Rattus_norvegicus__Rat_"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0034641"/>
     </Declaration>
     <Declaration>
         <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Homo_sapiens__Human__in_methionine_biosynthetic_process__GO_0009086_"/>
@@ -677,10 +677,10 @@
         <Class IRI="Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__in_Homo_sapiens__Human__in_sulfur_amino_acid_metabolic_process__GO_0000096_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Homo_sapiens__Human__in_homocysteine_catabolic_process__GO_0043418_"/>
+        <Class IRI="Callithrix_jacchus__White_tufted_ear_marmoset__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_endochondral_ossification__GO_0001958_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Callithrix_jacchus__White_tufted_ear_marmoset__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_endochondral_ossification__GO_0001958_"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Homo_sapiens__Human__in_homocysteine_catabolic_process__GO_0043418_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Bos_taurus__Bovine__with_Methionine_synthase"/>
@@ -773,10 +773,10 @@
         <Class IRI="Methionine_synthase_in_Mus_musculus__Mouse__in_cytosol__GO_0005829_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Homocysteine_in_Mus_musculus__Mouse__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5_"/>
+        <Class IRI="Homo_sapiens__Human__with_Neural_tube_defect_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Homo_sapiens__Human__with_Neural_tube_defect_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
+        <Class IRI="Homocysteine_in_Mus_musculus__Mouse__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Homo_sapiens__Human__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__and_regulation_of_histone_methylation__GO_0031060_"/>
@@ -803,19 +803,19 @@
         <Class IRI="Bos_taurus__Bovine__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_endochondral_ossification__GO_0001958_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Rattus_norvegicus__Rat__with_Chronic_Mesangial_Proliferative_Glomerulonephritis_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
+        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Mus_musculus__Mouse__in_response_to_drug__GO_0042493_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Mus_musculus__Mouse__in_response_to_drug__GO_0042493_"/>
+        <Class IRI="Rattus_norvegicus__Rat__with_Chronic_Mesangial_Proliferative_Glomerulonephritis_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/GO_0043123"/>
     </Declaration>
     <Declaration>
-        <Class IRI="homocysteine_metabolic_process__GO_0050667__in_Rattus_norvegicus__Rat__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="homocysteine_metabolic_process__GO_0050667__in_Oryctolagus_cuniculus__Rabbit__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="homocysteine_metabolic_process__GO_0050667__in_Oryctolagus_cuniculus__Rabbit__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="homocysteine_metabolic_process__GO_0050667__in_Rattus_norvegicus__Rat__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__with_cytoplasm__GO_0005737_"/>
@@ -866,10 +866,10 @@
         <Class IRI="Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__in_Homo_sapiens__Human__in_cytosol__GO_0005829_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Atherosclerosis_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
+        <Class IRI="Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__in_Pongo_abelii__Sumatran_orangutan___Pongo_pygmaeus_abelii__in_L_methionine_salvage__GO_0071267_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__in_Pongo_abelii__Sumatran_orangutan___Pongo_pygmaeus_abelii__in_L_methionine_salvage__GO_0071267_"/>
+        <Class IRI="Atherosclerosis_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/GO_0042493"/>
@@ -1034,10 +1034,10 @@
         <Class IRI="response_to_folic_acid__GO_0051593__in_Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="MTR_encoding_Methionine_synthase_in_Homo_sapiens__Human_"/>
+        <Class IRI="Pongo_abelii__Sumatran_orangutan___Pongo_pygmaeus_abelii__with_cytoplasm__GO_0005737_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Pongo_abelii__Sumatran_orangutan___Pongo_pygmaeus_abelii__with_cytoplasm__GO_0005737_"/>
+        <Class IRI="MTR_encoding_Methionine_synthase_in_Homo_sapiens__Human_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Sus_scrofa__Pig__with_cytosol__GO_0005829_"/>
@@ -1220,10 +1220,10 @@
         <Class IRI="Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__in_Bos_taurus__Bovine__in_amino_acid_betaine_catabolic_process__GO_0006579_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Rattus_norvegicus__Rat__with_Heat_Stroke_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
+        <Class IRI="http://purl.org/biotop/btl2.owl#Quality"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.org/biotop/btl2.owl#Quality"/>
+        <Class IRI="Rattus_norvegicus__Rat__with_Heat_Stroke_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__in_blood_vessel_remodeling__GO_0001974_"/>
@@ -1313,10 +1313,10 @@
         <Class IRI="Pan_troglodytes__Chimpanzee__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_cartilage_development_involved_in_endochondral_bone_morphogenesis__GO_0060351_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Homocysteine_in_Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="Callithrix_jacchus__White_tufted_ear_marmoset__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_homocysteine_metabolic_process__GO_0050667_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Callithrix_jacchus__White_tufted_ear_marmoset__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_homocysteine_metabolic_process__GO_0050667_"/>
+        <Class IRI="Homocysteine_in_Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Loxodonta_africana__African_elephant__in_regulation_of_cGMP_metabolic_process__GO_0030823_"/>
@@ -1325,10 +1325,10 @@
         <Class IRI="http://purl.obolibrary.org/obo/GO_0033528"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.bioontology.org/ontology/NCBITAXON/9913"/>
+        <Class IRI="endochondral_ossification__GO_0001958__in_Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="endochondral_ossification__GO_0001958__in_Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="http://purl.bioontology.org/ontology/NCBITAXON/9913"/>
     </Declaration>
     <Declaration>
         <Class IRI="folic_acid_metabolic_process__GO_0046655__in_Homo_sapiens__Human__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
@@ -1337,19 +1337,19 @@
         <Class IRI="Homo_sapiens__Human__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__and_S_adenosylmethionine_metabolic_process__GO_0046500_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Homo_sapiens__Human__in_heterochromatin_maintenance__GO_0070829_"/>
+        <Class IRI="Cystathionine_gamma_lyase_in_Bos_taurus__Bovine__in_negative_regulation_of_apoptotic_signaling_pathway__GO_2001234_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_gamma_lyase_in_Bos_taurus__Bovine__in_negative_regulation_of_apoptotic_signaling_pathway__GO_2001234_"/>
+        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Homo_sapiens__Human__in_heterochromatin_maintenance__GO_0070829_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Gallus_gallus__Chicken__in_endochondral_ossification__GO_0001958_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="endochondral_ossification__GO_0001958__in_Rattus_norvegicus__Rat__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Callithrix_jacchus__White_tufted_ear_marmoset__in_cysteine_biosynthetic_process_from_serine__GO_0006535_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Callithrix_jacchus__White_tufted_ear_marmoset__in_cysteine_biosynthetic_process_from_serine__GO_0006535_"/>
+        <Class IRI="endochondral_ossification__GO_0001958__in_Rattus_norvegicus__Rat__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/GO_0071456"/>
@@ -1364,10 +1364,10 @@
         <Class IRI="Methionine_synthase_in_Homo_sapiens__Human__in_water_soluble_vitamin_metabolic_process__GO_0006767_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Rattus_norvegicus__Rat__with_Hearing_Loss_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
+        <Class IRI="Homo_sapiens__Human__with_Cystathionine_gamma_lyase_and_positive_regulation_of_I_kappaB_kinase_NF_kappaB_signaling__GO_0043123_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Homo_sapiens__Human__with_Cystathionine_gamma_lyase_and_positive_regulation_of_I_kappaB_kinase_NF_kappaB_signaling__GO_0043123_"/>
+        <Class IRI="Rattus_norvegicus__Rat__with_Hearing_Loss_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
         <Class IRI="cysteine_biosynthetic_process_via_cystathionine__GO_0019343__in_Takifugu_rubripes__Japanese_pufferfish___Fugu_rubripes__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
@@ -1433,10 +1433,10 @@
         <Class IRI="Isolated_anencephaly_exencephaly_in_Homo_sapiens__Human__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="cytoplasm__GO_0005737__in_Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius_"/>
+        <Class IRI="http://purl.bioontology.org/ontology/NCBITAXON/7955"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.bioontology.org/ontology/NCBITAXON/7955"/>
+        <Class IRI="cytoplasm__GO_0005737__in_Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__in_Homo_sapiens__Human_"/>
@@ -1700,10 +1700,10 @@
         <Class IRI="cytosol__GO_0005829__in_Homo_sapiens__Human__with_Cystathionine_gamma_lyase"/>
     </Declaration>
     <Declaration>
-        <Class IRI="CBS_encoding_Cystathionine_beta_synthase__EC_4_2_1_22__in_Latimeria_chalumnae__West_Indian_ocean_coelacanth_"/>
+        <Class IRI="S_adenosylmethionine_metabolic_process__GO_0046500__in_Mus_musculus__Mouse__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="S_adenosylmethionine_metabolic_process__GO_0046500__in_Mus_musculus__Mouse__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
+        <Class IRI="CBS_encoding_Cystathionine_beta_synthase__EC_4_2_1_22__in_Latimeria_chalumnae__West_Indian_ocean_coelacanth_"/>
     </Declaration>
     <Declaration>
         <Class IRI="cytosol__GO_0005829__in_Sus_scrofa__Pig__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
@@ -1715,10 +1715,10 @@
         <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Rattus_norvegicus__Rat__in_one_carbon_metabolic_process__GO_0006730_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="cystathionine_beta_synthase_activity__GO_0004122__in_Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="methionine_biosynthetic_process__GO_0009086__in_Homo_sapiens__Human__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="methionine_biosynthetic_process__GO_0009086__in_Homo_sapiens__Human__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
+        <Class IRI="cystathionine_beta_synthase_activity__GO_0004122__in_Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Hyperthyroidism_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
@@ -1964,10 +1964,10 @@
         <Class IRI="cytoplasm__GO_0005737__in_Mus_musculus__Mouse__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Rattus_norvegicus__Rat__with_Central_Retinal_Vein_Occlusion"/>
+        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Rattus_norvegicus__Rat__with_Intestinal_Ischemia"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Rattus_norvegicus__Rat__with_Intestinal_Ischemia"/>
+        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Rattus_norvegicus__Rat__with_Central_Retinal_Vein_Occlusion"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Homo_sapiens__Human__in_Homocysteine"/>
@@ -2069,13 +2069,13 @@
         <Class IRI="Callithrix_jacchus__White_tufted_ear_marmoset__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_blood_vessel_remodeling__GO_0001974_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Bos_taurus__Bovine__in_cysteine_biosynthetic_process_from_serine__GO_0006535_"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Ailuropoda_melanoleuca__Giant_panda__in_cartilage_development_involved_in_endochondral_bone_morphogenesis__GO_0060351_"/>
     </Declaration>
     <Declaration>
         <Class IRI="enzyme_binding__GO_0019899__in_Mus_musculus__Mouse__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Ailuropoda_melanoleuca__Giant_panda__in_cartilage_development_involved_in_endochondral_bone_morphogenesis__GO_0060351_"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Bos_taurus__Bovine__in_cysteine_biosynthetic_process_from_serine__GO_0006535_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cystathionine_gamma_lyase_in_Homo_sapiens__Human__in_positive_regulation_of_I_kappaB_kinase_NF_kappaB_signaling__GO_0043123_"/>
@@ -2096,10 +2096,10 @@
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Mustela_putorius_furo__European_domestic_ferret___Mustela_furo__in_blood_vessel_remodeling__GO_0001974_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Mus_musculus__Mouse__in_Homocysteine"/>
+        <Class IRI="response_to_interleukin_1__GO_0070555__in_Mus_musculus__Mouse__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="response_to_interleukin_1__GO_0070555__in_Mus_musculus__Mouse__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Mus_musculus__Mouse__in_Homocysteine"/>
     </Declaration>
     <Declaration>
         <Class IRI="intracellular_membrane_bounded_organelle__GO_0043231__in_Mus_musculus__Mouse__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
@@ -2126,10 +2126,10 @@
         <Class IRI="Graft_vs_Host_Disease"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_homocysteine_metabolic_process__GO_0050667_"/>
+        <Class IRI="regulation_of_blood_vessel_size__GO_0050880__in_Bos_taurus__Bovine__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="regulation_of_blood_vessel_size__GO_0050880__in_Bos_taurus__Bovine__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_homocysteine_metabolic_process__GO_0050667_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Congenital_Adrenal_Insufficiency_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
@@ -2195,10 +2195,10 @@
         <Class IRI="Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__in_Homo_sapiens__Human__in_cytoplasm__GO_0005737_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="cerebellum_morphogenesis__GO_0021587__in_Ailuropoda_melanoleuca__Giant_panda__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="cystathionine_beta_synthase_activity__GO_0004122__in_Oreochromis_niloticus__Nile_tilapia___Tilapia_nilotica__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="cystathionine_beta_synthase_activity__GO_0004122__in_Oreochromis_niloticus__Nile_tilapia___Tilapia_nilotica__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="cerebellum_morphogenesis__GO_0021587__in_Ailuropoda_melanoleuca__Giant_panda__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Homo_sapiens__Human__with_Methionine_synthase_and_Homocysteine"/>
@@ -2282,19 +2282,19 @@
         <Class IRI="Homocysteine_in_Rattus_norvegicus__Rat_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Rattus_norvegicus__Rat__with_Angle_Closure_Glaucoma"/>
+        <Class IRI="Type_2_Diabetes_Mellitus"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Type_2_Diabetes_Mellitus"/>
+        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Rattus_norvegicus__Rat__with_Angle_Closure_Glaucoma"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Mustela_putorius_furo__European_domestic_ferret___Mustela_furo__in_endochondral_ossification__GO_0001958_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Pan_troglodytes__Chimpanzee__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_cerebellum_morphogenesis__GO_0021587_"/>
+        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Rattus_norvegicus__Rat__with_Microvascular_Angina"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Rattus_norvegicus__Rat__with_Microvascular_Angina"/>
+        <Class IRI="Pan_troglodytes__Chimpanzee__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_cerebellum_morphogenesis__GO_0021587_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Homo_sapiens__Human__with_Cervical_spina_bifida_aperta"/>
@@ -2315,10 +2315,10 @@
         <Class IRI="Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__and_S_adenosylmethionine_metabolic_process__GO_0046500_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="MTHFR_encoding_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Mus_musculus__Mouse_"/>
+        <Class IRI="response_to_folic_acid__GO_0051593__in_Pan_troglodytes__Chimpanzee__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="response_to_folic_acid__GO_0051593__in_Pan_troglodytes__Chimpanzee__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="MTHFR_encoding_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Mus_musculus__Mouse_"/>
     </Declaration>
     <Declaration>
         <Class IRI="maternal_process_involved_in_female_pregnancy__GO_0060135__in_Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
@@ -2342,10 +2342,10 @@
         <Class IRI="regulation_of_blood_vessel_size__GO_0050880__in_Mustela_putorius_furo__European_domestic_ferret___Mustela_furo__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Pan_troglodytes__Chimpanzee__in_cerebellum_morphogenesis__GO_0021587_"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0006535"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0006535"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Pan_troglodytes__Chimpanzee__in_cerebellum_morphogenesis__GO_0021587_"/>
     </Declaration>
     <Declaration>
         <Class IRI="hydrogen_sulfide_biosynthetic_process__GO_0070814__in_Gallus_gallus__Chicken__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
@@ -2375,13 +2375,13 @@
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Pan_troglodytes__Chimpanzee__in_maternal_process_involved_in_female_pregnancy__GO_0060135_"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Sus_scrofa__Pig__with_Cystathionine_gamma_lyase"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Bos_taurus__Bovine__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__and_amino_acid_betaine_catabolic_process__GO_0006579_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Rattus_norvegicus__Rat__with_Osteosarcoma"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Sus_scrofa__Pig__with_Cystathionine_gamma_lyase"/>
     </Declaration>
     <Declaration>
         <Class IRI="Ailuropoda_melanoleuca__Giant_panda__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
@@ -2435,13 +2435,13 @@
         <Class IRI="Mus_musculus__Mouse__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__and_one_carbon_metabolic_process__GO_0006730_"/>
     </Declaration>
     <Declaration>
+        <Class IRI="nucleus__GO_0005634__in_Homo_sapiens__Human_"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Homo_sapiens__Human__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__and_folic_acid_metabolic_process__GO_0046655_"/>
     </Declaration>
     <Declaration>
         <Class IRI="cytoplasm__GO_0005737__in_Gallus_gallus__Chicken_"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="nucleus__GO_0005634__in_Homo_sapiens__Human_"/>
     </Declaration>
     <Declaration>
         <Class IRI="CBS_encoding_Cystathionine_beta_synthase__EC_4_2_1_22__in_Callithrix_jacchus__White_tufted_ear_marmoset_"/>
@@ -2462,13 +2462,13 @@
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Callithrix_jacchus__White_tufted_ear_marmoset_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Sus_scrofa__Pig__in_homocysteine_metabolic_process__GO_0050667_"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0020037"/>
     </Declaration>
     <Declaration>
         <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Rattus_norvegicus__Rat__with_Albuminuria"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0020037"/>
+        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Sus_scrofa__Pig__in_homocysteine_metabolic_process__GO_0050667_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Mus_musculus__Mouse__with_intracellular_membrane_bounded_organelle__GO_0043231_"/>
@@ -2489,10 +2489,10 @@
         <Class IRI="Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__and_response_to_hypoxia__GO_0001666_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Rattus_norvegicus__Rat__with_Thermolabile_Type_Mthfr_Deficiency"/>
+        <Class IRI="Homocysteine_in_Pongo_abelii__Sumatran_orangutan___Pongo_pygmaeus_abelii_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Homocysteine_in_Pongo_abelii__Sumatran_orangutan___Pongo_pygmaeus_abelii_"/>
+        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Rattus_norvegicus__Rat__with_Thermolabile_Type_Mthfr_Deficiency"/>
     </Declaration>
     <Declaration>
         <Class IRI="methionine_biosynthetic_process__GO_0009086__in_Bos_taurus__Bovine__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
@@ -2510,10 +2510,10 @@
         <Class IRI="Sus_scrofa__Pig__with_Cystathionine_gamma_lyase_Dysfunctional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="tetrahydrofolate_interconversion__GO_0035999__in_Sus_scrofa__Pig__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
+        <Class IRI="methionine_biosynthetic_process__GO_0009086__in_Canis_familiaris__Dog___Canis_lupus_familiaris__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="methionine_biosynthetic_process__GO_0009086__in_Canis_familiaris__Dog___Canis_lupus_familiaris__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
+        <Class IRI="tetrahydrofolate_interconversion__GO_0035999__in_Sus_scrofa__Pig__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
     </Declaration>
     <Declaration>
         <Class IRI="nucleolus__GO_0005730__in_Mus_musculus__Mouse__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
@@ -2552,10 +2552,10 @@
         <Class IRI="Homo_sapiens__Human__with_Cystathionine_gamma_lyase_and_cysteine_metabolic_process__GO_0006534_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Mustela_putorius_furo__European_domestic_ferret___Mustela_furo__in_regulation_of_cGMP_metabolic_process__GO_0030823_"/>
+        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Homo_sapiens__Human__in_homocysteine_metabolic_process__GO_0050667_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Homo_sapiens__Human__in_homocysteine_metabolic_process__GO_0050667_"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Mustela_putorius_furo__European_domestic_ferret___Mustela_furo__in_regulation_of_cGMP_metabolic_process__GO_0030823_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Oryctolagus_cuniculus__Rabbit_"/>
@@ -2597,10 +2597,10 @@
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Rattus_norvegicus__Rat__in_transsulfuration__GO_0019346_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Haematopoietic_and_lymphoid_tissue_tumour"/>
+        <Class IRI="Mus_musculus__Mouse__with_Cystathionine_gamma_lyase_and_hydrogen_sulfide_biosynthetic_process__GO_0070814_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Mus_musculus__Mouse__with_Cystathionine_gamma_lyase_and_hydrogen_sulfide_biosynthetic_process__GO_0070814_"/>
+        <Class IRI="Haematopoietic_and_lymphoid_tissue_tumour"/>
     </Declaration>
     <Declaration>
         <Class IRI="zinc_ion_binding__GO_0008270__in_Homo_sapiens__Human__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5_"/>
@@ -2651,10 +2651,10 @@
         <Class IRI="Bos_taurus__Bovine__with_cytosol__GO_0005829_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="protein_homotetramerization__GO_0051289__in_Bos_taurus__Bovine__with_Cystathionine_gamma_lyase"/>
+        <Class IRI="Heat_Stroke_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Heat_Stroke_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
+        <Class IRI="protein_homotetramerization__GO_0051289__in_Bos_taurus__Bovine__with_Cystathionine_gamma_lyase"/>
     </Declaration>
     <Declaration>
         <Class IRI="Rattus_norvegicus__Rat__with_Type_1_Diabetes_Mellitus_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
@@ -2705,10 +2705,10 @@
         <Class IRI="http://purl.obolibrary.org/obo/GO_0008270"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Mustela_putorius_furo__European_domestic_ferret___Mustela_furo__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="cerebellum_morphogenesis__GO_0021587__in_Loxodonta_africana__African_elephant__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="cerebellum_morphogenesis__GO_0021587__in_Loxodonta_africana__African_elephant__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="Mustela_putorius_furo__European_domestic_ferret___Mustela_furo__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Rattus_norvegicus__Rat__with_Chronic_Kidney_Failure_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
@@ -2720,10 +2720,10 @@
         <Class IRI="Cystathionine_gamma_lyase_in_Homo_sapiens__Human__in_cytoplasm__GO_0005737_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="methionine_biosynthetic_process__GO_0009086__in_Homo_sapiens__Human__with_Methionine_synthase"/>
+        <Class IRI="protein_homotetramerization__GO_0051289__in_Homo_sapiens__Human__with_Cystathionine_gamma_lyase"/>
     </Declaration>
     <Declaration>
-        <Class IRI="protein_homotetramerization__GO_0051289__in_Homo_sapiens__Human__with_Cystathionine_gamma_lyase"/>
+        <Class IRI="methionine_biosynthetic_process__GO_0009086__in_Homo_sapiens__Human__with_Methionine_synthase"/>
     </Declaration>
     <Declaration>
         <Class IRI="Ovary_tumour"/>
@@ -2852,10 +2852,10 @@
         <Class IRI="superoxide_metabolic_process__GO_0006801__in_Pan_troglodytes__Chimpanzee__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Rattus_norvegicus__Rat__with_Homocystinuria"/>
+        <Class IRI="Rattus_norvegicus__Rat__with_Cystathionine_beta_synthase__EC_4_2_1_22__Dysfunctional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Rattus_norvegicus__Rat__with_Cystathionine_beta_synthase__EC_4_2_1_22__Dysfunctional"/>
+        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Rattus_norvegicus__Rat__with_Homocystinuria"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/GO_0005730"/>
@@ -2891,10 +2891,10 @@
         <Class IRI="http://purl.obolibrary.org/obo/GO_0032403"/>
     </Declaration>
     <Declaration>
-        <Class IRI="homocysteine_metabolic_process__GO_0050667__in_Pan_troglodytes__Chimpanzee__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="Pan_troglodytes__Chimpanzee__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Pan_troglodytes__Chimpanzee__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="homocysteine_metabolic_process__GO_0050667__in_Pan_troglodytes__Chimpanzee__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
         <Class IRI="cytoplasm__GO_0005737__in_Callithrix_jacchus__White_tufted_ear_marmoset_"/>
@@ -2909,22 +2909,22 @@
         <Class IRI="response_to_interleukin_1__GO_0070555__in_Homo_sapiens__Human__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="tetrahydrofolate_metabolic_process__GO_0046653__in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Migraine_with_Aura"/>
     </Declaration>
     <Declaration>
         <Class IRI="Homocysteine_in_Bos_taurus__Bovine__with_Methionine_synthase"/>
     </Declaration>
     <Declaration>
+        <Class IRI="tetrahydrofolate_metabolic_process__GO_0046653__in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Takifugu_rubripes__Japanese_pufferfish___Fugu_rubripes_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Rattus_norvegicus__Rat__with_Hereditary_Nonpolyposis"/>
+        <Class IRI="protein_pyridoxal_5_phosphate_linkage_via_peptidyl_N6_pyridoxal_phosphate_L_lysine__GO_0018272__in_Sus_scrofa__Pig__with_Cystathionine_gamma_lyase"/>
     </Declaration>
     <Declaration>
-        <Class IRI="protein_pyridoxal_5_phosphate_linkage_via_peptidyl_N6_pyridoxal_phosphate_L_lysine__GO_0018272__in_Sus_scrofa__Pig__with_Cystathionine_gamma_lyase"/>
+        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Rattus_norvegicus__Rat__with_Hereditary_Nonpolyposis"/>
     </Declaration>
     <Declaration>
         <Class IRI="Homo_sapiens__Human__with_Methionine_synthase_and_pteridine_containing_compound_metabolic_process__GO_0042558_"/>
@@ -3026,10 +3026,10 @@
         <Class IRI="cytoplasm__GO_0005737__in_Mus_musculus__Mouse__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Bos_taurus__Bovine__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__and_homocysteine_metabolic_process__GO_0050667_"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__Dysfunctional_in_Danio_rerio__Zebrafish___Brachydanio_rerio_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__Dysfunctional_in_Danio_rerio__Zebrafish___Brachydanio_rerio_"/>
+        <Class IRI="Bos_taurus__Bovine__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__and_homocysteine_metabolic_process__GO_0050667_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Haematopoietic_and_lymphoid_tissue_tumour_in_Homo_sapiens__Human__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__Dysfunctional"/>
@@ -3179,10 +3179,10 @@
         <Class IRI="Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__Dysfunctional_in_Homo_sapiens__Human__with_breast_tumour"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Oreochromis_niloticus__Nile_tilapia___Tilapia_nilotica__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_cysteine_biosynthetic_process_via_cystathionine__GO_0019343_"/>
+        <Class IRI="zinc_ion_binding__GO_0008270__in_Pongo_abelii__Sumatran_orangutan___Pongo_pygmaeus_abelii__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="zinc_ion_binding__GO_0008270__in_Pongo_abelii__Sumatran_orangutan___Pongo_pygmaeus_abelii__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5_"/>
+        <Class IRI="Oreochromis_niloticus__Nile_tilapia___Tilapia_nilotica__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_cysteine_biosynthetic_process_via_cystathionine__GO_0019343_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Rattus_norvegicus__Rat__with_Retinal_Diseases"/>
@@ -3206,10 +3206,10 @@
         <Class IRI="metal_ion_binding__GO_0046872__in_Mus_musculus__Mouse__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Rattus_norvegicus__Rat__with_Osteosarcoma_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Mus_musculus__Mouse__in_homocysteine_metabolic_process__GO_0050667_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Mus_musculus__Mouse__in_homocysteine_metabolic_process__GO_0050667_"/>
+        <Class IRI="Rattus_norvegicus__Rat__with_Osteosarcoma_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
         <Class IRI="Type_1_Diabetes_Mellitus"/>
@@ -3299,10 +3299,10 @@
         <Class IRI="http://purl.obolibrary.org/obo/NCBITaxon_131567"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Pan_troglodytes__Chimpanzee__in_homocysteine_metabolic_process__GO_0050667_"/>
+        <Class IRI="Cystathionine_gamma_lyase_in_Homo_sapiens__Human__in_cytosol__GO_0005829_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_gamma_lyase_in_Homo_sapiens__Human__in_cytosol__GO_0005829_"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Pan_troglodytes__Chimpanzee__in_homocysteine_metabolic_process__GO_0050667_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Ailuropoda_melanoleuca__Giant_panda__in_regulation_of_blood_vessel_size__GO_0050880_"/>
@@ -3317,10 +3317,10 @@
         <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase_deficiency"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Ailuropoda_melanoleuca__Giant_panda__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_cysteine_biosynthetic_process_via_cystathionine__GO_0019343_"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0050666"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0050666"/>
+        <Class IRI="Ailuropoda_melanoleuca__Giant_panda__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_cysteine_biosynthetic_process_via_cystathionine__GO_0019343_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Loxodonta_africana__African_elephant__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_endochondral_ossification__GO_0001958_"/>
@@ -3347,10 +3347,10 @@
         <Class IRI="Ischemic_stroke_in_Homo_sapiens__Human__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="cytosol__GO_0005829__in_Canis_familiaris__Dog___Canis_lupus_familiaris_"/>
+        <Class IRI="Latimeria_chalumnae__West_Indian_ocean_coelacanth__with_cytoplasm__GO_0005737_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Latimeria_chalumnae__West_Indian_ocean_coelacanth__with_cytoplasm__GO_0005737_"/>
+        <Class IRI="cytosol__GO_0005829__in_Canis_familiaris__Dog___Canis_lupus_familiaris_"/>
     </Declaration>
     <Declaration>
         <Class IRI="S_adenosylmethionine_metabolic_process__GO_0046500__in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
@@ -3419,10 +3419,10 @@
         <Class IRI="homocysteine_metabolic_process__GO_0050667__in_Loxodonta_africana__African_elephant__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="sulfur_amino_acid_metabolic_process__GO_0000096__in_Homo_sapiens__Human__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5_"/>
+        <Class IRI="bhmt_encoding_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__in_Bos_taurus__Bovine_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="bhmt_encoding_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__in_Bos_taurus__Bovine_"/>
+        <Class IRI="sulfur_amino_acid_metabolic_process__GO_0000096__in_Homo_sapiens__Human__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5_"/>
     </Declaration>
     <Declaration>
         <Class IRI="betaine_homocysteine_S_methyltransferase_activity__GO_0047150__in_Pongo_abelii__Sumatran_orangutan___Pongo_pygmaeus_abelii__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5_"/>
@@ -3500,10 +3500,10 @@
         <Class IRI="superoxide_metabolic_process__GO_0006801__in_Rattus_norvegicus__Rat__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Homo_sapiens__Human__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_L_serine_catabolic_process__GO_0006565_"/>
+        <Class IRI="Methionine_synthase_in_Homo_sapiens__Human__in_pteridine_containing_compound_metabolic_process__GO_0042558_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Methionine_synthase_in_Homo_sapiens__Human__in_pteridine_containing_compound_metabolic_process__GO_0042558_"/>
+        <Class IRI="Homo_sapiens__Human__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_L_serine_catabolic_process__GO_0006565_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Oreochromis_niloticus__Nile_tilapia___Tilapia_nilotica__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_cysteine_biosynthetic_process_from_serine__GO_0006535_"/>
@@ -3530,10 +3530,10 @@
         <Class IRI="response_to_hypoxia__GO_0001666__in_Homo_sapiens__Human__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Methionine_synthase_in_Homo_sapiens__Human__in_nervous_system_development__GO_0007399_"/>
+        <Class IRI="Hyperhomocysteinemia_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Hyperhomocysteinemia_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
+        <Class IRI="Methionine_synthase_in_Homo_sapiens__Human__in_nervous_system_development__GO_0007399_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Mus_musculus__Mouse__with_Methionine_synthase_Dysfunctional"/>
@@ -3602,10 +3602,10 @@
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Pan_troglodytes__Chimpanzee__in_cartilage_development_involved_in_endochondral_bone_morphogenesis__GO_0060351_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Canis_familiaris__Dog___Canis_lupus_familiaris__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__and_homocysteine_metabolic_process__GO_0050667_"/>
+        <Class IRI="regulation_of_blood_vessel_size__GO_0050880__in_Oryctolagus_cuniculus__Rabbit__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="regulation_of_blood_vessel_size__GO_0050880__in_Oryctolagus_cuniculus__Rabbit__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="Canis_familiaris__Dog___Canis_lupus_familiaris__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__and_homocysteine_metabolic_process__GO_0050667_"/>
     </Declaration>
     <Declaration>
         <Class IRI="MTR_encoding_Methionine_synthase"/>
@@ -3752,10 +3752,10 @@
         <Class IRI="Homo_sapiens__Human__with_Large_intestine_tumour_and_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__Dysfunctional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Homo_sapiens__Human__with_Cystathionine_gamma_lyase_and_small_molecule_metabolic_process__GO_0044281_"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030968"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0030968"/>
+        <Class IRI="Homo_sapiens__Human__with_Cystathionine_gamma_lyase_and_small_molecule_metabolic_process__GO_0044281_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Rattus_norvegicus__Rat__with_Cystathionine_gamma_lyase_and_positive_regulation_of_I_kappaB_kinase_NF_kappaB_signaling__GO_0043123_"/>
@@ -3824,16 +3824,16 @@
         <Class IRI="MTHFR_encoding_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="regulation_of_cGMP_metabolic_process__GO_0030823__in_Mustela_putorius_furo__European_domestic_ferret___Mustela_furo__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="response_to_hypoxia__GO_0001666__in_Mus_musculus__Mouse__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__in_Homo_sapiens__Human__in_L_methionine_salvage__GO_0071267_"/>
+        <Class IRI="regulation_of_cGMP_metabolic_process__GO_0030823__in_Mustela_putorius_furo__European_domestic_ferret___Mustela_furo__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__with_Cystathionine_beta_synthase__EC_4_2_1_22__Dysfunctional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__in_Homo_sapiens__Human__in_L_methionine_salvage__GO_0071267_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Homocysteine_in_Danio_rerio__Zebrafish___Brachydanio_rerio__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
@@ -3929,10 +3929,10 @@
         <Class IRI="Migraine_Disorders_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Pongo_abelii__Sumatran_orangutan___Pongo_pygmaeus_abelii__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__and_amino_acid_betaine_metabolic_process__GO_0006577_"/>
+        <Class IRI="LOC100658430_encoding_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="LOC100658430_encoding_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="Pongo_abelii__Sumatran_orangutan___Pongo_pygmaeus_abelii__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__and_amino_acid_betaine_metabolic_process__GO_0006577_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Latimeria_chalumnae__West_Indian_ocean_coelacanth__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_cysteine_biosynthetic_process_via_cystathionine__GO_0019343_"/>
@@ -3950,10 +3950,10 @@
         <Class IRI="hydrogen_sulfide_biosynthetic_process__GO_0070814__in_Sus_scrofa__Pig__with_Cystathionine_gamma_lyase"/>
     </Declaration>
     <Declaration>
-        <Class IRI="cytosol__GO_0005829__in_Mus_musculus__Mouse_"/>
+        <Class IRI="Homo_sapiens__Human__with_Cystathionine_gamma_lyase"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Homo_sapiens__Human__with_Cystathionine_gamma_lyase"/>
+        <Class IRI="cytosol__GO_0005829__in_Mus_musculus__Mouse_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Gallus_gallus__Chicken__in_homocysteine_metabolic_process__GO_0050667_"/>
@@ -3962,13 +3962,13 @@
         <Class IRI="Gallus_gallus__Chicken__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_superoxide_metabolic_process__GO_0006801_"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Callithrix_jacchus__White_tufted_ear_marmoset__in_cartilage_development_involved_in_endochondral_bone_morphogenesis__GO_0060351_"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__in_Homo_sapiens__Human__in_regulation_of_homocysteine_metabolic_process__GO_0050666_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Rattus_norvegicus__Rat__with_Meniere_Disease_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Callithrix_jacchus__White_tufted_ear_marmoset__in_cartilage_development_involved_in_endochondral_bone_morphogenesis__GO_0060351_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cystathininuria"/>
@@ -3980,13 +3980,13 @@
         <Class IRI="Bos_taurus__Bovine__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__and_Homocysteine"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Rattus_norvegicus__Rat__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_endochondral_ossification__GO_0001958_"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Rattus_norvegicus__Rat__in_cerebellum_morphogenesis__GO_0021587_"/>
     </Declaration>
     <Declaration>
         <Class IRI="zinc_ion_binding__GO_0008270__in_Bos_taurus__Bovine__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5_"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Rattus_norvegicus__Rat__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_endochondral_ossification__GO_0001958_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Bos_taurus__Bovine__in_cytosol__GO_0005829_"/>
@@ -4262,10 +4262,10 @@
         <Class IRI="Squamous_Cell_Carcinoma"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Homo_sapiens__Human__in_neuron_projection__GO_0043005_"/>
+        <Class IRI="MTHFR"/>
     </Declaration>
     <Declaration>
-        <Class IRI="MTHFR"/>
+        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Homo_sapiens__Human__in_neuron_projection__GO_0043005_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__in_response_to_folic_acid__GO_0051593_"/>
@@ -4319,13 +4319,13 @@
         <Class IRI="cystathionine_gamma_lyase_activity__GO_0004123__in_Homo_sapiens__Human__with_Cystathionine_gamma_lyase"/>
     </Declaration>
     <Declaration>
+        <Class IRI="cysteine_biosynthetic_process_via_cystathionine__GO_0019343__in_Oryctolagus_cuniculus__Rabbit__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Mustela_putorius_furo__European_domestic_ferret___Mustela_furo__in_homocysteine_metabolic_process__GO_0050667_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Coronary_Artery_Disease_in_Homo_sapiens__Human__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__Dysfunctional"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="cysteine_biosynthetic_process_via_cystathionine__GO_0019343__in_Oryctolagus_cuniculus__Rabbit__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Rattus_norvegicus__Rat__in_homocysteine_metabolic_process__GO_0050667_"/>
@@ -4349,13 +4349,13 @@
         <Class IRI="Loxodonta_africana__African_elephant__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_regulation_of_cGMP_metabolic_process__GO_0030823_"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__and_Homocysteine"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.bioontology.org/ontology/NCBITAXON#SusScrofa"/>
     </Declaration>
     <Declaration>
         <Class IRI="Homo_sapiens__Human__with_Methionine_synthase_and_vitamin_metabolic_process__GO_0006766_"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__and_Homocysteine"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Gallus_gallus__Chicken__in_cerebellum_morphogenesis__GO_0021587_"/>
@@ -4397,10 +4397,10 @@
         <Class IRI="Methionine_synthase_in_Homo_sapiens__Human__in_cytosol__GO_0005829_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Mus_musculus__Mouse__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_cysteine_biosynthetic_process_via_cystathionine__GO_0019343_"/>
+        <Class IRI="http://purl.bioontology.org/ontology/NCBITAXON#LatimeriaChalumnae"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.bioontology.org/ontology/NCBITAXON#LatimeriaChalumnae"/>
+        <Class IRI="Mus_musculus__Mouse__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_cysteine_biosynthetic_process_via_cystathionine__GO_0019343_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Rattus_norvegicus__Rat__in_tetrahydrofolate_interconversion__GO_0035999_"/>
@@ -4430,10 +4430,10 @@
         <Class IRI="http://purl.obolibrary.org/obo/GO_0006767"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Intestinal_Ischemia_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
+        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Sus_scrofa__Pig__in_tetrahydrofolate_interconversion__GO_0035999_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Sus_scrofa__Pig__in_tetrahydrofolate_interconversion__GO_0035999_"/>
+        <Class IRI="Intestinal_Ischemia_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
         <Class IRI="Intestinal_Ischemia"/>
@@ -4463,10 +4463,10 @@
         <Class IRI="Rattus_norvegicus__Rat__with_Coronary_Artery_Disease_and_Cystathionine_beta_synthase__EC_4_2_1_22__Dysfunctional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__in_cysteine_biosynthetic_process_from_serine__GO_0006535_"/>
+        <Class IRI="Bos_taurus__Bovine__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__and_L_methionine_salvage__GO_0071267_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Bos_taurus__Bovine__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__and_L_methionine_salvage__GO_0071267_"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__in_cysteine_biosynthetic_process_from_serine__GO_0006535_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Pancreatic_Neoplasms_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
@@ -4508,10 +4508,10 @@
         <Class IRI="Cystathionine_gamma_lyase_in_Bos_taurus__Bovine__in_protein_pyridoxal_5_phosphate_linkage_via_peptidyl_N6_pyridoxal_phosphate_L_lysine__GO_0018272_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Hyperhomocysteinemia"/>
+        <Class IRI="cerebellum_morphogenesis__GO_0021587__in_Mustela_putorius_furo__European_domestic_ferret___Mustela_furo__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="cerebellum_morphogenesis__GO_0021587__in_Mustela_putorius_furo__European_domestic_ferret___Mustela_furo__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="Hyperhomocysteinemia"/>
     </Declaration>
     <Declaration>
         <Class IRI="blood_vessel_remodeling__GO_0001974__in_Mus_musculus__Mouse__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
@@ -4580,10 +4580,10 @@
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Pan_troglodytes__Chimpanzee_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Meniere_Disease"/>
+        <Class IRI="Cystathionine_gamma_lyase_in_Mus_musculus__Mouse__in_nucleoplasm__GO_0005654_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_gamma_lyase_in_Mus_musculus__Mouse__in_nucleoplasm__GO_0005654_"/>
+        <Class IRI="Meniere_Disease"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cystathionine_gamma_lyase_in_Mus_musculus__Mouse_"/>
@@ -4598,10 +4598,10 @@
         <Class IRI="Meniere_Disease_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="methionine_synthase_activity__GO_0008705__in_Bos_taurus__Bovine__with_Methionine_synthase"/>
+        <Class IRI="extracellular_vesicular_exosome__GO_0070062__in_Mus_musculus__Mouse_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="extracellular_vesicular_exosome__GO_0070062__in_Mus_musculus__Mouse_"/>
+        <Class IRI="methionine_synthase_activity__GO_0008705__in_Bos_taurus__Bovine__with_Methionine_synthase"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Oryctolagus_cuniculus__Rabbit__in_blood_vessel_remodeling__GO_0001974_"/>
@@ -4610,10 +4610,10 @@
         <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Homo_sapiens__Human__with_Lumbosacral_spina_bifida_cystica"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Rattus_norvegicus__Rat__with_Cataract_and_Cystathionine_gamma_lyase_Dysfunctional"/>
+        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Rattus_norvegicus__Rat__in_S_adenosylmethionine_metabolic_process__GO_0046500_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Rattus_norvegicus__Rat__in_S_adenosylmethionine_metabolic_process__GO_0046500_"/>
+        <Class IRI="Rattus_norvegicus__Rat__with_Cataract_and_Cystathionine_gamma_lyase_Dysfunctional"/>
     </Declaration>
     <Declaration>
         <Class IRI="Neural_tube_defect"/>
@@ -4652,10 +4652,10 @@
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__in_maternal_process_involved_in_female_pregnancy__GO_0060135_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="superoxide_metabolic_process__GO_0006801__in_Gallus_gallus__Chicken__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Loxodonta_africana__African_elephant__in_endochondral_ossification__GO_0001958_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Loxodonta_africana__African_elephant__in_endochondral_ossification__GO_0001958_"/>
+        <Class IRI="superoxide_metabolic_process__GO_0006801__in_Gallus_gallus__Chicken__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Thermolabile_Type_Mthfr_Deficiency_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
@@ -4676,10 +4676,10 @@
         <Class IRI="cystathionine_beta_synthase_activity__GO_0004122__in_Mustela_putorius_furo__European_domestic_ferret___Mustela_furo__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Sus_scrofa__Pig_"/>
+        <Class IRI="small_molecule_metabolic_process__GO_0044281__in_Homo_sapiens__Human__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="small_molecule_metabolic_process__GO_0044281__in_Homo_sapiens__Human__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Sus_scrofa__Pig_"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/GO_0047982"/>
@@ -4718,10 +4718,10 @@
         <Class IRI="Homo_sapiens__Human__with_Kidney_tumour_and_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__Dysfunctional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Pan_troglodytes__Chimpanzee__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_cysteine_biosynthetic_process_from_serine__GO_0006535_"/>
+        <Class IRI="Rattus_norvegicus__Rat__with_neuron_projection__GO_0043005_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Rattus_norvegicus__Rat__with_neuron_projection__GO_0043005_"/>
+        <Class IRI="Pan_troglodytes__Chimpanzee__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_cysteine_biosynthetic_process_from_serine__GO_0006535_"/>
     </Declaration>
     <Declaration>
         <Class IRI="heme_binding__GO_0020037__in_Gallus_gallus__Chicken__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
@@ -4769,10 +4769,10 @@
         <Class IRI="homocysteine_metabolic_process__GO_0050667__in_Ailuropoda_melanoleuca__Giant_panda__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="tetrahydrofolate_interconversion__GO_0035999__in_Bos_taurus__Bovine__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
+        <Class IRI="Mus_musculus__Mouse__with_nucleoplasm__GO_0005654_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Mus_musculus__Mouse__with_nucleoplasm__GO_0005654_"/>
+        <Class IRI="tetrahydrofolate_interconversion__GO_0035999__in_Bos_taurus__Bovine__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
     </Declaration>
     <Declaration>
         <Class IRI="modified_amino_acid_binding__GO_0072341__in_Gallus_gallus__Chicken__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
@@ -4790,10 +4790,10 @@
         <Class IRI="Latimeria_chalumnae__West_Indian_ocean_coelacanth__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_cysteine_biosynthetic_process_from_serine__GO_0006535_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="cytosol__GO_0005829__in_Bos_taurus__Bovine__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5_"/>
+        <Class IRI="Neonatal_Diabetes_Mellitus_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Neonatal_Diabetes_Mellitus_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
+        <Class IRI="cytosol__GO_0005829__in_Bos_taurus__Bovine__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cystathionine_gamma_lyase_in_Bos_taurus__Bovine__in_nucleus__GO_0005634_"/>
@@ -4802,10 +4802,10 @@
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Oreochromis_niloticus__Nile_tilapia___Tilapia_nilotica__in_cysteine_biosynthetic_process_via_cystathionine__GO_0019343_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="cytoplasm__GO_0005737__in_Oreochromis_niloticus__Nile_tilapia___Tilapia_nilotica__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="Sus_scrofa__Pig__with_Cystathionine_gamma_lyase_and_Homocysteine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Sus_scrofa__Pig__with_Cystathionine_gamma_lyase_and_Homocysteine"/>
+        <Class IRI="cytoplasm__GO_0005737__in_Oreochromis_niloticus__Nile_tilapia___Tilapia_nilotica__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Mus_musculus__Mouse__with_nucleolus__GO_0005730_"/>
@@ -4844,10 +4844,10 @@
         <Class IRI="cartilage_development_involved_in_endochondral_bone_morphogenesis__GO_0060351__in_Ailuropoda_melanoleuca__Giant_panda__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.bioontology.org/ontology/NCBITAXON9598"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0043234"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0043234"/>
+        <Class IRI="http://purl.bioontology.org/ontology/NCBITAXON9598"/>
     </Declaration>
     <Declaration>
         <Class IRI="endochondral_ossification__GO_0001958__in_Mus_musculus__Mouse__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
@@ -4886,10 +4886,10 @@
         <Class IRI="Loxodonta_africana__African_elephant__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Rattus_norvegicus__Rat__with_Atherosclerosis_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0050661"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0050661"/>
+        <Class IRI="Rattus_norvegicus__Rat__with_Atherosclerosis_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__in_cartilage_development_involved_in_endochondral_bone_morphogenesis__GO_0060351_"/>
@@ -5000,10 +5000,10 @@
         <Class IRI="Cystathionine_gamma_lyase_in_Bos_taurus__Bovine__in_positive_regulation_of_I_kappaB_kinase_NF_kappaB_signaling__GO_0043123_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Sus_scrofa__Pig__with_extracellular_vesicular_exosome__GO_0070062_"/>
+        <Class IRI="Sus_scrofa__Pig__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__and_methionine_biosynthetic_process__GO_0009086_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Sus_scrofa__Pig__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__and_methionine_biosynthetic_process__GO_0009086_"/>
+        <Class IRI="Sus_scrofa__Pig__with_extracellular_vesicular_exosome__GO_0070062_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Homocysteine_in_Bos_taurus__Bovine__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5_"/>
@@ -5093,10 +5093,10 @@
         <Class IRI="cystathionine_gamma_lyase_activity__GO_0004123__in_Rattus_norvegicus__Rat__with_Cystathionine_gamma_lyase"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Ailuropoda_melanoleuca__Giant_panda__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_maternal_process_involved_in_female_pregnancy__GO_0060135_"/>
+        <Class IRI="Sus_scrofa__Pig__with_Cystathionine_gamma_lyase_and_protein_homotetramerization__GO_0051289_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Sus_scrofa__Pig__with_Cystathionine_gamma_lyase_and_protein_homotetramerization__GO_0051289_"/>
+        <Class IRI="Ailuropoda_melanoleuca__Giant_panda__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_maternal_process_involved_in_female_pregnancy__GO_0060135_"/>
     </Declaration>
     <Declaration>
         <Class IRI="intracellular_membrane_bounded_organelle__GO_0043231__in_Homo_sapiens__Human__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
@@ -5132,10 +5132,10 @@
         <Class IRI="methionine_biosynthetic_process__GO_0009086__in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Rattus_norvegicus__Rat__in_response_to_folic_acid__GO_0051593_"/>
+        <Class IRI="Ailuropoda_melanoleuca__Giant_panda__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_cerebellum_morphogenesis__GO_0021587_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Ailuropoda_melanoleuca__Giant_panda__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_cerebellum_morphogenesis__GO_0021587_"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Rattus_norvegicus__Rat__in_response_to_folic_acid__GO_0051593_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Skin_tumour_in_Homo_sapiens__Human__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__Dysfunctional"/>
@@ -5267,10 +5267,10 @@
         <Class IRI="Gallus_gallus__Chicken__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_response_to_folic_acid__GO_0051593_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="flavin_adenine_dinucleotide_binding__GO_0050660__in_Homo_sapiens__Human__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Callithrix_jacchus__White_tufted_ear_marmoset__in_regulation_of_cGMP_metabolic_process__GO_0030823_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Callithrix_jacchus__White_tufted_ear_marmoset__in_regulation_of_cGMP_metabolic_process__GO_0030823_"/>
+        <Class IRI="flavin_adenine_dinucleotide_binding__GO_0050660__in_Homo_sapiens__Human__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Methionine_synthase_in_Bos_taurus__Bovine__in_cytosol__GO_0005829_"/>
@@ -5405,13 +5405,13 @@
         <Class IRI="Rattus_norvegicus__Rat__with_Aortic_Coarctation_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0006563"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Oryctolagus_cuniculus__Rabbit__in_Homocysteine"/>
     </Declaration>
     <Declaration>
         <Class IRI="superoxide_metabolic_process__GO_0006801__in_Oryctolagus_cuniculus__Rabbit__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0006563"/>
     </Declaration>
     <Declaration>
         <Class IRI="cytoplasm__GO_0005737__in_Pan_troglodytes__Chimpanzee_"/>
@@ -5513,10 +5513,10 @@
         <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional_in_Rattus_norvegicus__Rat__with_Carotid_Stenosis"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0030823"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0030823"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PR_000000001"/>
     </Declaration>
     <Declaration>
         <Class IRI="Rattus_norvegicus__Rat__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_regulation_of_cGMP_metabolic_process__GO_0030823_"/>
@@ -5567,10 +5567,10 @@
         <Class IRI="Loxodonta_africana__African_elephant__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_response_to_folic_acid__GO_0051593_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Oryctolagus_cuniculus__Rabbit__in_cysteine_biosynthetic_process_via_cystathionine__GO_0019343_"/>
+        <Class IRI="Bos_taurus__Bovine__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Bos_taurus__Bovine__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Oryctolagus_cuniculus__Rabbit__in_cysteine_biosynthetic_process_via_cystathionine__GO_0019343_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Homocysteine_in_Mustela_putorius_furo__European_domestic_ferret___Mustela_furo__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
@@ -5639,10 +5639,10 @@
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Mus_musculus__Mouse_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Aortic_Coarctation_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
+        <Class IRI="extracellular_vesicular_exosome__GO_0070062__in_Homo_sapiens__Human__with_Cystathionine_gamma_lyase"/>
     </Declaration>
     <Declaration>
-        <Class IRI="extracellular_vesicular_exosome__GO_0070062__in_Homo_sapiens__Human__with_Cystathionine_gamma_lyase"/>
+        <Class IRI="Aortic_Coarctation_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
         <Class IRI="protein_homotetramerization__GO_0051289__in_Sus_scrofa__Pig__with_Cystathionine_gamma_lyase"/>
@@ -5651,10 +5651,10 @@
         <Class IRI="Diabetic_Retinopathy"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0006479"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0004123"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0004123"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0006479"/>
     </Declaration>
     <Declaration>
         <Class IRI="Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__Dysfunctional_in_Pongo_abelii__Sumatran_orangutan___Pongo_pygmaeus_abelii_"/>
@@ -5678,10 +5678,10 @@
         <Class IRI="Rattus_norvegicus__Rat__with_Wilms_Tumor_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Loxodonta_africana__African_elephant__in_Homocysteine"/>
+        <Class IRI="Homo_sapiens__Human__with_Cervicothoracic_spina_bifida_aperta_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Homo_sapiens__Human__with_Cervicothoracic_spina_bifida_aperta_and_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Loxodonta_africana__African_elephant__in_Homocysteine"/>
     </Declaration>
     <Declaration>
         <Class IRI="Ailuropoda_melanoleuca__Giant_panda__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_cartilage_development_involved_in_endochondral_bone_morphogenesis__GO_0060351_"/>
@@ -5723,13 +5723,13 @@
         <Class IRI="http://purl.obolibrary.org/obo/GO_0004122"/>
     </Declaration>
     <Declaration>
+        <Class IRI="Homocysteine_in_Homo_sapiens__Human_"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="Homocysteine_in_Oreochromis_niloticus__Nile_tilapia___Tilapia_nilotica_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Rheumatoid_Arthritis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Homocysteine_in_Homo_sapiens__Human_"/>
     </Declaration>
     <Declaration>
         <Class IRI="superoxide_metabolic_process__GO_0006801__in_Sarcophilus_harrisii__Tasmanian_devil___Sarcophilus_laniarius__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
@@ -5891,10 +5891,10 @@
         <Class IRI="CBS_encoding_Cystathionine_beta_synthase__EC_4_2_1_22__in_Rattus_norvegicus__Rat_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="amino_acid_betaine_metabolic_process__GO_0006577__in_Homo_sapiens__Human__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5_"/>
+        <Class IRI="Loxodonta_africana__African_elephant__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_maternal_process_involved_in_female_pregnancy__GO_0060135_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Loxodonta_africana__African_elephant__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_maternal_process_involved_in_female_pregnancy__GO_0060135_"/>
+        <Class IRI="amino_acid_betaine_metabolic_process__GO_0006577__in_Homo_sapiens__Human__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Takifugu_rubripes__Japanese_pufferfish___Fugu_rubripes__in_cysteine_biosynthetic_process_from_serine__GO_0006535_"/>
@@ -6047,16 +6047,16 @@
         <Class IRI="MTR"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_gamma_lyase_in_Bos_taurus__Bovine__in_Homocysteine"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="Danio_rerio__Zebrafish___Brachydanio_rerio__with_cytoplasm__GO_0005737_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Homocysteine_in_Latimeria_chalumnae__West_Indian_ocean_coelacanth_"/>
+        <Class IRI="Cystathionine_gamma_lyase_in_Bos_taurus__Bovine__in_Homocysteine"/>
     </Declaration>
     <Declaration>
         <Class IRI="superoxide_metabolic_process__GO_0006801__in_Mus_musculus__Mouse__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Homocysteine_in_Latimeria_chalumnae__West_Indian_ocean_coelacanth_"/>
     </Declaration>
     <Declaration>
         <Class IRI="cysteine_metabolic_process__GO_0006534__in_Homo_sapiens__Human__with_Cystathionine_gamma_lyase"/>
@@ -6227,10 +6227,10 @@
         <Class IRI="cystathionine_beta_synthase_activity__GO_0004122__in_Latimeria_chalumnae__West_Indian_ocean_coelacanth__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Callithrix_jacchus__White_tufted_ear_marmoset__in_cerebellum_morphogenesis__GO_0021587_"/>
+        <Class IRI="breast_tumour_in_Homo_sapiens__Human__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__Dysfunctional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="breast_tumour_in_Homo_sapiens__Human__with_Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__Dysfunctional"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Callithrix_jacchus__White_tufted_ear_marmoset__in_cerebellum_morphogenesis__GO_0021587_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Bos_taurus__Bovine__with_cytoplasm__GO_0005737_"/>
@@ -6269,10 +6269,10 @@
         <Class IRI="http://purl.bioontology.org/ontology/NCBITAXON9785"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Ailuropoda_melanoleuca__Giant_panda_"/>
+        <Class IRI="pyridoxal_phosphate_binding__GO_0030170__in_Rattus_norvegicus__Rat__with_Cystathionine_gamma_lyase"/>
     </Declaration>
     <Declaration>
-        <Class IRI="pyridoxal_phosphate_binding__GO_0030170__in_Rattus_norvegicus__Rat__with_Cystathionine_gamma_lyase"/>
+        <Class IRI="Cystathionine_beta_synthase__EC_4_2_1_22__in_Ailuropoda_melanoleuca__Giant_panda_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Pan_troglodytes__Chimpanzee__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_endochondral_ossification__GO_0001958_"/>
@@ -6287,10 +6287,10 @@
         <Class IRI="S_adenosylmethionine_homocysteine_S_methyltransferase_activity__GO_0008898__in_Homo_sapiens__Human__with_Methionine_synthase"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cerebral_Infarction"/>
+        <Class IRI="Vascular_Calcification_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Vascular_Calcification_in_Rattus_norvegicus__Rat__with_Methylenetetrahydrofolate_reductase__EC_1_5_1_20__Dysfunctional"/>
+        <Class IRI="Cerebral_Infarction"/>
     </Declaration>
     <Declaration>
         <Class IRI="superoxide_metabolic_process__GO_0006801__in_Bos_taurus__Bovine__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
@@ -6449,10 +6449,10 @@
         <Class IRI="Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__in_Bos_taurus__Bovine__in_cytosol__GO_0005829_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Cystathionine_gamma_lyase_in_Mus_musculus__Mouse__in_hydrogen_sulfide_biosynthetic_process__GO_0070814_"/>
+        <Class IRI="negative_regulation_of_apoptotic_process__GO_0043066__in_Mus_musculus__Mouse__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="negative_regulation_of_apoptotic_process__GO_0043066__in_Mus_musculus__Mouse__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
+        <Class IRI="Cystathionine_gamma_lyase_in_Mus_musculus__Mouse__in_hydrogen_sulfide_biosynthetic_process__GO_0070814_"/>
     </Declaration>
     <Declaration>
         <Class IRI="L_serine_catabolic_process__GO_0006565__in_Homo_sapiens__Human__with_Cystathionine_beta_synthase__EC_4_2_1_22_"/>
@@ -6470,10 +6470,10 @@
         <Class IRI="Callithrix_jacchus__White_tufted_ear_marmoset__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_superoxide_metabolic_process__GO_0006801_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__in_Pongo_abelii__Sumatran_orangutan___Pongo_pygmaeus_abelii__in_extracellular_vesicular_exosome__GO_0070062_"/>
+        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Homo_sapiens__Human__in_response_to_hypoxia__GO_0001666_"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Methylenetetrahydrofolate_reductase__EC_1_5_1_20__in_Homo_sapiens__Human__in_response_to_hypoxia__GO_0001666_"/>
+        <Class IRI="Betaine__homocysteine_S_methyltransferase_1__EC_2_1_1_5__in_Pongo_abelii__Sumatran_orangutan___Pongo_pygmaeus_abelii__in_extracellular_vesicular_exosome__GO_0070062_"/>
     </Declaration>
     <Declaration>
         <Class IRI="Bos_taurus__Bovine__with_Cystathionine_beta_synthase__EC_4_2_1_22__and_response_to_folic_acid__GO_0051593_"/>
@@ -30467,10 +30467,6 @@
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/PR_000010747"/>
         <Class IRI="http://purl.obolibrary.org/obo/PR_000000001"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/PR_000018263"/>
-        <Class IRI="http://purl.org/biotop/btl2.owl#Compound"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/SO_0000110"/>
