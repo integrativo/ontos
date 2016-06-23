@@ -1,15 +1,17 @@
-#*Ontology and Data in Life Sciences* [ODLS'16](https://wiki.imise.uni-leipzig.de/Gruppen/OBML/Workshops/2016-ODLS)
+*Ontology and Data in Life Sciences* [ODLS'16](https://wiki.imise.uni-leipzig.de/Gruppen/OBML/Workshops/2016-ODLS)
 
 
-## Supplementary files
+Supplementary files
 
-####Ontological interpretation of biomedical database annotations
-## Filipe Santana da Silva, Ludger Jansen, Fred Freitas and Stefan Schulz
-#Centro de Informática (CIn), Universidade Federal de Pernambuco (UFPE), Recife, Brazil
-#Institut für Philosophie, Universität Rostock, Germany
-#Institut für Medizinische Informatik, Statistik und Dokumentation, Medzinische Universität Graz, Austria
+Ontological interpretation of biomedical database annotations
+Filipe Santana da Silva, Ludger Jansen, Fred Freitas and Stefan Schulz
+Centro de Informática (CIn), Universidade Federal de Pernambuco (UFPE), Recife, Brazil
+Institut für Philosophie, Universität Rostock, Germany
+Institut für Medizinische Informatik, Statistik und Dokumentation, Medzinische Universität Graz, Austria
 
-1. [ABOX.owl](https://github.com/integrativo/ontos/blob/master/FOIS'16/ABox.owl) -- Interpretation with individuals 
-2. [TBox_subclasses_only.owl](https://github.com/integrativo/ontos/blob/master/FOIS'16/TBox_subclasses_only.owl) -- Interpretation with subclasses
-3. [TBox_Disposition.owl](https://github.com/integrativo/ontos/blob/master/FOIS'16/TBox_Disposition.owl) -- Interpretations with dispositions
-4. [TBox_Hybrid.owl](https://github.com/integrativo/ontos/blob/master/FOIS'16/TBox_Hybrid.owl) -- Interpretation with subclasses and dispositions (hybrid) 
+Sample data - [Download](https://github.com/integrativo/ontos/raw/master/ODLS'16/Data/Sample%20Data.xlsx)
+
+1. ABOX - [Download](https://github.com/integrativo/ontos/raw/master/ODLS'16/Ontology%20Files/ABox.owl)
+2. SUBC - [Download](https://github.com/integrativo/ontos/raw/master/ODLS'16/Ontology%20Files/SUBC.owl)
+3. DISP - [Download](https://github.com/integrativo/ontos/raw/master/ODLS'16/Ontology%20Files/DISP.owl)
+4. HYB  - [Download](https://github.com/integrativo/ontos/raw/master/ODLS'16/Ontology%20Files/HYB.owl)
