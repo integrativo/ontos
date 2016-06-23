@@ -9,6 +9,8 @@ Ontological interpretation of biomedical database annotations
 
 Supplementary files
 
+For direct download, press right mouse button + "save as"
+
 Sample data - [Download](https://github.com/integrativo/ontos/raw/master/ODLS'16/Data/Sample%20Data.xlsx)
 
 1. ABOX - [Download](https://github.com/integrativo/ontos/raw/master/ODLS'16/Ontology%20Files/ABox.owl)
