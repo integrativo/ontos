@@ -1,13 +1,13 @@
-*Ontology and Data in Life Sciences* [ODLS'16](https://wiki.imise.uni-leipzig.de/Gruppen/OBML/Workshops/2016-ODLS)
+*Ontology and Data in Life Sciences* --- [ODLS'16](https://wiki.imise.uni-leipzig.de/Gruppen/OBML/Workshops/2016-ODLS)
+
+
+
+Ontological interpretation of biomedical database annotations
+
+[Filipe Santana da Silva](http://lattes.cnpq.br/8268902147804566), [Ludger Jansen](http://www.iph.uni-rostock.de/personen/pd-dr-ludger-jansen/), [Fred Freitas](http://lattes.cnpq.br/6195215666638965) and [Stefan Schulz](http://purl.org/steschu)
 
 
 Supplementary files
-
-Ontological interpretation of biomedical database annotations
-Filipe Santana da Silva, Ludger Jansen, Fred Freitas and Stefan Schulz
-Centro de Informática (CIn), Universidade Federal de Pernambuco (UFPE), Recife, Brazil
-Institut für Philosophie, Universität Rostock, Germany
-Institut für Medizinische Informatik, Statistik und Dokumentation, Medzinische Universität Graz, Austria
 
 Sample data - [Download](https://github.com/integrativo/ontos/raw/master/ODLS'16/Data/Sample%20Data.xlsx)
 
