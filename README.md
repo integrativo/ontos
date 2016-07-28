@@ -1,7 +1,8 @@
-# Ontology content - IntegrativO Project
+# IntegrativO Project - Ontological Interpretation of Biomedical BDs
 This repository contains ontologies and data used for describing theoretical aspects of integrativO Project.
 
 ODLS'16 supplimentary data can be found [here](https://github.com/integrativo/ontos/tree/master/ODLS'16).
+PhD related files can be found [here](https://github.com/integrativo/ontos/tree/master/PhD%20Dissertation%20Files) (Portuguese).
 
 We are currently under active development.
 Updates are comming out soon.
