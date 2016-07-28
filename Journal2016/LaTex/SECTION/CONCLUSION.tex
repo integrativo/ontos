@@ -1,13 +1,8 @@
 Biological databases represent large amounts of experimental data and connect them with content from domain ontologies. Querying these databases generally follows the syntax of the underlying database scheme, in which ontologies represent little more than a simple domain vocabulary. Two important aspects are ignored, viz. (i) making the underlying ontological assumptions of the database scheme explicit (i.e. how the entities are related with each other) and (ii) exploiting the representational richness of the related ontologies. 
-Both aspects are addressed by this work, in which the interpretation of biological database 
-content is supported by an ontology grounding framework under the upper-level ontology BTL2, 
-importing parts of the ontologies GO, PR, SNOMED CT and ChEBI. 
-The content of biological databases is automatically converted into OWL axioms, 
-guided by a set of ontology patterns, which were manually crafted after a 
-thorough scrutiny of the implicit meaning of the database structures of Uniprot, Ensembl, 
-and NCBI Taxonomy. The ontology creation process obeyed the principles of 
-philosophically founded and formally accurate ontology design and resulted 
-in a large ontology, which uniquely represented TBox entities, i.e. no individuals. 
+Both aspects are addressed by this work, in which the interpretation of biological database content is supported by an ontology grounding framework under the upper-level ontology BTL2, importing parts of the ontologies GO, PR, SNOMED CT and ChEBI. 
+
+The content of biological databases is automatically converted into OWL axioms, guided by a set of ontology patterns, which were manually crafted after a thorough scrutiny of the implicit meaning of the database structures of Uniprot, Ensembl, 
+and NCBI Taxonomy. The ontology creation process obeyed the principles of philosophically founded and formally accurate ontology design and resulted in a large ontology, which uniquely represented TBox entities, i.e. no individuals. 
 
 This output ontology was then tested with six competency questions, formulated as description logics queries with subsequent filtering. The results corresponded to the expectations. Performance benchmarks were done with programmatically enlarged test ontologies, which showed limitations when TBoxes were increased by a factor of  > 30, partly due to hardware limitations.
 
