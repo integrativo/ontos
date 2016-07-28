@@ -1,0 +1,41 @@
+NEW QUERIES
+EXPRESSIVITY: DL EL++
+MODEL WITHOUT IMPORTS
+_______________________________________________________
+THESE QUERIES CANNOT BE ANSWERED WITH THE NEW SUBCLASSES ONLY MODEL.
+
+BELOW, NEW QUERIES FOR THE SAME DOMAIN.
+
+
+CQ1': Which biological processes have proteins of the kind \textit{Prot$_1$} as participants?
+
+DL QUERY: (Functioning)
+biological_process and (hasParticipant some Methionine_synthase)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+CQ2 --  In which cellular locations is \textit{Prot$_1$} active in organisms of the type  \textit{Org$_1$}? \\ 
+
+cellular_component and (isPartOf some Loxodonta_africana__African_elephant_) and (includes some Cystathionine_beta_synthase__EC_4_2_1_22_)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+CQ3 --  Which proteins are involved in processes of the type \textit{BProc$_i1$} in organisms of the type \textit{Org$_i1$}? \\
+
+DL QUERY:
+protein and (isParticipantIn some methylation__GO_0032259_) and (isPartOf some Homo_sapiens__Human_)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+CQ4 -- Which are the organisms that includes a protein of type X and are also found in situations of type Y?
+
+'cellular organism' and (hasPart some (Methylenetetrahydrofolate_reductase__EC_1_5_1_20_ and (isParticipantIn some folic_acid_metabolic_process__GO_0046655_)))
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+CQ7 -- Are there molecular functions exhibited by protein of type 'cysthationine beta-synthase', which are considered dysfunctional?
+
+Considering that, below we present the query:
+molecular_function and (hasParticipant some (Cystathionine_beta_synthase__EC_4_2_1_22_ and (isBearerOf some Dysfunctional)))
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
