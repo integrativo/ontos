@@ -1,0 +1,48 @@
+Sub Main()
+
+ClearExpandedData
+CreateArtificialData 1, True
+GenerateOWL
+'47
+
+ClearExpandedData
+CreateArtificialData 3, True
+GenerateOWL
+'139
+
+ClearExpandedData
+CreateArtificialData 10, True
+GenerateOWL
+'461
+
+ClearExpandedData
+CreateArtificialData 30, True
+GenerateOWL
+'1381
+
+ClearExpandedData
+CreateArtificialData 100, True
+GenerateOWL
+'4601
+
+ClearExpandedData
+CreateArtificialData 300, True
+GenerateOWL
+'13801
+
+ClearExpandedData
+CreateArtificialData 1000, True
+GenerateOWL
+'46001
+
+ClearExpandedData
+CreateArtificialData 3000, True
+GenerateOWL
+'138001
+
+ClearExpandedData
+CreateArtificialData 10000, True
+GenerateOWL
+'460001
+
+End Sub

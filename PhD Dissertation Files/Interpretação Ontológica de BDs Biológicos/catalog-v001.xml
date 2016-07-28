@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1456415468340" name="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-51" uri="TBox_Disposition.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1456415468340" name="duplicate:http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56" uri="TBox_Hybrid.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1456415468340" name="duplicate:http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56" uri="TBox_subclasses_only.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1456415468340" name="http://www.semanticweb.org/schulz/ontologies/2016/0/untitled-ontology-48" uri="ABox.owl"/>
+    </group>
+</catalog>
