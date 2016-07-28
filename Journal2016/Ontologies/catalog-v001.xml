@@ -7,12 +7,11 @@
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/PR" uri="pr_module.owl"/>
     <uri id="Imports Wizard Entry" name="ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/chebi.owl" uri="chebi_module.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1469712915757" name="file:///C:/ontology/STAR_2015_10_3_1446596599306_module.owl" uri="chebi_module.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1469712915757" name="file:///C:/ontology/STAR_2015_9_19_1445283932980_module.owl" uri="pr_module.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1469712915757" name="http://purl.bioontology.org/ontology/NCBITAXON" uri="ncbitaxon.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1469712915757" name="http://purl.obolibrary.org/obo/go.owl" uri="go_module.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1469712915757" name="http://purl.org/biotop/btl2.owl" uri="btl2.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1469712915757" name="http://snomed.info/" uri="SNOMED_module.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1469712915757" name="http://www.cin.ufpe.br/~integrativo/integrativo.owl" uri="integrativo_new.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1469713489800" name="file:///C:/ontology/STAR_2015_10_3_1446596599306_module.owl" uri="chebi_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1469713489800" name="file:///C:/ontology/STAR_2015_9_19_1445283932980_module.owl" uri="pr_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1469713489800" name="http://purl.bioontology.org/ontology/NCBITAXON" uri="ncbitaxon.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1469713489800" name="http://purl.obolibrary.org/obo/go.owl" uri="go_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1469713489800" name="http://snomed.info/" uri="SNOMED_module.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1469713489800" name="http://www.cin.ufpe.br/~integrativo/integrativo.owl" uri="integrativo_new.owl"/>
     </group>
 </catalog>
