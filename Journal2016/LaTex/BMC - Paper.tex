@@ -124,7 +124,7 @@
 
 \author[
    addressref={aff1},                   % id's of addresses, e.g. {aff1,aff2}
-%   corref={aff1},                       % id of corresponding address, if any
+   corref={aff1},                       % id of corresponding address, if any
    noteref={n1},                        % id's of article notes, if any
    email={fss3@cin.ufpe.br}   % email address
 ]{\inits{FSS}\fnm{Filipe} \snm{Santana da Silva}}
@@ -138,9 +138,9 @@ email={robert.hoehndorf@kaust.edu.sa}   % email address
 
 \author[
 addressref={aff1},                   % id's of addresses, e.g. {aff1,aff2}
-corref={aff1},                       % id of corresponding address, if any
+%corref={aff1},                       % id of corresponding address, if any
 noteref={n1},                        % id's of article notes, if any
-email={fred@cin.ufpe.br}   % email address
+%email={fred@cin.ufpe.br}   % email address
 ]{\inits{FF}\fnm{Fred} \snm{Freitas}}
 
 \author[
@@ -404,20 +404,19 @@ This work was funded by \textit{Conselho Nacional de Aperfei\c{c}oamento de Pess
 \section*{Figures}
 
 \begin{figure}[!h]
-\centering
-
-\caption{Alignment of GO, ChEBI, SNOMED CT and PR under BTL2}
-\includegraphics{PIC/HierarquiaURI.eps}
-\label{fig:HierarquiaURI}
+	\centering
+	\includegraphics{./PIC/process}
+	\caption{Ontology grounding process.}
+	\label{fig:process}
 \end{figure}
 
 
-%\begin{figure}[h!]
-%	\centering
-%	\includegraphics{/PIC/HierarquiaURI}
-%	\caption{Alignment of GO, ChEBI, SNOMED CT and PR under BTL2} 
-%	\label{fig:HierarquiaURI}
-%\end{figure}
+\begin{figure}[h!]
+	\centering
+	\includegraphics{/PIC/HierarquiaURI}
+	\caption{Alignment of GO, ChEBI, SNOMED CT and PR under BTL2} 
+	\label{fig:HierarquiaURI}
+\end{figure}
 
 %  \begin{figure}[h!]
 %  \caption{\csentence{Sample figure title.}
@@ -439,6 +438,58 @@ This work was funded by \textit{Conselho Nacional de Aperfei\c{c}oamento de Pess
 %% Use of \listoftables is discouraged.
 %%
 \section*{Tables}
+
+\begin{table*}[h!]
+	\begin{threeparttable}
+		\caption{Uniprot and Ensembl table view}
+		\label{table:uniprot}
+		\centering
+		\begin{tabular}{p{0.45in}p{0.4in}p{0.5in}p{0.8in}p{0.8in}p{0.6in}|p{1.25in}p{1.2in}} 
+			\hline 
+			Entry & Protein & Organism & GO (bp) & GO (mf) & GO (cc) & Ensembl ID & Ensembl Phenotype\\ \hline 
+			F1MEW4 & CBS & \textit{Bos taurus} & blood vessel remodeling; \ldots & cystathionine $\beta$-synthase activity \ldots & cytoplasm \ldots & ENSBTAT00000000184; \ldots & No phenotype associated \\ 
+			Q99707 & MS & \textit{Homo sapiens} & cobalamin metabolic process; \ldots & cobalamin binding; \ldots & cytoplasm \ldots & ENST00000366577; ENST00000535889 & Neural tube defect; Megaloblastic anemia; \ldots \\ \hline 
+		\end{tabular}
+		\begin{tablenotes}
+			\item The left six columns contain UniProt entries; the two right columns correspond to Ensembl in entried. GO (bp) , GO (mf) and GO (cc) represents rows from UniProt that include annotations for GO classes '\textit{Biological process}', '\textit{Molecular function}' (understood as activity) and '\textit{Cellular component}'. IDs from UniProt and Ensembl are used for mapping purposes.\\ 
+		\end{tablenotes}
+	\end{threeparttable}
+\end{table*}
+
+\begin{table*}[h!]
+	\centering
+	\caption{Template table}
+	\label{table:template}
+	\begin{tabular}{p{0.3in}p{0.3in}p{0.3in}p{0.6in}p{0.6in}p{0.6in}p{0.6in}p{0.6in}} \hline 
+		\# & \textit{P} &\textit{O} & \textit{Bp} & \textit{Mf} & \textit{C} & \textit{Ph} & \textit{M} \\ \hline 
+		$k$ & $P_k$ & $O_k$ & $Bp_1\ldots n$ & $Mf_1\ldots n$ & $C_1\ldots n$ & $Ph1\ldots n$ & $M_1\ldots n$ \\
+		\ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots \\
+		$l$ & $P_l$ & $O_l$ & $Bp_1\ldots n$ & $Mf_1\ldots n$ & $C_1\ldots n$ & $Ph1\ldots n$ & $M_1\ldots n$ \\
+		\ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots \\
+		$m$ & $P_m$ & $O_m$ & $Bp_1\ldots n$ & $Mf_1\ldots n$ & $C_1\ldots n$ & $Ph1\ldots n$ & $M_1\ldots n$ \\ \hline 
+	\end{tabular}
+	\begin{tablenotes}
+		\item The symbol \# represents record IDs; \textit{P} proteins; \textit{G} genes; \textit{O} organisms; \textit{Bp} biological processes;
+		\textit{Mf} molecular function; \textit{C} cellular component; \textit{Ph} phenotype; and \textit{M} the associate molecules. \\ \\
+	\end{tablenotes}
+\end{table*}
+
+\begin{table*}[h!]
+	\begin{minipage}{\textwidth}
+		\label{table:Summary}
+		\caption{Survey of ontology sources, expressivity and reasoning performance in milliseconds}
+		\centering
+		\begin{tabular}{lrrrcrrrrrrrrr}
+			\hline Ontology & Classes & Subcl. Axioms & Eq. Axioms & DL & Classification (h) & CQ1 & CQ2 & CQ3 & CQ4 & CQ5 & CQ6 \\ 
+			x1  &  903 & 1,053  & 647 & $ALC$  & 586ms & 8ms & 13ms & 31ms & 35ms & 39ms  & 44ms \\ 
+			x3 &  2,512 	& 2,957 & 1,945 & $ALC$  & 3,831ms & 12ms & 16ms & 32ms &  33ms & 38ms  &  39ms \\ 
+			x10  & 8,599	 &  10,268 & 6,707 & $ALC$ & 38,994ms &70ms & 75ms & 85ms & 88ms & 92ms & 93ms \\ 
+			%x30  & 25945 & 31072 & 20398 & $ALC$ & 397006ms  & 0ms & 1ms & 5ms  & 6ms  & ms &  ms  \\ 
+			Modularized  & 2,838  & 4,071 & 1,203 & $SRI$ & 7,233,529ms & 373ms & 381ms & 385ms & 394ms & 397ms & 402ms \\ 
+			\hline 
+		\end{tabular} 
+	\end{minipage}
+\end{table*}
 %\begin{table}[h!]
 %\caption{Sample table title. This is where the description of the table should go.}
 %      \begin{tabular}{cccc}

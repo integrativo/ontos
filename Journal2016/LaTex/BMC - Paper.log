@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.6.23)  28 JUL 2016 11:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.6.23)  28 JUL 2016 12:10
 entering extended mode
 **"./BMC - Paper.tex"
 ("BMC - Paper.tex"
@@ -1025,10 +1025,7 @@ Overfull \hbox (1.0pt too wide) has occurred while \output is active
 ])
 (SECTION/BACKGROUND.tex [2] [3] (SECTION/GROUNDING.tex
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `sec:resources' on page 4 undefined on input line 18.
+LaTeX Warning: Reference `sec:resources' on page 4 undefined on input line 13.
 
 [4])) (SECTION/RESOURCES.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
@@ -1038,238 +1035,245 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
- [5pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.13 \end{itemize}
-                  ]) (SECTION/METHODS.tex [6] [7]) (SECTION/RESULTS.tex
-Overfull \hbox (1.382pt too wide) in paragraph at lines 9--9
-[]\OT1/cmss/m/n/8 F1MEW4| 
- []
-
-
-Underfull \hbox (badness 6675) in paragraph at lines 9--9
-[]\OT1/cmss/m/sl/8 Bos tau-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-[]\OT1/cmss/m/n/8 cytoplasm
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-[]\OT1/cmss/m/n/8 ENSBTAT00000000184;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
-[]\OT1/cmss/m/sl/8 Homo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
-[]\OT1/cmss/m/n/8 cobalamin
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
-\OT1/cmss/m/n/8 metabolic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
-[]\OT1/cmss/m/n/8 cytoplasm
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
-[]\OT1/cmss/m/n/8 ENST00000366577;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
-[]\OT1/cmss/m/n/8 Neural tube de-fect;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--10
-\OT1/cmss/m/n/8 Mega-loblas-tic ane-mia;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Overfull \hbox (168.61992pt too wide) in paragraph at lines 3--16
- [] 
- []
-
-
-Overfull \hbox (16.85577pt too wide) in paragraph at lines 22--31
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
-
- []
-
-[8pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
-as been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.58 
-     pdfTeX warning (ext4): destination with the same identifier (name{table.2}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.58 
-     ]
-Underfull \hbox (badness 986) in paragraph at lines 70--71
+ [5])
+(SECTION/METHODS.tex [6]) [7] (SECTION/RESULTS.tex [8]
+Underfull \hbox (badness 986) in paragraph at lines 37--38
 []\OT1/cmr/m/n/10 If there are phe-no-type en-tries \OT1/cmr/m/it/10 Ph\OT1/cmr
 /m/n/10 , a new class of the type \OT1/cmr/m/it/10 Dys-func-
  []
 
-[9]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <6> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 130.
-
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 97.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <5> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 130.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 97.
 
-
-[10pdfTeX warning (ext4): destination with the same identifier (name{table.3}) 
-has been already used, duplicate ignored
+[9pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
+as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.175 \noindent
+l.102 \noindent
                pdfTeX warning (ext4): destination with the same identifier (nam
-e{table.4}) has been already used, duplicate ignored
+e{table.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.175 \noindent
-               pdfTeX warning (ext4): destination with the same identifier (nam
-e{table.5}) has been already used, duplicate ignored
+l.102 \noindent
+               ] [10pdfTeX warning (ext4): destination with the same identifier
+ (name{table.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.175 \noindent
-               pdfTeX warning (ext4): destination with the same identifier (nam
-e{table.6}) has been already used, duplicate ignored
+l.176 \end{table}
+                 %pdfTeX warning (ext4): destination with the same identifier (
+name{table.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.175 \noindent
-               ] [11pdfTeX warning (ext4): destination with the same identifier
- (name{table.7}) has been already used, duplicate ignored
+l.176 \end{table}
+                 %pdfTeX warning (ext4): destination with the same identifier (
+name{table.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.240 
+l.176 \end{table}
+                 %pdfTeX warning (ext4): destination with the same identifier (
+name{table.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.176 \end{table}
+                 %] [11pdfTeX warning (ext4): destination with the same identif
+ier (name{table.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.227 
       pdfTeX warning (ext4): destination with the same identifier (name{table.8
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.240 
+l.227 
       pdfTeX warning (ext4): destination with the same identifier (name{table.9
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.240 
-      ] [12pdfTeX warning (ext4): destination with the same identifier (name{ta
-ble.10}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.321 \end{table}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{table.11}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.321 \end{table}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{table.12}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.321 \end{table}
-                 ]
-Underfull \hbox (badness 945) in paragraph at lines 323--324
+l.227 
+      ]
+Underfull \hbox (badness 945) in paragraph at lines 290--291
 []\OT1/cmr/m/n/10 Ten classes (in-clud-ing an-ces-tors) are re-trieved: \OT1/cm
 r/m/it/10 Dys-func-tional ho-mo-cys-teine
  []
 
-[13pdfTeX warning (ext4): destination with the same identifier (name{table.13})
+[12pdfTeX warning (ext4): destination with the same identifier (name{table.10})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.357 
+l.305 
       pdfTeX warning (ext4): destination with the same identifier (name{table.1
-4}) has been already used, duplicate ignored
+1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.357 
-      pdfTeX warning (ext4): destination with the same identifier (name{table.1
-5}) has been already used, duplicate ignored
+l.305 
+      ]) (SECTION/DISCUSSION.tex [13pdfTeX warning (ext4): destination with the
+ same identifier (name{table.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.357 
-      ]
-Overfull \hbox (157.99533pt too wide) in paragraph at lines 377--386
- [][] 
- []
-
-) (SECTION/DISCUSSION.tex [14pdfTeX warning (ext4): destination with the same i
-dentifier (name{table.16}) has been already used, duplicate ignored
+l.3 
+    pdfTeX warning (ext4): destination with the same identifier (name{table.13}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.25 
-     ] [15]) (SECTION/CONCLUSION.tex [16])
+l.3 
+    ] [14] [15]) (SECTION/CONCLUSION.tex) [16]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <7> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 360.
 
 
-("BMC - Paper.bbl" [17] [18]) 
+("BMC - Paper.bbl" [17])
+Overfull \hbox (1.382pt too wide) in paragraph at lines 450--450
+[]\OT1/cmss/m/n/8 F1MEW4| 
+ []
+
+
+Underfull \hbox (badness 6675) in paragraph at lines 450--450
+[]\OT1/cmss/m/sl/8 Bos tau-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]\OT1/cmss/m/n/8 cytoplasm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]\OT1/cmss/m/n/8 ENSBTAT00000000184;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+[]\OT1/cmss/m/sl/8 Homo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+[]\OT1/cmss/m/n/8 cobalamin
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+\OT1/cmss/m/n/8 metabolic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+[]\OT1/cmss/m/n/8 cytoplasm
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+[]\OT1/cmss/m/n/8 ENST00000366577;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+[]\OT1/cmss/m/n/8 Neural tube de-fect;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+\OT1/cmss/m/n/8 Mega-loblas-tic ane-mia;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
+
+ []
+
+
+Overfull \hbox (168.61992pt too wide) in paragraph at lines 444--457
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (16.85577pt too wide) in paragraph at lines 463--472
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 472--474
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 472--474
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (157.99533pt too wide) in paragraph at lines 482--491
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 AED: lastpage setting LastPage
-[19pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.470 \end{document}
+l.521 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.521 \end{document}
+                    ] [19pdfTeX warning (ext4): destination with the same ident
+ifier (name{table.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.521 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{table.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.521 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{table.16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.521 \end{document}
                     ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 470.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 470.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 521.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 521.
  ("BMC - Paper.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 470.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 470.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 521.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 521.
 Package rerunfilecheck Info: File `"BMC - Paper".out' has not changed.
-(rerunfilecheck)             Checksum: AC2EB1513990222827E9520173D31884;1272.
+(rerunfilecheck)             Checksum: A1B0D8ADD4BCF82FB5D590CFC2E83A3C;388.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1281,38 +1285,39 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 470.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 521.
  ) 
 Here is how much of TeX's memory you used:
- 17818 strings out of 493335
- 324742 string characters out of 3139260
- 406126 words of memory out of 3000000
- 20873 multiletter control sequences out of 15000+200000
- 13786 words of font info for 49 fonts, out of 3000000 for 9000
+ 17824 strings out of 493335
+ 324651 string characters out of 3139260
+ 418325 words of memory out of 3000000
+ 20870 multiletter control sequences out of 15000+200000
+ 17139 words of font info for 60 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,15n,56p,924b,685s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,15n,56p,924b,615s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmssi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on "BMC - Paper.pdf" (19 pages, 364772 bytes).
+public/amsfonts/cmextra/cmmib8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmssi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+msy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on "BMC - Paper.pdf" (19 pages, 371931 bytes).
 PDF statistics:
- 483 PDF objects out of 1000 (max. 8388607)
+ 454 PDF objects out of 1000 (max. 8388607)
  135 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

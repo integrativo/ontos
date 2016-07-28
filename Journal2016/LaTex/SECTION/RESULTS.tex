@@ -1,39 +1,6 @@
-\begin{table*}[t]
-	\begin{threeparttable}
-		\caption{Uniprot and Ensembl table view}
-		\label{table:uniprot}
-		\centering
-		\begin{tabular}{p{0.45in}p{0.4in}p{0.5in}p{0.8in}p{0.8in}p{0.6in}|p{1.25in}p{1.2in}} 
-			\hline 
-			Entry & Protein & Organism & GO (bp) & GO (mf) & GO (cc) & Ensembl ID & Ensembl Phenotype\\ \hline 
-			F1MEW4 & CBS & \textit{Bos taurus} & blood vessel remodeling; \ldots & cystathionine $\beta$-synthase activity \ldots & cytoplasm \ldots & ENSBTAT00000000184; \ldots & No phenotype associated \\ 
-			Q99707 & MS & \textit{Homo sapiens} & cobalamin metabolic process; \ldots & cobalamin binding; \ldots & cytoplasm \ldots & ENST00000366577; ENST00000535889 & Neural tube defect; Megaloblastic anemia; \ldots \\ \hline 
-		\end{tabular}
-		\begin{tablenotes}
-			\item The left six columns contain UniProt entries; the two right columns correspond to Ensembl in entried. GO (bp) , GO (mf) and GO (cc) represents rows from UniProt that include annotations for GO classes '\textit{Biological process}', '\textit{Molecular function}' (understood as activity) and '\textit{Cellular component}'. IDs from UniProt and Ensembl are used for mapping purposes.\\ 
-		\end{tablenotes}
-	\end{threeparttable}
-\end{table*}
- 
-\begin{table*}[t]
-	\centering
-	\caption{Template table}
-	\label{table:template}
-	\begin{tabular}{p{0.3in}p{0.3in}p{0.3in}p{0.6in}p{0.6in}p{0.6in}p{0.6in}p{0.6in}} \hline 
-		\# & \textit{P} &\textit{O} & \textit{Bp} & \textit{Mf} & \textit{C} & \textit{Ph} & \textit{M} \\ \hline 
-		$k$ & $P_k$ & $O_k$ & $Bp_1\ldots n$ & $Mf_1\ldots n$ & $C_1\ldots n$ & $Ph1\ldots n$ & $M_1\ldots n$ \\
-		\ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots \\
-		$l$ & $P_l$ & $O_l$ & $Bp_1\ldots n$ & $Mf_1\ldots n$ & $C_1\ldots n$ & $Ph1\ldots n$ & $M_1\ldots n$ \\
-		\ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots & \ldots \\
-		$m$ & $P_m$ & $O_m$ & $Bp_1\ldots n$ & $Mf_1\ldots n$ & $C_1\ldots n$ & $Ph1\ldots n$ & $M_1\ldots n$ \\ \hline 
-	\end{tabular}
-	\begin{tablenotes}
-		\item The symbol \# represents record IDs; \textit{P} proteins; \textit{G} genes; \textit{O} organisms; \textit{Bp} biological processes;
-		\textit{Mf} molecular function; \textit{C} cellular component; \textit{Ph} phenotype; and \textit{M} the associate molecules. \\ \\
-	\end{tablenotes}
-\end{table*}
 
-\subsection{Basic ontological assumptions}
+
+\subsection*{Basic ontological assumptions}
 The thorough inspection of the database (DB) content and its discussion among the authors yielded the following ontology-based interpretation: ``Each DB record can be understood as introducing a series of defined subclasses of each biological process class referred to by this DB record. Each of these subclasses is defined by having one or more proteins of a certain type as participants, together with the small molecule Hcy. These proteins occur within one or more cell components. If dysfunctional, these processes lead to the risk of developing the pathological phenotypes mentioned in the source".
 
 Thus, the content of the biological database extract under scrutiny is entirely expressed at class level. The underlying assumption is that all these defined process subclasses are non-empty, as otherwise there would not have been any experimental evidence manifested as a curated database entry. Additionally, we assume that no wrong data occur (data instances that do not have any referent in reality). This interpretation allows us to refrain from reasoning about individuals, thus avoiding scaling problems.  
@@ -47,7 +14,7 @@ Thus, the content of the biological database extract under scrutiny is entirely 
 %Each record from UniProt and Ensembl is interpreted as unique; one or more similar experiments may have resulted in the population of a single DB record. 
 
 
-\subsection{Ontological Grounding}
+\subsection*{Ontological Grounding}
 
 In the following, the ontological grounding steps of the selected content is described. 
 %In addition, we present one example use case. 
@@ -81,7 +48,7 @@ With this strategy, process subclasses appear in query results, which may appear
 This is the reason why the query results need to be post-processed in a way that only the original superclasses are filtered out. E.g., 
 if the class \textit{BpX\_in\_O\_with\_P\_and\_M} is retrieved by the query, only its superclass \textit{BpX} is displayed. 
 
-\subsection{Ontology patterns}
+\subsection*{Ontology patterns}
 
 This analysis allows us to identify ontology patterns. First, we present the definitions of \textit{P}(table \ref{table:ProteinP}), \textit{Bp} (table \ref{table:Bp}) and \textit{C} (table \ref{table:CellCompC}). 
 
@@ -210,7 +177,7 @@ The last axiom required is about organisms as bearers of dispositions related to
 \noindent
 Table \ref{table:Organism} attaches dispositions realized by specific biological processes to organisms. 
 
-\subsection{Evaluating the content generated}
+\subsection*{Evaluating the content generated}
 \label{sec:evaluation}
 The analysis of the content of database entries has resulted in a set of OWL T-Box axioms for each database record as specified above. We recall two basic assumptions made, \textit{viz.} (i) non-emptiness of classes: i.e. each of the newly defined classed corresponds to at least one fact described in literature, and (ii) the veracity of database entries, i.e. each information is considered a statement of truth. Given these boundary conditions, evaluation of the generated TBoxes will address the aspects: (i) logical satisfiability when importing all constraints from the upper-level-ontology BTL2; (ii) adequacy (correctness and completeness) of entailments against CQs; and, (iii) computational performance.
 
@@ -219,7 +186,7 @@ The analysis of the content of database entries has resulted in a set of OWL T-B
 %
 %Other type of logical satisfiability performed is the evaluation of the correct usage of relations inside the axioms created, for instance, when applying the relation `\textbf{has realization}' between an organism of the type \textit{O} and a biological process of type \textit{Bp}. According to BTL2, material entities are bearers of the capability (\textit{Role}, \textit{Function} or \textit{Disposition}) that culminates with the realization of a specific process.
 
-\subsubsection{Evaluation of Competency Questions (CQs)}
+\subsubsection*{Evaluation of Competency Questions (CQs)}
 \label{section:CQ}
 In the following, each competency question is translated into a DL query. The result is analysed and discussed.  
 
@@ -369,25 +336,10 @@ Five subclasses (including ancestors) are retrieved, of which the following are 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %%This table appears only in section 5.4.3 - Computational Performance
-\begin{table*}[t]
-	\begin{minipage}{\textwidth}
-		\label{table:Summary}
-		\caption{Survey of ontology sources, expressivity and reasoning performance in milliseconds}
-		\centering
-		\begin{tabular}{lrrrcrrrrrrrrr}
-			\hline Ontology & Classes & Subcl. Axioms & Eq. Axioms & DL & Classification (h) & CQ1 & CQ2 & CQ3 & CQ4 & CQ5 & CQ6 \\ 
-			x1  &  903 & 1,053  & 647 & $ALC$  & 586ms & 8ms & 13ms & 31ms & 35ms & 39ms  & 44ms \\ 
-			x3 &  2,512 	& 2,957 & 1,945 & $ALC$  & 3,831ms & 12ms & 16ms & 32ms &  33ms & 38ms  &  39ms \\ 
-			x10  & 8,599	 &  10,268 & 6,707 & $ALC$ & 38,994ms &70ms & 75ms & 85ms & 88ms & 92ms & 93ms \\ 
-			%x30  & 25945 & 31072 & 20398 & $ALC$ & 397006ms  & 0ms & 1ms & 5ms  & 6ms  & ms &  ms  \\ 
-			Modularized  & 2,838  & 4,071 & 1,203 & $SRI$ & 7,233,529ms & 373ms & 381ms & 385ms & 394ms & 397ms & 402ms \\ 
-			\hline 
-		\end{tabular} 
-	\end{minipage}
-\end{table*}
 
 
-\subsubsection{Computational performance}
+
+\subsubsection*{Computational performance}
 %output of the ontology grounding process is a OWL file with  
 %the interpreted axioms propagated towards the   %%%% PROPAGATE ?? DON'T UNDERSTAND
 %database or database subpart. 
