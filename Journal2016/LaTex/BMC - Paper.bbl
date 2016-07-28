@@ -46,12 +46,11 @@
 \bibitem{UniProtConsortium2014}
 \begin{barticle}
 \bauthor{\bsnm{{UniProt Consortium}}}:
-\batitle{{Activities at the Universal Protein Resource (UniProt).}}
-\bjtitle{Nucl. Acids Res.}
-\bvolume{42}(\bissue{Database issue}),
-\bfpage{191}--\blpage{8}
-(\byear{2014}).
-doi:\doiurl{10.1093/nar/gkt1140}
+\batitle{Activities at the universal protein resource ({UniProt})}.
+\bjtitle{Nucleic Acids Research}
+\bvolume{42}(\bissue{D1}),
+\bfpage{191}--\blpage{198}
+(\byear{2013})
 \end{barticle}
 \endbibitem
 
@@ -107,31 +106,30 @@ doi:\doiurl{10.1093/nar/gkt1140}
 \bauthor{\bsnm{Yates}, \binits{A.}},
 \bauthor{\bsnm{Zerbino}, \binits{D.R.}},
 \bauthor{\bsnm{Flicek}, \binits{P.}}:
-\batitle{{Ensembl 2015}}.
-\bjtitle{Nucl. Acids Res.}
+\batitle{Ensembl 2015}.
+\bjtitle{Nucleic Acids Research}
 \bvolume{43}(\bissue{D1}),
 \bfpage{662}--\blpage{669}
-(\byear{2014}).
-doi:\doiurl{10.1093/nar/gku1010}
+(\byear{2014})
 \end{barticle}
 \endbibitem
 
 %%% 3
 \bibitem{Poggi2008}
-\begin{barticle}
+\begin{bchapter}
 \bauthor{\bsnm{Poggi}, \binits{A.}},
 \bauthor{\bsnm{Lembo}, \binits{D.}},
 \bauthor{\bsnm{Calvanese}, \binits{D.}},
-\bauthor{\bsnm{{De Giacomo}}, \binits{G.}},
+\bauthor{\bsnm{Giacomo}, \binits{G.D.}},
 \bauthor{\bsnm{Lenzerini}, \binits{M.}},
 \bauthor{\bsnm{Rosati}, \binits{R.}}:
-\batitle{{Linking data to ontologies}}.
-\bjtitle{LNCS}
-\bvolume{4900},
-\bfpage{133}--\blpage{173}
-(\byear{2008}).
-doi:\doiurl{10.1007/978-3-540-77688-8_5}
-\end{barticle}
+\bctitle{Linking data to ontologies}.
+In: \bbtitle{Journal on Data Semantics X}
+vol. \bseriesno{4900},
+pp. \bfpage{133}--\blpage{173}.
+\bpublisher{Springer}, \blocation{???}
+(\byear{2008})
+\end{bchapter}
 \endbibitem
 
 %%% 4
@@ -203,13 +201,12 @@ p. \bfpage{601}.
 \bauthor{\bsnm{Shah}, \binits{N.}},
 \bauthor{\bsnm{Whetzel}, \binits{P.L.}},
 \bauthor{\bsnm{Lewis}, \binits{S.}}:
-\batitle{{The OBO Foundry: coordinated evolution of ontologies to support
-  biomedical data integration.}}
-\bjtitle{Nat. Biotechnol.}
+\batitle{The {OBO} foundry: coordinated evolution of ontologies to support
+  biomedical data integration}.
+\bjtitle{Nat Biotechnol}
 \bvolume{25}(\bissue{11}),
-\bfpage{1251}--\blpage{5}
-(\byear{2007}).
-doi:\doiurl{10.1038/nbt1346}
+\bfpage{1251}--\blpage{1255}
+(\byear{2007})
 \end{barticle}
 \endbibitem
 
@@ -230,13 +227,12 @@ pp. \bfpage{1}--\blpage{17}
 \bibitem{NCBI2015}
 \begin{barticle}
 \bauthor{\bsnm{{NCBI Resource Coordinators}}}:
-\batitle{{Database resources of the National Center for Biotechnology
-  Information}}.
-\bjtitle{Nucl. Acids Res.}
-\bvolume{43}(\bissue{Database issue}),
+\batitle{Database resources of the national center for biotechnology
+  information}.
+\bjtitle{Nucleic Acids Research}
+\bvolume{43}(\bissue{D1}),
 \bfpage{6}--\blpage{17}
-(\byear{2015}).
-doi:\doiurl{10.1093/nar/gku1130}
+(\byear{2014})
 \end{barticle}
 \endbibitem
 
@@ -255,12 +251,11 @@ http://www.snomed.org/tig.pdf
 \bibitem{Gene2014a}
 \begin{barticle}
 \bauthor{\bsnm{{The Gene Ontology Consortium}}}:
-\batitle{{Gene Ontology Consortium: going forward}}.
-\bjtitle{Nucl. Acids Res.}
+\batitle{Gene ontology consortium: going forward}.
+\bjtitle{Nucleic Acids Research}
 \bvolume{43}(\bissue{D1}),
 \bfpage{1049}--\blpage{1056}
-(\byear{2014}).
-doi:\doiurl{10.1093/nar/gku1179}
+(\byear{2014})
 \end{barticle}
 \endbibitem
 
@@ -268,7 +263,7 @@ doi:\doiurl{10.1093/nar/gku1179}
 \bibitem{Hastings2013}
 \begin{barticle}
 \bauthor{\bsnm{Hastings}, \binits{J.}},
-\bauthor{\bsnm{{De Matos}}, \binits{P.}},
+\bauthor{\bparticle{de} \bsnm{Matos}, \binits{P.}},
 \bauthor{\bsnm{Dekker}, \binits{A.}},
 \bauthor{\bsnm{Ennis}, \binits{M.}},
 \bauthor{\bsnm{Harsha}, \binits{B.}},
@@ -278,22 +273,21 @@ doi:\doiurl{10.1093/nar/gku1179}
 \bauthor{\bsnm{Turner}, \binits{S.}},
 \bauthor{\bsnm{Williams}, \binits{M.}},
 \bauthor{\bsnm{Steinbeck}, \binits{C.}}:
-\batitle{{The ChEBI reference database and ontology for biologically relevant
-  chemistry: Enhancements for 2013}}.
-\bjtitle{Nucl. Acids Res.}
+\batitle{The {ChEBI} reference database and ontology for biologically relevant
+  chemistry: enhancements for 2013}.
+\bjtitle{Nucleic Acids Research}
 \bvolume{41}(\bissue{D1}),
-\bfpage{456}--\blpage{63}
-(\byear{2013}).
-doi:\doiurl{10.1093/nar/gks1146}
+\bfpage{456}--\blpage{463}
+(\byear{2012})
 \end{barticle}
 \endbibitem
 
 %%% 13
 \bibitem{Natale2014}
 \begin{barticle}
-\bauthor{\bsnm{Natale}, \binits{D.a.}},
+\bauthor{\bsnm{Natale}, \binits{D.A.}},
 \bauthor{\bsnm{Arighi}, \binits{C.N.}},
-\bauthor{\bsnm{Blake}, \binits{J.a.}},
+\bauthor{\bsnm{Blake}, \binits{J.A.}},
 \bauthor{\bsnm{Bult}, \binits{C.J.}},
 \bauthor{\bsnm{Christie}, \binits{K.R.}},
 \bauthor{\bsnm{Cowart}, \binits{J.}},
@@ -311,19 +305,18 @@ doi:\doiurl{10.1093/nar/gks1146}
 \bauthor{\bsnm{Smith}, \binits{B.}},
 \bauthor{\bsnm{Yerramalla}, \binits{M.S.}},
 \bauthor{\bsnm{Zhang}, \binits{J.}},
-\bauthor{\bsnm{Aljanahi}, \binits{A.}},
-\bauthor{\bsnm{\c{C}elen}, \binits{I.}},
+\bauthor{\bsnm{AlJanahi}, \binits{A.}},
+\bauthor{\bsnm{{\c{C}}elen}, \binits{I.}},
 \bauthor{\bsnm{Gan}, \binits{C.}},
 \bauthor{\bsnm{Lv}, \binits{M.}},
 \bauthor{\bsnm{Schuster-Lezell}, \binits{E.}},
 \bauthor{\bsnm{Wu}, \binits{C.H.}}:
-\batitle{{Protein Ontology: A controlled structured network of protein
-  entities}}.
-\bjtitle{Nucl. Acids Res.}
+\batitle{Protein ontology: a controlled structured network of protein
+  entities}.
+\bjtitle{Nucleic Acids Research}
 \bvolume{42}(\bissue{D1}),
 \bfpage{415}--\blpage{421}
-(\byear{2014}).
-doi:\doiurl{10.1093/nar/gkt1173}
+(\byear{2013})
 \end{barticle}
 \endbibitem
 
@@ -353,13 +346,12 @@ Rostock
 \bauthor{\bsnm{Medeiros}, \binits{Z.}},
 \bauthor{\bsnm{Freitas}, \binits{F.}},
 \bauthor{\bsnm{Schulz}, \binits{S.}}:
-\batitle{{Ontology patterns for tabular representations of biomedical knowledge
-  on neglected tropical diseases}}.
+\batitle{Ontology patterns for tabular representations of biomedical knowledge
+  on neglected tropical diseases}.
 \bjtitle{Bioinformatics}
 \bvolume{27}(\bissue{13}),
 \bfpage{349}--\blpage{356}
-(\byear{2011}).
-doi:\doiurl{10.1093/bioinformatics/btr226}
+(\byear{2011})
 \end{barticle}
 \endbibitem
 
@@ -371,12 +363,11 @@ doi:\doiurl{10.1093/bioinformatics/btr226}
 \oauthor{\bsnm{Karlsson}, \binits{D.}},
 \oauthor{\bsnm{Schulz}, \binits{S.}},
 \oauthor{\bsnm{Kalra}, \binits{D.}}:
-{Semantic enrichment of clinical models towards semantic interoperability. The
-  heart failure summary use case}.
-JAMIA,
+Semantic enrichment of clinical models towards semantic interoperability. the
+  heart failure summary use case.
+Journal of the American Medical Informatics Association,
 565--576
-(2015).
-doi:\doiurl{10.1093/jamia/ocu013}
+(2015)
 \end{botherref}
 \endbibitem
 
@@ -404,15 +395,14 @@ p. \bfpage{132}.
 \bauthor{\bsnm{Lomax}, \binits{J.}},
 \bauthor{\bsnm{Mungall}, \binits{C.}},
 \bauthor{\bsnm{Taylor}, \binits{C.F.}},
-\bauthor{\bsnm{Rocca-serra}, \binits{P.}},
-\bauthor{\bsnm{Sansone}, \binits{S.-a.}}:
-\batitle{{Survey-based naming conventions for use in OBO Foundry ontology
-  development.}}
+\bauthor{\bsnm{Rocca-Serra}, \binits{P.}},
+\bauthor{\bsnm{Sansone}, \binits{S.-A.}}:
+\batitle{Survey-based naming conventions for use in {OBO} foundry ontology
+  development}.
 \bjtitle{BMC Bioinformatics}
-\bvolume{10},
+\bvolume{10}(\bissue{1}),
 \bfpage{125}
-(\byear{2009}).
-doi:\doiurl{10.1186/1471-2105-10-125}
+(\byear{2009})
 \end{barticle}
 \endbibitem
 
@@ -430,11 +420,10 @@ doi:\doiurl{10.1186/1471-2105-10-125}
 \bauthor{\bsnm{Rector}, \binits{A.L.}},
 \bauthor{\bsnm{Rosse}, \binits{C.}}:
 \batitle{{Relations in biomedical ontologies.}}
-\bjtitle{Genome Biol.}
+\bjtitle{Genome Biol}
 \bvolume{6}(\bissue{5}),
 \bfpage{46}
-(\byear{2005}).
-doi:\doiurl{10.1186/gb-2005-6-5-r46}
+(\byear{2005})
 \end{barticle}
 \endbibitem
 
@@ -485,26 +474,27 @@ pp. \bfpage{183}--\blpage{189}
 \bauthor{\bsnm{Schulz}, \binits{S.}},
 \bauthor{\bsnm{Stenzhorn}, \binits{H.}},
 \bauthor{\bsnm{Boeker}, \binits{M.}}:
-\batitle{{The ontology of biological taxa}}.
+\batitle{The ontology of biological taxa}.
 \bjtitle{Bioinformatics}
 \bvolume{24}(\bissue{13}),
 \bfpage{313}--\blpage{321}
-(\byear{2008}).
-doi:\doiurl{10.1093/bioinformatics/btn158}
+(\byear{2008})
 \end{barticle}
 \endbibitem
 
 %%% 24
 \bibitem{Tsarkov2006}
-\begin{botherref}
-\oauthor{\bsnm{Tsarkov}, \binits{D.}},
-\oauthor{\bsnm{Horrocks}, \binits{I.}}:
-{FaCT ++ Description Logic Reasoner : System Description}
-\textbf{4130},
-292--297
-(2006).
-doi:\doiurl{10.1.1.65.2672}
-\end{botherref}
+\begin{bchapter}
+\bauthor{\bsnm{Tsarkov}, \binits{D.}},
+\bauthor{\bsnm{Horrocks}, \binits{I.}}:
+\bctitle{{FaCT}++ description logic reasoner: System description}.
+In: \bbtitle{Automated Reasoning}
+vol. \bseriesno{4130},
+pp. \bfpage{292}--\blpage{297}.
+\bpublisher{Springer},
+\blocation{Seattle}
+(\byear{2006})
+\end{bchapter}
 \endbibitem
 
 %%% 25
@@ -544,12 +534,11 @@ http://www.w3.org/TR/owl2-manchester-syntax/
 \bibitem{Selhub1999}
 \begin{barticle}
 \bauthor{\bsnm{Selhub}, \binits{J.}}:
-\batitle{{Homocysteine metabolism.}}
+\batitle{{HOMOCYSTEINE} {METABOLISM}}.
 \bjtitle{Annu. Rev. Nutr.}
-\bvolume{19},
+\bvolume{19}(\bissue{1}),
 \bfpage{217}--\blpage{246}
-(\byear{1999}).
-doi:\doiurl{10.1146/annurev.nutr.19.1.217}
+(\byear{1999})
 \end{barticle}
 \endbibitem
 
@@ -558,37 +547,36 @@ doi:\doiurl{10.1146/annurev.nutr.19.1.217}
 \begin{botherref}
 \oauthor{\bsnm{Muniz}, \binits{M.T.C.}},
 \oauthor{\bsnm{Siqueira}, \binits{E.R.F.}},
-\oauthor{\bsnm{Fonseca}, \binits{R.a.}},
+\oauthor{\bsnm{Fonseca}, \binits{R.A.}},
 \oauthor{\bsnm{D?Almeida}, \binits{V.}},
 \oauthor{\bsnm{Hotta}, \binits{J.K.}},
 \oauthor{\bparticle{dos} \bsnm{Santos}, \binits{J.E.}},
-\oauthor{\bsnm{Cavalcanti}, \binits{M.d.S.M.}},
+\oauthor{\bparticle{do} \bsnm{S.M.~Cavalcanti}, \binits{M.}},
 \oauthor{\bsnm{Sampaio}, \binits{C.A.M.}}:
-{Avalia{\c{c}}{\~{a}}o da rela{\c{c}}{\~{a}}o entre o polimorfismo C677T no
-  gene para MTHFR e a concentra{\c{c}}{\~{a}}o plasm{\'{a}}tica de
-  homociste{\'{\i}}na na doen{\c{c}}a arterial coronariana}
-(2006).
-doi:\doiurl{10.1590/S0004-27302006000600012}
+Avalia{\c{c}}{\~{a}}o da rela{\c{c}}{\~{a}}o entre o polimorfismo C677{T} no
+  gene para {MTHFR} e a concentra{\c{c}}{\~{a}}o plasm{\'{a}}tica de
+  homociste{\'{\i}}na na doen{\c{c}}a arterial coronariana.
+{FapUNIFESP} ({SciELO})
+(2006)
 \end{botherref}
 \endbibitem
 
 %%% 30
 \bibitem{Siqueira2011b}
 \begin{barticle}
-\bauthor{\bsnm{Siqueira}, \binits{E.R.F.}},
-\bauthor{\bsnm{Oliveira}, \binits{C.P.M.S.}},
-\bauthor{\bsnm{Muniz}, \binits{M.T.C.}},
+\bauthor{\bsnm{Siqueira}, \binits{E.R.}},
+\bauthor{\bsnm{Oliveira}, \binits{C.P.}},
+\bauthor{\bsnm{Muniz}, \binits{M.T.}},
 \bauthor{\bsnm{Silva}, \binits{F.}},
-\bauthor{\bsnm{Pereira}, \binits{L.M.M.B.}},
+\bauthor{\bsnm{Pereira}, \binits{L.M.}},
 \bauthor{\bsnm{Carrilho}, \binits{F.J.}}:
-\batitle{{Methylenetetrahydrofolate reductase (MTHFR) C677T polymorphism and
-  high plasma homocysteine in chronic hepatitis C (CHC) infected patients from
-  the Northeast of Brazil.}}
-\bjtitle{Nutr. J.}
+\batitle{Methylenetetrahydrofolate reductase ({MTHFR}) c677{T} polymorphism and
+  high plasma homocysteine in chronic hepatitis c ({CHC}) infected patients
+  from the northeast of {Brazil}}.
+\bjtitle{Nutrition Journal}
 \bvolume{10}(\bissue{1}),
 \bfpage{86}
-(\byear{2011}).
-doi:\doiurl{10.1186/1475-2891-10-86}
+(\byear{2011})
 \end{barticle}
 \endbibitem
 
@@ -614,16 +602,15 @@ In: \beditor{\bsnm{Furbach}, \binits{U.}},
 \bauthor{\bsnm{Huntley}, \binits{R.P.}},
 \bauthor{\bsnm{Sawford}, \binits{T.}},
 \bauthor{\bsnm{Mutowo-Meullenet}, \binits{P.}},
-\bauthor{\bsnm{Shypitsyna}, \binits{a.}},
+\bauthor{\bsnm{Shypitsyna}, \binits{A.}},
 \bauthor{\bsnm{Bonilla}, \binits{C.}},
 \bauthor{\bsnm{Martin}, \binits{M.J.}},
 \bauthor{\bsnm{O'Donovan}, \binits{C.}}:
-\batitle{{The GOA database: Gene Ontology annotation updates for 2015}}.
-\bjtitle{Nucl. Acids Res.}
+\batitle{The {GOA} database: Gene ontology annotation updates for 2015}.
+\bjtitle{Nucleic Acids Research}
 \bvolume{43}(\bissue{D1}),
 \bfpage{1057}--\blpage{1063}
-(\byear{2014}).
-doi:\doiurl{10.1093/nar/gku1113}
+(\byear{2014})
 \end{barticle}
 \endbibitem
 
@@ -649,13 +636,13 @@ pp. \bfpage{133}--\blpage{138}
 \begin{bchapter}
 \bauthor{\bsnm{Motik}, \binits{B.}},
 \bauthor{\bsnm{Sattler}, \binits{U.}}:
-\bctitle{{A Comparison of Reasoning Techniques for Querying Large Description
-  Logic ABoxes}}.
-In: \bbtitle{LPAR-06}.
+\bctitle{A comparison of reasoning techniques for querying large description
+  logic {ABoxes}}.
+In: \bbtitle{Logic for Programming, Artificial Intelligence, and Reasoning},
+pp. \bfpage{227}--\blpage{241}.
 \bpublisher{Springer},
 \blocation{Phnom Penh, Cambodia}
-(\byear{2006}).
-doi:\doiurl{10.1007/11916277_16}
+(\byear{2006})
 \end{bchapter}
 \endbibitem
 
@@ -669,11 +656,10 @@ doi:\doiurl{10.1007/11916277_16}
 \bauthor{\bsnm{Tanabe}, \binits{M.}}:
 \batitle{{KEGG for integration and interpretation of large-scale molecular data
   sets}}.
-\bjtitle{Nucl. Acids Res.}
+\bjtitle{Nucleic Acids Research}
 \bvolume{40}(\bissue{D1}),
-\bfpage{1}--\blpage{6}
-(\byear{2012}).
-doi:\doiurl{10.1093/nar/gkr988}
+\bfpage{109}--\blpage{114}
+(\byear{2011})
 \end{barticle}
 \endbibitem
 
@@ -682,14 +668,13 @@ doi:\doiurl{10.1093/nar/gkr988}
 \begin{barticle}
 \bauthor{\bsnm{Carnielli}, \binits{C.M.}},
 \bauthor{\bsnm{Winck}, \binits{F.V.}},
-\bauthor{\bsnm{{Paes Leme}}, \binits{A.F.}}:
-\batitle{{Functional annotation and biological interpretation of proteomics
-  data}}.
-\bjtitle{Biochim Biophys Acta}
+\bauthor{\bsnm{Leme}, \binits{A.F.P.}}:
+\batitle{Functional annotation and biological interpretation of proteomics
+  data}.
+\bjtitle{Biochimica et Biophysica Acta ({BBA}) - Proteins and Proteomics}
 \bvolume{1854}(\bissue{1}),
 \bfpage{46}--\blpage{54}
-(\byear{2015}).
-doi:\doiurl{10.1016/j.bbapap.2014.10.019}
+(\byear{2015})
 \end{barticle}
 \endbibitem
 
@@ -698,13 +683,12 @@ doi:\doiurl{10.1016/j.bbapap.2014.10.019}
 \begin{barticle}
 \bauthor{\bsnm{Bobed}, \binits{C.}},
 \bauthor{\bsnm{Mena}, \binits{E.}}:
-\batitle{{QueryGen: Semantic interpretation of keyword queries over
-  heterogeneous information systems}}.
-\bjtitle{Inf. Sci. (Ny).}
+\batitle{{QueryGen}: Semantic interpretation of keyword queries over
+  heterogeneous information systems}.
+\bjtitle{Information Sciences}
 \bvolume{329},
 \bfpage{412}--\blpage{433}
-(\byear{2016}).
-doi:\doiurl{10.1016/j.ins.2015.09.013}
+(\byear{2016})
 \end{barticle}
 \endbibitem
 
@@ -728,12 +712,11 @@ In: \beditor{\bsnm{Rosati}, \binits{R.}},
 \begin{barticle}
 \bauthor{\bsnm{Angles}, \binits{R.}},
 \bauthor{\bsnm{Gutierrez}, \binits{C.}}:
-\batitle{{The Expressive Power of SPARQL}}.
+\batitle{The expressive power of {SPARQL}}.
 \bjtitle{LNCS}
 \bvolume{5318},
 \bfpage{114}--\blpage{129}
-(\byear{2008}).
-doi:\doiurl{10.1007/978-3-540-88564-1{\}
+(\byear{2008})
 \end{barticle}
 \endbibitem
 
@@ -750,8 +733,7 @@ doi:\doiurl{10.1007/978-3-540-88564-1{\}
 \bjtitle{Front. Artif. Intell. Appl.}
 \bvolume{267}(\bissue{FOIS'14}),
 \bfpage{289}--\blpage{302}
-(\byear{2014}).
-doi:\doiurl{10.3233/978-1-61499-438-1-289}
+(\byear{2014})
 \end{barticle}
 \endbibitem
 
@@ -764,94 +746,94 @@ doi:\doiurl{10.3233/978-1-61499-438-1-289}
 <refgrp>
 
 <bibl id="B1">
-  <title><p>{Activities at the Universal Protein Resource
-  (UniProt).}</p></title>
+  <title><p>Activities at the Universal Protein Resource
+  ({UniProt})</p></title>
   <aug>
     <au><cnm>{UniProt Consortium}</cnm></au>
   </aug>
-  <source>Nucl. Acids Res.</source>
-  <pubdate>2014</pubdate>
+  <source>Nucleic Acids Research</source>
+  <publisher>Oxford University Press ({OUP})</publisher>
+  <pubdate>2013</pubdate>
   <volume>42</volume>
-  <issue>Database issue</issue>
+  <issue>D1</issue>
   <fpage>D191</fpage>
-  <lpage>-8</lpage>
-  <url>http://www.uniprot.org/
-  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3965022&tool=pmcentrez&rendertype=abstract</url>
+  <lpage>-D198</lpage>
 </bibl>
 
 <bibl id="B2">
-  <title><p>{Ensembl 2015}</p></title>
+  <title><p>Ensembl 2015</p></title>
   <aug>
-    <au><snm>Cunningham</snm><fnm>F</fnm></au>
-    <au><snm>Amode</snm><fnm>MR</fnm></au>
-    <au><snm>Barrell</snm><fnm>D</fnm></au>
-    <au><snm>Beal</snm><fnm>K</fnm></au>
-    <au><snm>Billis</snm><fnm>K</fnm></au>
-    <au><snm>Brent</snm><fnm>S</fnm></au>
-    <au><snm>Carvalho Silva</snm><fnm>D</fnm></au>
-    <au><snm>Clapham</snm><fnm>P</fnm></au>
-    <au><snm>Coates</snm><fnm>G</fnm></au>
-    <au><snm>Fitzgerald</snm><fnm>S</fnm></au>
-    <au><snm>Gil</snm><fnm>L</fnm></au>
+    <au><snm>Cunningham</snm><fnm>F.</fnm></au>
+    <au><snm>Amode</snm><fnm>M. R.</fnm></au>
+    <au><snm>Barrell</snm><fnm>D.</fnm></au>
+    <au><snm>Beal</snm><fnm>K.</fnm></au>
+    <au><snm>Billis</snm><fnm>K.</fnm></au>
+    <au><snm>Brent</snm><fnm>S.</fnm></au>
+    <au><snm>Carvalho Silva</snm><fnm>D.</fnm></au>
+    <au><snm>Clapham</snm><fnm>P.</fnm></au>
+    <au><snm>Coates</snm><fnm>G.</fnm></au>
+    <au><snm>Fitzgerald</snm><fnm>S.</fnm></au>
+    <au><snm>Gil</snm><fnm>L.</fnm></au>
     <au><snm>Giron</snm><fnm>C. G.</fnm></au>
-    <au><snm>Gordon</snm><fnm>L</fnm></au>
-    <au><snm>Hourlier</snm><fnm>T</fnm></au>
-    <au><snm>Hunt</snm><fnm>SE</fnm></au>
-    <au><snm>Janacek</snm><fnm>SH</fnm></au>
-    <au><snm>Johnson</snm><fnm>N</fnm></au>
-    <au><snm>Juettemann</snm><fnm>T</fnm></au>
+    <au><snm>Gordon</snm><fnm>L.</fnm></au>
+    <au><snm>Hourlier</snm><fnm>T.</fnm></au>
+    <au><snm>Hunt</snm><fnm>S. E.</fnm></au>
+    <au><snm>Janacek</snm><fnm>S. H.</fnm></au>
+    <au><snm>Johnson</snm><fnm>N.</fnm></au>
+    <au><snm>Juettemann</snm><fnm>T.</fnm></au>
     <au><snm>Kahari</snm><fnm>A. K.</fnm></au>
-    <au><snm>Keenan</snm><fnm>S</fnm></au>
-    <au><snm>Martin</snm><fnm>FJ</fnm></au>
-    <au><snm>Maurel</snm><fnm>T</fnm></au>
-    <au><snm>McLaren</snm><fnm>W</fnm></au>
-    <au><snm>Murphy</snm><fnm>DN</fnm></au>
-    <au><snm>Nag</snm><fnm>R</fnm></au>
-    <au><snm>Overduin</snm><fnm>B</fnm></au>
-    <au><snm>Parker</snm><fnm>A</fnm></au>
-    <au><snm>Patricio</snm><fnm>M</fnm></au>
-    <au><snm>Perry</snm><fnm>E</fnm></au>
-    <au><snm>Pignatelli</snm><fnm>M</fnm></au>
-    <au><snm>Riat</snm><fnm>HS</fnm></au>
-    <au><snm>Sheppard</snm><fnm>D</fnm></au>
-    <au><snm>Taylor</snm><fnm>K</fnm></au>
-    <au><snm>Thormann</snm><fnm>A</fnm></au>
-    <au><snm>Vullo</snm><fnm>A</fnm></au>
-    <au><snm>Wilder</snm><fnm>SP</fnm></au>
-    <au><snm>Zadissa</snm><fnm>A</fnm></au>
-    <au><snm>Aken</snm><fnm>BL</fnm></au>
-    <au><snm>Birney</snm><fnm>E</fnm></au>
-    <au><snm>Harrow</snm><fnm>J</fnm></au>
-    <au><snm>Kinsella</snm><fnm>R</fnm></au>
-    <au><snm>Muffato</snm><fnm>M</fnm></au>
-    <au><snm>Ruffier</snm><fnm>M</fnm></au>
-    <au><snm>Searle</snm><fnm>SMJ</fnm></au>
-    <au><snm>Spudich</snm><fnm>G</fnm></au>
-    <au><snm>Trevanion</snm><fnm>SJ</fnm></au>
-    <au><snm>Yates</snm><fnm>A</fnm></au>
-    <au><snm>Zerbino</snm><fnm>DR</fnm></au>
-    <au><snm>Flicek</snm><fnm>P</fnm></au>
+    <au><snm>Keenan</snm><fnm>S.</fnm></au>
+    <au><snm>Martin</snm><fnm>F. J.</fnm></au>
+    <au><snm>Maurel</snm><fnm>T.</fnm></au>
+    <au><snm>McLaren</snm><fnm>W.</fnm></au>
+    <au><snm>Murphy</snm><fnm>D. N.</fnm></au>
+    <au><snm>Nag</snm><fnm>R.</fnm></au>
+    <au><snm>Overduin</snm><fnm>B.</fnm></au>
+    <au><snm>Parker</snm><fnm>A.</fnm></au>
+    <au><snm>Patricio</snm><fnm>M.</fnm></au>
+    <au><snm>Perry</snm><fnm>E.</fnm></au>
+    <au><snm>Pignatelli</snm><fnm>M.</fnm></au>
+    <au><snm>Riat</snm><fnm>H. S.</fnm></au>
+    <au><snm>Sheppard</snm><fnm>D.</fnm></au>
+    <au><snm>Taylor</snm><fnm>K.</fnm></au>
+    <au><snm>Thormann</snm><fnm>A.</fnm></au>
+    <au><snm>Vullo</snm><fnm>A.</fnm></au>
+    <au><snm>Wilder</snm><fnm>S. P.</fnm></au>
+    <au><snm>Zadissa</snm><fnm>A.</fnm></au>
+    <au><snm>Aken</snm><fnm>B. L.</fnm></au>
+    <au><snm>Birney</snm><fnm>E.</fnm></au>
+    <au><snm>Harrow</snm><fnm>J.</fnm></au>
+    <au><snm>Kinsella</snm><fnm>R.</fnm></au>
+    <au><snm>Muffato</snm><fnm>M.</fnm></au>
+    <au><snm>Ruffier</snm><fnm>M.</fnm></au>
+    <au><snm>Searle</snm><fnm>S. M. J.</fnm></au>
+    <au><snm>Spudich</snm><fnm>G.</fnm></au>
+    <au><snm>Trevanion</snm><fnm>S. J.</fnm></au>
+    <au><snm>Yates</snm><fnm>A.</fnm></au>
+    <au><snm>Zerbino</snm><fnm>D. R.</fnm></au>
+    <au><snm>Flicek</snm><fnm>P.</fnm></au>
   </aug>
-  <source>Nucl. Acids Res.</source>
+  <source>Nucleic Acids Research</source>
+  <publisher>Oxford University Press ({OUP})</publisher>
   <pubdate>2014</pubdate>
   <volume>43</volume>
   <issue>D1</issue>
   <fpage>D662</fpage>
   <lpage>-D669</lpage>
-  <url>http://nar.oxfordjournals.org/lookup/doi/10.1093/nar/gku1010</url>
 </bibl>
 
 <bibl id="B3">
-  <title><p>{Linking data to ontologies}</p></title>
+  <title><p>Linking Data to Ontologies</p></title>
   <aug>
     <au><snm>Poggi</snm><fnm>A</fnm></au>
     <au><snm>Lembo</snm><fnm>D</fnm></au>
     <au><snm>Calvanese</snm><fnm>D</fnm></au>
-    <au><snm>{De Giacomo}</snm><fnm>G</fnm></au>
+    <au><snm>Giacomo</snm><fnm>GD</fnm></au>
     <au><snm>Lenzerini</snm><fnm>M</fnm></au>
     <au><snm>Rosati</snm><fnm>R</fnm></au>
   </aug>
-  <source>LNCS</source>
+  <source>Journal on Data Semantics X</source>
+  <publisher>Springer Science $\mathplus$ Business Media</publisher>
   <pubdate>2008</pubdate>
   <volume>4900</volume>
   <fpage>133</fpage>
@@ -907,8 +889,8 @@ doi:\doiurl{10.3233/978-1-61499-438-1-289}
 </bibl>
 
 <bibl id="B7">
-  <title><p>{The OBO Foundry: coordinated evolution of ontologies to support
-  biomedical data integration.}</p></title>
+  <title><p>The {OBO} Foundry: coordinated evolution of ontologies to support
+  biomedical data integration</p></title>
   <aug>
     <au><snm>Smith</snm><fnm>B</fnm></au>
     <au><snm>Ashburner</snm><fnm>M</fnm></au>
@@ -929,14 +911,13 @@ doi:\doiurl{10.3233/978-1-61499-438-1-289}
     <au><snm>Whetzel</snm><fnm>PL</fnm></au>
     <au><snm>Lewis</snm><fnm>S</fnm></au>
   </aug>
-  <source>Nat. Biotechnol.</source>
+  <source>Nat Biotechnol</source>
+  <publisher>Nature Publishing Group</publisher>
   <pubdate>2007</pubdate>
   <volume>25</volume>
   <issue>11</issue>
   <fpage>1251</fpage>
-  <lpage>-5</lpage>
-  <url>http://www.ncbi.nlm.nih.gov/pubmed/17989687
-  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2814061{\&}tool=pmcentrez{\&}rendertype=abstract</url>
+  <lpage>-1255</lpage>
 </bibl>
 
 <bibl id="B8">
@@ -954,19 +935,18 @@ doi:\doiurl{10.3233/978-1-61499-438-1-289}
 </bibl>
 
 <bibl id="B9">
-  <title><p>{Database resources of the National Center for Biotechnology
-  Information}</p></title>
+  <title><p>Database resources of the National Center for Biotechnology
+  Information</p></title>
   <aug>
     <au><cnm>{NCBI Resource Coordinators}</cnm></au>
   </aug>
-  <source>Nucl. Acids Res.</source>
-  <pubdate>2015</pubdate>
+  <source>Nucleic Acids Research</source>
+  <publisher>Oxford University Press ({OUP})</publisher>
+  <pubdate>2014</pubdate>
   <volume>43</volume>
-  <issue>Database issue</issue>
+  <issue>D1</issue>
   <fpage>D6</fpage>
   <lpage>-D17</lpage>
-  <url>http://nar.oxfordjournals.org/content/43/D1/D6.long
-  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3965057{\&}tool=pmcentrez{\&}rendertype=abstract</url>
 </bibl>
 
 <bibl id="B10">
@@ -981,51 +961,51 @@ doi:\doiurl{10.3233/978-1-61499-438-1-289}
 </bibl>
 
 <bibl id="B11">
-  <title><p>{Gene Ontology Consortium: going forward}</p></title>
+  <title><p>Gene Ontology Consortium: going forward</p></title>
   <aug>
     <au><cnm>{The Gene Ontology Consortium}</cnm></au>
   </aug>
-  <source>Nucl. Acids Res.</source>
+  <source>Nucleic Acids Research</source>
+  <publisher>Oxford University Press ({OUP})</publisher>
   <pubdate>2014</pubdate>
   <volume>43</volume>
   <issue>D1</issue>
   <fpage>D1049</fpage>
   <lpage>-D1056</lpage>
-  <url>http://nar.oxfordjournals.org/lookup/doi/10.1093/nar/gku1179</url>
 </bibl>
 
 <bibl id="B12">
-  <title><p>{The ChEBI reference database and ontology for biologically
-  relevant chemistry: Enhancements for 2013}</p></title>
+  <title><p>The {ChEBI} reference database and ontology for biologically
+  relevant chemistry: enhancements for 2013</p></title>
   <aug>
-    <au><snm>Hastings</snm><fnm>J</fnm></au>
-    <au><snm>{De Matos}</snm><fnm>P</fnm></au>
-    <au><snm>Dekker</snm><fnm>A</fnm></au>
-    <au><snm>Ennis</snm><fnm>M</fnm></au>
-    <au><snm>Harsha</snm><fnm>B</fnm></au>
-    <au><snm>Kale</snm><fnm>N</fnm></au>
-    <au><snm>Muthukrishnan</snm><fnm>V</fnm></au>
-    <au><snm>Owen</snm><fnm>G</fnm></au>
-    <au><snm>Turner</snm><fnm>S</fnm></au>
-    <au><snm>Williams</snm><fnm>M</fnm></au>
-    <au><snm>Steinbeck</snm><fnm>C</fnm></au>
+    <au><snm>Hastings</snm><fnm>J.</fnm></au>
+    <au><snm>Matos</snm><fnm>P.</fnm></au>
+    <au><snm>Dekker</snm><fnm>A.</fnm></au>
+    <au><snm>Ennis</snm><fnm>M.</fnm></au>
+    <au><snm>Harsha</snm><fnm>B.</fnm></au>
+    <au><snm>Kale</snm><fnm>N.</fnm></au>
+    <au><snm>Muthukrishnan</snm><fnm>V.</fnm></au>
+    <au><snm>Owen</snm><fnm>G.</fnm></au>
+    <au><snm>Turner</snm><fnm>S.</fnm></au>
+    <au><snm>Williams</snm><fnm>M.</fnm></au>
+    <au><snm>Steinbeck</snm><fnm>C.</fnm></au>
   </aug>
-  <source>Nucl. Acids Res.</source>
-  <pubdate>2013</pubdate>
+  <source>Nucleic Acids Research</source>
+  <publisher>Oxford University Press ({OUP})</publisher>
+  <pubdate>2012</pubdate>
   <volume>41</volume>
   <issue>D1</issue>
   <fpage>D456</fpage>
-  <lpage>-63</lpage>
-  <url>http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3531142&tool=pmcentrez&rendertype=abstract</url>
+  <lpage>-D463</lpage>
 </bibl>
 
 <bibl id="B13">
-  <title><p>{Protein Ontology: A controlled structured network of protein
-  entities}</p></title>
+  <title><p>Protein Ontology: a controlled structured network of protein
+  entities</p></title>
   <aug>
-    <au><snm>Natale</snm><fnm>Da</fnm></au>
+    <au><snm>Natale</snm><fnm>DA</fnm></au>
     <au><snm>Arighi</snm><fnm>CN</fnm></au>
-    <au><snm>Blake</snm><fnm>Ja</fnm></au>
+    <au><snm>Blake</snm><fnm>JA</fnm></au>
     <au><snm>Bult</snm><fnm>CJ</fnm></au>
     <au><snm>Christie</snm><fnm>KR</fnm></au>
     <au><snm>Cowart</snm><fnm>J</fnm></au>
@@ -1043,19 +1023,20 @@ doi:\doiurl{10.3233/978-1-61499-438-1-289}
     <au><snm>Smith</snm><fnm>B</fnm></au>
     <au><snm>Yerramalla</snm><fnm>MS</fnm></au>
     <au><snm>Zhang</snm><fnm>J</fnm></au>
-    <au><snm>Aljanahi</snm><fnm>A</fnm></au>
-    <au><snm>\c{C}elen</snm><fnm>I</fnm></au>
+    <au><snm>AlJanahi</snm><fnm>A</fnm></au>
+    <au><snm>{\c{C}}elen</snm><fnm>I</fnm></au>
     <au><snm>Gan</snm><fnm>C</fnm></au>
     <au><snm>Lv</snm><fnm>M</fnm></au>
     <au><snm>Schuster Lezell</snm><fnm>E</fnm></au>
     <au><snm>Wu</snm><fnm>CH</fnm></au>
   </aug>
-  <source>Nucl. Acids Res.</source>
-  <pubdate>2014</pubdate>
+  <source>Nucleic Acids Research</source>
+  <publisher>Oxford University Press ({OUP})</publisher>
+  <pubdate>2013</pubdate>
   <volume>42</volume>
   <issue>D1</issue>
-  <fpage>415</fpage>
-  <lpage>-421</lpage>
+  <fpage>D415</fpage>
+  <lpage>-D421</lpage>
 </bibl>
 
 <bibl id="B14">
@@ -1076,28 +1057,27 @@ doi:\doiurl{10.3233/978-1-61499-438-1-289}
 </bibl>
 
 <bibl id="B15">
-  <title><p>{Ontology patterns for tabular representations of biomedical
-  knowledge on neglected tropical diseases}</p></title>
+  <title><p>Ontology patterns for tabular representations of biomedical
+  knowledge on neglected tropical diseases</p></title>
   <aug>
-    <au><snm>Santana</snm><fnm>F</fnm></au>
-    <au><snm>Schober</snm><fnm>D</fnm></au>
-    <au><snm>Medeiros</snm><fnm>Z</fnm></au>
-    <au><snm>Freitas</snm><fnm>F</fnm></au>
-    <au><snm>Schulz</snm><fnm>S</fnm></au>
+    <au><snm>Santana</snm><fnm>F.</fnm></au>
+    <au><snm>Schober</snm><fnm>D.</fnm></au>
+    <au><snm>Medeiros</snm><fnm>Z.</fnm></au>
+    <au><snm>Freitas</snm><fnm>F.</fnm></au>
+    <au><snm>Schulz</snm><fnm>S.</fnm></au>
   </aug>
   <source>Bioinformatics</source>
+  <publisher>Oxford University Press ({OUP})</publisher>
   <pubdate>2011</pubdate>
   <volume>27</volume>
   <issue>13</issue>
   <fpage>i349</fpage>
   <lpage>-i356</lpage>
-  <url>http://bioinformatics.oxfordjournals.org/content/27/13/i349.abstract?keytype=ref&ijkey=oHNR37qzV1lhcbq
-  http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3117366&tool=pmcentrez&rendertype=abstract</url>
 </bibl>
 
 <bibl id="B16">
-  <title><p>{Semantic enrichment of clinical models towards semantic
-  interoperability. The heart failure summary use case}</p></title>
+  <title><p>Semantic enrichment of clinical models towards semantic
+  interoperability. The heart failure summary use case</p></title>
   <aug>
     <au><snm>Martinez Costa</snm><fnm>C.</fnm></au>
     <au><snm>Cornet</snm><fnm>R.</fnm></au>
@@ -1105,11 +1085,11 @@ doi:\doiurl{10.3233/978-1-61499-438-1-289}
     <au><snm>Schulz</snm><fnm>S.</fnm></au>
     <au><snm>Kalra</snm><fnm>D.</fnm></au>
   </aug>
-  <source>JAMIA</source>
+  <source>Journal of the American Medical Informatics Association</source>
+  <publisher>Oxford University Press ({OUP})</publisher>
   <pubdate>2015</pubdate>
   <fpage>565</fpage>
   <lpage>-576</lpage>
-  <url>http://jamia.oxfordjournals.org/cgi/doi/10.1093/jamia/ocu013</url>
 </bibl>
 
 <bibl id="B17">
@@ -1125,8 +1105,8 @@ doi:\doiurl{10.3233/978-1-61499-438-1-289}
 </bibl>
 
 <bibl id="B18">
-  <title><p>{Survey-based naming conventions for use in OBO Foundry ontology
-  development.}</p></title>
+  <title><p>Survey-based naming conventions for use in {OBO} Foundry ontology
+  development</p></title>
   <aug>
     <au><snm>Schober</snm><fnm>D</fnm></au>
     <au><snm>Smith</snm><fnm>B</fnm></au>
@@ -1135,12 +1115,14 @@ doi:\doiurl{10.3233/978-1-61499-438-1-289}
     <au><snm>Lomax</snm><fnm>J</fnm></au>
     <au><snm>Mungall</snm><fnm>C</fnm></au>
     <au><snm>Taylor</snm><fnm>CF</fnm></au>
-    <au><snm>Rocca serra</snm><fnm>P</fnm></au>
-    <au><snm>Sansone</snm><fnm>Sa</fnm></au>
+    <au><snm>Rocca Serra</snm><fnm>P</fnm></au>
+    <au><snm>Sansone</snm><fnm>SA</fnm></au>
   </aug>
   <source>BMC Bioinformatics</source>
+  <publisher>Springer Science $\mathplus$ Business Media</publisher>
   <pubdate>2009</pubdate>
   <volume>10</volume>
+  <issue>1</issue>
   <fpage>125</fpage>
 </bibl>
 
@@ -1158,12 +1140,12 @@ doi:\doiurl{10.3233/978-1-61499-438-1-289}
     <au><snm>Rector</snm><fnm>AL</fnm></au>
     <au><snm>Rosse</snm><fnm>C</fnm></au>
   </aug>
-  <source>Genome Biol.</source>
+  <source>Genome Biol</source>
+  <publisher>Springer Nature</publisher>
   <pubdate>2005</pubdate>
   <volume>6</volume>
   <issue>5</issue>
   <fpage>R46</fpage>
-  <url>http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=1175958&tool=pmcentrez&rendertype=abstract</url>
 </bibl>
 
 <bibl id="B20">
@@ -1208,29 +1190,29 @@ doi:\doiurl{10.3233/978-1-61499-438-1-289}
 </bibl>
 
 <bibl id="B23">
-  <title><p>{The ontology of biological taxa}</p></title>
+  <title><p>The ontology of biological taxa</p></title>
   <aug>
-    <au><snm>Schulz</snm><fnm>S</fnm></au>
-    <au><snm>Stenzhorn</snm><fnm>H</fnm></au>
-    <au><snm>Boeker</snm><fnm>M</fnm></au>
+    <au><snm>Schulz</snm><fnm>S.</fnm></au>
+    <au><snm>Stenzhorn</snm><fnm>H.</fnm></au>
+    <au><snm>Boeker</snm><fnm>M.</fnm></au>
   </aug>
   <source>Bioinformatics</source>
+  <publisher>Oxford University Press ({OUP})</publisher>
   <pubdate>2008</pubdate>
   <volume>24</volume>
   <issue>13</issue>
-  <fpage>313</fpage>
-  <lpage>-321</lpage>
+  <fpage>i313</fpage>
+  <lpage>-i321</lpage>
 </bibl>
 
 <bibl id="B24">
-  <title><p>{FaCT ++ Description Logic Reasoner : System
-  Description}</p></title>
+  <title><p>{FaCT}++ Description Logic Reasoner: System Description</p></title>
   <aug>
     <au><snm>Tsarkov</snm><fnm>D</fnm></au>
     <au><snm>Horrocks</snm><fnm>I</fnm></au>
   </aug>
-  <source>LNCS</source>
-  <publisher>Seattle: Springer Berlin Heidelberg</publisher>
+  <source>Automated Reasoning</source>
+  <publisher>Seattle: Springer Science $\mathplus$ Business Media</publisher>
   <pubdate>2006</pubdate>
   <volume>4130</volume>
   <fpage>292</fpage>
@@ -1274,32 +1256,35 @@ doi:\doiurl{10.3233/978-1-61499-438-1-289}
 </bibl>
 
 <bibl id="B28">
-  <title><p>{Homocysteine metabolism.}</p></title>
+  <title><p>{HOMOCYSTEINE} {METABOLISM}</p></title>
   <aug>
-    <au><snm>Selhub</snm><fnm>J</fnm></au>
+    <au><snm>Selhub</snm><fnm>J.</fnm></au>
   </aug>
   <source>Annu. Rev. Nutr.</source>
+  <publisher>Annual Reviews</publisher>
   <pubdate>1999</pubdate>
   <volume>19</volume>
+  <issue>1</issue>
   <fpage>217</fpage>
   <lpage>-246</lpage>
 </bibl>
 
 <bibl id="B29">
-  <title><p>{Avalia{\c{c}}{\~{a}}o da rela{\c{c}}{\~{a}}o entre o polimorfismo
-  C677T no gene para MTHFR e a concentra{\c{c}}{\~{a}}o plasm{\'{a}}tica de
-  homociste{\'{\i}}na na doen{\c{c}}a arterial coronariana}</p></title>
+  <title><p>Avalia{\c{c}}{\~{a}}o da rela{\c{c}}{\~{a}}o entre o polimorfismo
+  C677{T} no gene para {MTHFR} e a concentra{\c{c}}{\~{a}}o plasm{\'{a}}tica de
+  homociste{\'{\i}}na na doen{\c{c}}a arterial coronariana</p></title>
   <aug>
     <au><snm>Muniz</snm><fnm>MTC</fnm></au>
     <au><snm>Siqueira</snm><fnm>ER</fnm></au>
-    <au><snm>Fonseca</snm><fnm>Ra</fnm></au>
+    <au><snm>Fonseca</snm><fnm>RA</fnm></au>
     <au><snm>D?Almeida</snm><fnm>V</fnm></au>
     <au><snm>Hotta</snm><fnm>JK</fnm></au>
     <au><snm>Santos</snm><fnm>JE</fnm></au>
-    <au><snm>Cavalcanti</snm><fnm>MdS</fnm></au>
+    <au><snm>S.M. Cavalcanti</snm><fnm>M</fnm></au>
     <au><snm>Sampaio</snm><fnm>CA</fnm></au>
   </aug>
   <source>Arquivos Brasileiros de Endocrinologia {\&} Metabologia</source>
+  <publisher>{FapUNIFESP} ({SciELO})</publisher>
   <pubdate>2006</pubdate>
   <volume>50</volume>
   <issue>6</issue>
@@ -1308,24 +1293,23 @@ doi:\doiurl{10.3233/978-1-61499-438-1-289}
 </bibl>
 
 <bibl id="B30">
-  <title><p>{Methylenetetrahydrofolate reductase (MTHFR) C677T polymorphism and
-  high plasma homocysteine in chronic hepatitis C (CHC) infected patients from
-  the Northeast of Brazil.}</p></title>
+  <title><p>Methylenetetrahydrofolate reductase ({MTHFR}) C677{T} polymorphism
+  and high plasma homocysteine in chronic hepatitis C ({CHC}) infected patients
+  from the Northeast of {Brazil}</p></title>
   <aug>
-    <au><snm>Siqueira</snm><fnm>ERF</fnm></au>
-    <au><snm>Oliveira</snm><fnm>CPMS</fnm></au>
-    <au><snm>Muniz</snm><fnm>MTC</fnm></au>
+    <au><snm>Siqueira</snm><fnm>ER</fnm></au>
+    <au><snm>Oliveira</snm><fnm>CP</fnm></au>
+    <au><snm>Muniz</snm><fnm>MT</fnm></au>
     <au><snm>Silva</snm><fnm>F</fnm></au>
-    <au><snm>Pereira</snm><fnm>LMMB</fnm></au>
+    <au><snm>Pereira</snm><fnm>LM</fnm></au>
     <au><snm>Carrilho</snm><fnm>FJ</fnm></au>
   </aug>
-  <source>Nutr. J.</source>
-  <publisher>BioMed Central Ltd</publisher>
+  <source>Nutrition Journal</source>
+  <publisher>Springer Nature</publisher>
   <pubdate>2011</pubdate>
   <volume>10</volume>
   <issue>1</issue>
   <fpage>86</fpage>
-  <url>http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3170250{\&}tool=pmcentrez{\&}rendertype=abstract</url>
 </bibl>
 
 <bibl id="B31">
@@ -1342,24 +1326,24 @@ doi:\doiurl{10.3233/978-1-61499-438-1-289}
 </bibl>
 
 <bibl id="B32">
-  <title><p>{The GOA database: Gene Ontology annotation updates for
-  2015}</p></title>
+  <title><p>The {GOA} database: Gene Ontology annotation updates for
+  2015</p></title>
   <aug>
     <au><snm>Huntley</snm><fnm>R. P.</fnm></au>
     <au><snm>Sawford</snm><fnm>T.</fnm></au>
     <au><snm>Mutowo Meullenet</snm><fnm>P.</fnm></au>
-    <au><snm>Shypitsyna</snm><fnm>a</fnm></au>
+    <au><snm>Shypitsyna</snm><fnm>A.</fnm></au>
     <au><snm>Bonilla</snm><fnm>C.</fnm></au>
     <au><snm>Martin</snm><fnm>M. J.</fnm></au>
     <au><snm>O'Donovan</snm><fnm>C.</fnm></au>
   </aug>
-  <source>Nucl. Acids Res.</source>
+  <source>Nucleic Acids Research</source>
+  <publisher>Oxford University Press ({OUP})</publisher>
   <pubdate>2014</pubdate>
   <volume>43</volume>
   <issue>D1</issue>
   <fpage>D1057</fpage>
   <lpage>-D1063</lpage>
-  <url>http://nar.oxfordjournals.org/lookup/doi/10.1093/nar/gku1113</url>
 </bibl>
 
 <bibl id="B33">
@@ -1381,69 +1365,71 @@ doi:\doiurl{10.3233/978-1-61499-438-1-289}
 </bibl>
 
 <bibl id="B34">
-  <title><p>{A Comparison of Reasoning Techniques for Querying Large
-  Description Logic ABoxes}</p></title>
+  <title><p>A Comparison of Reasoning Techniques for Querying Large Description
+  Logic {ABoxes}</p></title>
   <aug>
     <au><snm>Motik</snm><fnm>B</fnm></au>
     <au><snm>Sattler</snm><fnm>U</fnm></au>
   </aug>
-  <source>LPAR-06</source>
-  <publisher>Phnom Penh, Cambodia: Springer-Verlag Berlin,
-  Heidelberg</publisher>
+  <source>Logic for Programming, Artificial Intelligence, and
+  Reasoning</source>
+  <publisher>Phnom Penh, Cambodia: Springer Science $\mathplus$ Business
+  Media</publisher>
   <pubdate>2006</pubdate>
+  <fpage>227</fpage>
+  <lpage>-241</lpage>
 </bibl>
 
 <bibl id="B35">
   <title><p>{KEGG for integration and interpretation of large-scale molecular
   data sets}</p></title>
   <aug>
-    <au><snm>Kanehisa</snm><fnm>M</fnm></au>
-    <au><snm>Goto</snm><fnm>S</fnm></au>
-    <au><snm>Sato</snm><fnm>Y</fnm></au>
-    <au><snm>Furumichi</snm><fnm>M</fnm></au>
-    <au><snm>Tanabe</snm><fnm>M</fnm></au>
+    <au><snm>Kanehisa</snm><fnm>M.</fnm></au>
+    <au><snm>Goto</snm><fnm>S.</fnm></au>
+    <au><snm>Sato</snm><fnm>Y.</fnm></au>
+    <au><snm>Furumichi</snm><fnm>M.</fnm></au>
+    <au><snm>Tanabe</snm><fnm>M.</fnm></au>
   </aug>
-  <source>Nucl. Acids Res.</source>
-  <pubdate>2012</pubdate>
+  <source>Nucleic Acids Research</source>
+  <publisher>Oxford University Press ({OUP})</publisher>
+  <pubdate>2011</pubdate>
   <volume>40</volume>
   <issue>D1</issue>
-  <fpage>1</fpage>
-  <lpage>-6</lpage>
+  <fpage>D109</fpage>
+  <lpage>-D114</lpage>
 </bibl>
 
 <bibl id="B36">
-  <title><p>{Functional annotation and biological interpretation of proteomics
-  data}</p></title>
+  <title><p>Functional annotation and biological interpretation of proteomics
+  data</p></title>
   <aug>
     <au><snm>Carnielli</snm><fnm>CM</fnm></au>
     <au><snm>Winck</snm><fnm>FV</fnm></au>
-    <au><snm>{Paes Leme}</snm><fnm>AF</fnm></au>
+    <au><snm>Leme</snm><fnm>AFP</fnm></au>
   </aug>
-  <source>Biochim Biophys Acta</source>
-  <publisher>Elsevier B.V.</publisher>
+  <source>Biochimica et Biophysica Acta ({BBA}) - Proteins and
+  Proteomics</source>
+  <publisher>Elsevier {BV}</publisher>
   <pubdate>2015</pubdate>
   <volume>1854</volume>
   <issue>1</issue>
   <fpage>46</fpage>
   <lpage>-54</lpage>
-  <url>http://linkinghub.elsevier.com/retrieve/pii/S1570963914002799</url>
 </bibl>
 
 <bibl id="B37">
-  <title><p>{QueryGen: Semantic interpretation of keyword queries over
-  heterogeneous information systems}</p></title>
+  <title><p>{QueryGen}: Semantic interpretation of keyword queries over
+  heterogeneous information systems</p></title>
   <aug>
     <au><snm>Bobed</snm><fnm>C</fnm></au>
     <au><snm>Mena</snm><fnm>E</fnm></au>
   </aug>
-  <source>Inf. Sci. (Ny).</source>
-  <publisher>Elsevier Inc.</publisher>
+  <source>Information Sciences</source>
+  <publisher>Elsevier {BV}</publisher>
   <pubdate>2016</pubdate>
   <volume>329</volume>
   <fpage>412</fpage>
   <lpage>-433</lpage>
-  <url>http://dx.doi.org/10.1016/j.ins.2015.09.013
-  http://linkinghub.elsevier.com/retrieve/pii/S0020025515006672</url>
 </bibl>
 
 <bibl id="B38">
@@ -1459,12 +1445,13 @@ doi:\doiurl{10.3233/978-1-61499-438-1-289}
 </bibl>
 
 <bibl id="B39">
-  <title><p>{The Expressive Power of SPARQL}</p></title>
+  <title><p>The Expressive Power of {SPARQL}</p></title>
   <aug>
     <au><snm>Angles</snm><fnm>R</fnm></au>
     <au><snm>Gutierrez</snm><fnm>C</fnm></au>
   </aug>
-  <source>LNCS</source>
+  <source>Lecture Notes in Computer Science</source>
+  <publisher>Springer Science $\mathplus$ Business Media</publisher>
   <pubdate>2008</pubdate>
   <volume>5318</volume>
   <fpage>114</fpage>
