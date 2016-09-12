@@ -128,21 +128,18 @@
    noteref={n1},                        % id's of article notes, if any
    email={fss3@cin.ufpe.br}   % email address
 ]{\inits{FSS}\fnm{Filipe} \snm{Santana da Silva}}
-
 \author[
 addressref={aff2},                   % id's of addresses, e.g. {aff1,aff2}
 %corref={aff2},                       % id of corresponding address, if any
 noteref={n1},                        % id's of article notes, if any
 email={robert.hoehndorf@kaust.edu.sa}   % email address
 ]{\inits{RH}\fnm{Robert} \snm{Hoehndorf}}
-
 \author[
 addressref={aff1},                   % id's of addresses, e.g. {aff1,aff2}
 %corref={aff1},                       % id of corresponding address, if any
 noteref={n1},                        % id's of article notes, if any
 %email={fred@cin.ufpe.br}   % email address
 ]{\inits{FF}\fnm{Fred} \snm{Freitas}}
-
 \author[
 addressref={aff3},                   % id's of addresses, e.g. {aff1,aff2}
 %corref={aff3},                       % id of corresponding address, if any
@@ -479,12 +476,18 @@ This work was funded by \textit{Conselho Nacional de Aperfei\c{c}oamento de Pess
 		\label{table:Summary}
 		\caption{Survey of ontology sources, expressivity and reasoning performance in milliseconds}
 		\centering
-		\begin{tabular}{lrrrcrrrrrrrrr}
+		\begin{tabular}{lrrrcrrrrrrr}
 			\hline Ontology & Classes & Subcl. Axioms & Eq. Axioms & DL & Classification (h) & CQ1 & CQ2 & CQ3 & CQ4 & CQ5 & CQ6 \\ 
-			x1  &  903 & 1,053  & 647 & $ALC$  & 586ms & 8ms & 13ms & 31ms & 35ms & 39ms  & 44ms \\ 
-			x3 &  2,512 	& 2,957 & 1,945 & $ALC$  & 3,831ms & 12ms & 16ms & 32ms &  33ms & 38ms  &  39ms \\ 
-			x10  & 8,599	 &  10,268 & 6,707 & $ALC$ & 38,994ms &70ms & 75ms & 85ms & 88ms & 92ms & 93ms \\ 
-			%x30  & 25945 & 31072 & 20398 & $ALC$ & 397006ms  & 0ms & 1ms & 5ms  & 6ms  & ms &  ms  \\ 
+			x1     &   &  &  & $ALC$  &  &  &  &  &  &   &  \\ 
+			x3     &   	& &  & $ALC$  &  &  &  &  &   &   &   \\ 
+			x10    & 	 &   &  & $ALC$ &  & &  &  &  &  &  \\ 
+			x30    &  &  &  & $ALC$ &   &  &  &   &   &  &    \\ 
+			x100   &  &  &  & $ALC$ &   &  &  &   &   &  &    \\ 
+			x300   &  &  &  & $ALC$ &   &  &  &   &   &  &    \\ 
+			x1000  &  &  &  & $ALC$ &   &  &  &   &   &  &    \\ 
+			x3000  &  &  &  & $ALC$ &   &  &  &   &   &  &    \\ 
+			x10000  &  &  &  & $ALC$ &   &  &  &   &   &  &    \\ 
+
 			Modularized  & 2,838  & 4,071 & 1,203 & $SRI$ & 7,233,529ms & 373ms & 381ms & 385ms & 394ms & 397ms & 402ms \\ 
 			\hline 
 		\end{tabular} 
