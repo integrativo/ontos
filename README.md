@@ -5,7 +5,7 @@ This repository contains ontologies and data used for describing theoretical asp
 ##ODLS'16 
 Supplimentary data can be found [here](https://github.com/integrativo/ontos/tree/master/ODLS'16).
 
-##ODLS'16 
+##JBMS Submission
 Supplimentary data can be found [here](https://github.com/integrativo/ontos/tree/master/JBMS%202016%20Submission%20-%20Additional%20files)
 
 ##PhD Thesis Files 
