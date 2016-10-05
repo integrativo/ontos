@@ -1,0 +1,435 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-51"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-51">
+    <Prefix name="" IRI="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-51#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#BProc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BProc1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BProc2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BProc3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CComp1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CComp2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CComp3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CellularComponent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disposition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dysfunctional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gen1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gene"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mol1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mol2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mol3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Org1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phen1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phen2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phen3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prot1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protein"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Risk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SmallMolecule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TranslationProcess"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasParticipant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRealization"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isBearerOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isIncludedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isParticipantIn"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#BProc"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BProc1"/>
+        <Class IRI="#BProc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BProc2"/>
+        <Class IRI="#BProc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BProc3"/>
+        <Class IRI="#BProc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CComp1"/>
+        <Class IRI="#CellularComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CComp2"/>
+        <Class IRI="#CellularComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CComp3"/>
+        <Class IRI="#CellularComponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CellularComponent"/>
+        <Class IRI="#MaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dysfunctional"/>
+        <Class IRI="#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gen1"/>
+        <Class IRI="#Gene"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gene"/>
+        <Class IRI="#MaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mol1"/>
+        <Class IRI="#SmallMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mol2"/>
+        <Class IRI="#SmallMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mol3"/>
+        <Class IRI="#SmallMolecule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Org1"/>
+        <Class IRI="#Organism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organism"/>
+        <Class IRI="#MaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phen1"/>
+        <Class IRI="#Phenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phen2"/>
+        <Class IRI="#Phenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phen3"/>
+        <Class IRI="#Phenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phenotype"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prot1"/>
+        <Class IRI="#Protein"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protein"/>
+        <Class IRI="#MaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Risk"/>
+        <Class IRI="#Disposition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SmallMolecule"/>
+        <Class IRI="#MaterialObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TranslationProcess"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#BProc3"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isIncludedIn"/>
+                <Class IRI="#Org1"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParticipant"/>
+            <Class IRI="#Prot1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Org1"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#includes"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Prot1"/>
+                    <ObjectSomeValuesFrom>
+                        <ObjectProperty IRI="#isBearerOf"/>
+                        <Class IRI="#Dysfunctional"/>
+                    </ObjectSomeValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isBearerOf"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Disposition"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#hasRealization"/>
+                        <Class IRI="#Phen1"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isBearerOf"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Disposition"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#hasRealization"/>
+                        <Class IRI="#Phen2"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isBearerOf"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Disposition"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#hasRealization"/>
+                        <Class IRI="#Phen3"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Prot1"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isIncludedIn"/>
+                <Class IRI="#Org1"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isParticipantIn"/>
+            <ObjectIntersectionOf>
+                <Class IRI="#TranslationProcess"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="#hasParticipant"/>
+                    <Class IRI="#Gen1"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Prot1"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isIncludedIn"/>
+                <Class IRI="#Org1"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isIncludedIn"/>
+                <ObjectUnionOf>
+                    <Class IRI="#CComp1"/>
+                    <Class IRI="#CComp2"/>
+                    <Class IRI="#CComp3"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isBearerOf"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Disposition"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#hasRealization"/>
+                        <Class IRI="#BProc1"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isBearerOf"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Disposition"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#hasRealization"/>
+                        <Class IRI="#BProc2"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isBearerOf"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Disposition"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#hasRealization"/>
+                        <Class IRI="#BProc3"/>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isBearerOf"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Disposition"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#hasRealization"/>
+                        <ObjectIntersectionOf>
+                            <Class IRI="#Process"/>
+                            <ObjectSomeValuesFrom>
+                                <ObjectProperty IRI="#hasParticipant"/>
+                                <Class IRI="#Mol1"/>
+                            </ObjectSomeValuesFrom>
+                        </ObjectIntersectionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isBearerOf"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Disposition"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#hasRealization"/>
+                        <ObjectIntersectionOf>
+                            <Class IRI="#Process"/>
+                            <ObjectSomeValuesFrom>
+                                <ObjectProperty IRI="#hasParticipant"/>
+                                <Class IRI="#Mol2"/>
+                            </ObjectSomeValuesFrom>
+                        </ObjectIntersectionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isBearerOf"/>
+                <ObjectIntersectionOf>
+                    <Class IRI="#Disposition"/>
+                    <ObjectAllValuesFrom>
+                        <ObjectProperty IRI="#hasRealization"/>
+                        <ObjectIntersectionOf>
+                            <Class IRI="#Process"/>
+                            <ObjectSomeValuesFrom>
+                                <ObjectProperty IRI="#hasParticipant"/>
+                                <Class IRI="#Mol3"/>
+                            </ObjectSomeValuesFrom>
+                        </ObjectIntersectionOf>
+                    </ObjectAllValuesFrom>
+                </ObjectIntersectionOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Disposition"/>
+        <Class IRI="#MaterialObject"/>
+        <Class IRI="#Process"/>
+        <Class IRI="#Quality"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isBearerOf"/>
+        <ObjectProperty IRI="#includes"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasParticipant"/>
+        <ObjectProperty IRI="#isParticipantIn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isIncludedIn"/>
+        <ObjectProperty IRI="#includes"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#includes"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isIncludedIn"/>
+    </TransitiveObjectProperty>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,1289 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#"
+     xml:base="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasPart">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#includes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasParticipant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasParticipant"/>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#includes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#includes">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isBearerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isBearerOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isIncludedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isIncludedIn">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isPartOf">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasPart"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isIncludedIn"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isParticipantIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isParticipantIn"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc1_in_Org1_with_Prot1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc1_in_Org1_with_Prot1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasParticipant"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc2_in_Org1_with_Prot1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc2_in_Org1_with_Prot1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasParticipant"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc3_in_Org1_with_Prot1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc3_in_Org1_with_Prot1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc3"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasParticipant"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CellularComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp1_in_Org1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp1_in_Org1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp1_in_Org1_with_Prot1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp1_in_Org1_with_Prot1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp1_in_Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#includes"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CellularComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp2_in_Org1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp2_in_Org1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp2_in_Org1_with_Prot1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp2_in_Org1_with_Prot1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp2_in_Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#includes"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CellularComponent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp3_in_Org1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp3_in_Org1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp3"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp3_in_Org1_with_Prot1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp3_in_Org1_with_Prot1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp3_in_Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#includes"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CellularComponent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CellularComponent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#MaterialObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Dysfunctional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Dysfunctional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#MaterialObject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#MaterialObject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#SmallMolecule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol1_in_Org1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol1_in_Org1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol1_in_Org1_with_Prot1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol1_in_Org1_with_Prot1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol1_in_Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isParticipantIn"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Process"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasParticipant"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#SmallMolecule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol2_in_Org1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol2_in_Org1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol2_in_Org1_with_Prot1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol2_in_Org1_with_Prot1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol2_in_Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isParticipantIn"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Process"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasParticipant"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#SmallMolecule"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol3_in_Org1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol3_in_Org1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol3"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol3_in_Org1_with_Prot1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol3_in_Org1_with_Prot1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol3_in_Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isParticipantIn"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Process"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasParticipant"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Organism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Phen1_and_Prot1_Dysf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Phen1_and_Prot1_Dysf">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1_Dysf"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#includes"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Phen2_and_Prot1_Dysf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Phen2_and_Prot1_Dysf">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1_Dysf"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#includes"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen2"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Phen3_and_Prot1_Dysf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Phen3_and_Prot1_Dysf">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1_Dysf"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#includes"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen3"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1_Dysf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1_Dysf">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasPart"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_Dysf"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1_and_BProc1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1_and_BProc1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasPart"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isParticipantIn"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc1"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1_and_BProc3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1_and_BProc3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasPart"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isParticipantIn"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc3"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1_and_Mol1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1_and_Mol1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasPart"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isParticipantIn"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Process"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasParticipant"/>
+                                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol1"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1_and_Mol2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1_and_Mol2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasPart"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isParticipantIn"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Process"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasParticipant"/>
+                                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol2"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1_and_Mol3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1_and_Mol3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasPart"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isParticipantIn"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Process"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasParticipant"/>
+                                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol3"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org2_with_Prot1_and_BProc2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org2_with_Prot1_and_BProc2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasPart"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isParticipantIn"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc2"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Organism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Organism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#MaterialObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phenotype"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen1_in_Org1_with_Prot1_Dysf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen1_in_Org1_with_Prot1_Dysf">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1_Dysf"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phenotype"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen2_in_Org1_with_Prot1_Dysf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen2_in_Org1_with_Prot1_Dysf">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen2"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1_Dysf"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phenotype"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen3_in_Org1_with_Prot1_Dysf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen3_in_Org1_with_Prot1_Dysf">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen3"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1_with_Prot1_Dysf"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phenotype -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phenotype">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Process -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Process"/>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Protein"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_Dysf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_Dysf">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isBearerOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Dysfunctional"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_Dysf_in_Org1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_Dysf_in_Org1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isBearerOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Dysfunctional"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_Dysf_in_Org1_with_Phen1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_Dysf_in_Org1_with_Phen1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_Dysf"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isPartOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#includes"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen1"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_Dysf_in_Org1_with_Phen2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_Dysf_in_Org1_with_Phen2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_Dysf"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isPartOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#includes"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen2"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_Dysf_in_Org1_with_Phen3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_Dysf_in_Org1_with_Phen3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_Dysf"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isPartOf"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#includes"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Phen3"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isPartOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Org1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1_in_BProc1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1_in_BProc1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isParticipantIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1_in_BProc2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1_in_BProc2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isParticipantIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc2"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1_in_BProc3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1_in_BProc3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isParticipantIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#BProc3"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1_in_CComp1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1_in_CComp1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1_in_CComp2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1_in_CComp2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp2"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1_in_CComp3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1_in_CComp3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isIncludedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#CComp3"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1_with_Mol1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1_with_Mol1">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isParticipantIn"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Process"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasParticipant"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol1"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1_with_Mol2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1_with_Mol2">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isParticipantIn"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Process"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasParticipant"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol2"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1_with_Mol3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1_with_Mol3">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Prot1_in_Org1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#isParticipantIn"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Process"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#hasParticipant"/>
+                                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Mol3"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Protein -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Protein">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#MaterialObject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Quality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Quality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#SmallMolecule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#SmallMolecule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#MaterialObject"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#MaterialObject"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Process"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/filip/ontologies/2016/0/untitled-ontology-56#Quality"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
